@@ -1,11 +1,11 @@
 {
-  "name":"QUEEN-M",
-  "description":"Best whatsapp bot developed by pkdriller",
+  "name":"Queen-M",
+  "description":"Best whatsapp bot",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/r1j72m.jpeg",
-  "repository":"https://github.com/pkdriller/QUEEN-M",
+  "logo":"https://files.catbox.moe/8zb9uf.jpg",
+  "repository":"https://github.com/Pkdriller/QUEEN-M",
   "succes_url":"/",
-  "stack":"heroku-24",
+  "stack":"container",
   "env":{
     "PREFIX":
     {
@@ -23,26 +23,8 @@
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
       "required":false
-    },
-    "AUTO_READ":
-    {
-      "description":"Your contact  will be read messages automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
-      "required":false   
-      },
-
-"AUTO_REACT_STATUS":
-    {
-      "description":"Enter yes for your bot to auto like status",
-      "value":"no",
-      "required":false
-    },
-	"ANTICALL":
-    {
-      "description":"Enter yes for your bot to auto reject calls ",
-      "value":"no",
-      "required":false
-    },  
+    }
+    ,
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
@@ -53,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"OBED",
+      "value":"Njabulo-Jb",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/r1j72m.jpeg",
+      "value":"https://files.catbox.moe/8zb9uf.jpg",
       "required":false
        
      },
@@ -73,7 +55,7 @@
 	,
     "HEROKU_API_KEY": {
     "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+     "value":"HRKU-1e6bb54b-0fa4-478e-978d-5f1ace317903"
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (this is optionnal)",
@@ -92,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©obed"
+    "value": "ɴᴊᴀʙᴜʟᴏ ᴊʙ"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254701082940"
+    "value": "26777821911"
   },
     "WARN_COUNT":
   {
@@ -111,7 +93,7 @@
   {
     "description": "if you don't want startting-bot-message put no else put yes",
     "required": true,
-    "value": "no"
+    "value": "yes"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
@@ -125,8 +107,7 @@
   }
   },
 
-        
-  "buildpacks": [
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
@@ -138,17 +119,15 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ],
-
   "formation": {
-                "worker": {
-                        "quantity": 1,
-                        "size": "basic"
-                }
-        },
-
-  "addons":[
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
     {
-      "plan":"heroku-postgresql"
+      "plan": "heroku-postgresql:essential-0"
     }
   ]
 }
