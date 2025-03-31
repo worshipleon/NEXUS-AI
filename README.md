@@ -55,7 +55,7 @@ WELCOME TO QUEEN👑M A SIMPLE WHATSAPP BOT
 
 <br>
 
-👇 How to deploy pkxmdbot2🤝 
+👇 How to deploy QUEEN👑M 
 [![Subscribe to My Channel on YouTube](https://img.shields.io/static/v1?label=Subscribe%20to%20My%20Channel&message=YouTube&color=FF0000&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Pktech-1911)  
 
 <br>
