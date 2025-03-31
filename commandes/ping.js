@@ -22,7 +22,7 @@ zokou({
   try {
     await _0x4a1bf3.sendMessage(_0x1cfd0d, {
       'audio': {
-        'url': "https://files.catbox.moe/e52xx6.mp3"
+        'url': "https://files.catbox.moe/m1wgdb.mp3"
       },
       'mimetype': "audio/mp4",
       'ptt': true,
