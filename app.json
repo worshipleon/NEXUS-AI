@@ -1,9 +1,9 @@
 {
-  "name":"OBED VMD",
-  "description":"Best whatsapp bot developed by OBED TECH",
+  "name":"QUEEN-M",
+  "description":"Best whatsapp bot developed by pkdriller",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/1khsx4.jpg",
-  "repository":"https://github.com/Trippleo1802/Kicked",
+  "logo":"https://files.catbox.moe/r1j72m.jpeg",
+  "repository":"https://github.com/pkdriller/QUEEN-M",
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
@@ -60,7 +60,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/yedfbr.jpg",
+      "value":"https://files.catbox.moe/r1j72m.jpeg",
       "required":false
        
      },
