@@ -1,19 +1,19 @@
 <p align="center">
-  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">PKXMD-BOT2</h1>
+  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">QUEEN-M</h1>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+PKXMD-BOT;𝗖𝚁𝙴Λ𝚃𝙴𝙳+𝗕𝚢+pkdriller;Fork+Me+and+Enjoy!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+QUEEN-M;𝗖𝚁𝙴Λ𝚃𝙴𝙳+𝗕𝚢+pkdriller;Fork+Me+and+Enjoy!" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/cb4y6h.jpeg" alt="Main Graphic" />
+  <img src="https://files.catbox.moe/r1j72m.jpeg" alt="Main Graphic" />
 </p>
 
 
          **HOW TO DEPLOY**
 1.👇 Star and Fork This Repo  
-[![Star and Fork This Repo](https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/pkdriller/PKXMD-BOT2/fork)  
+[![Star and Fork This Repo](https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/pkdriller/QUEEN-M/fork)  
 
 <br>
 
@@ -37,13 +37,13 @@
 <br>
 
 4.👇 Deploy to Heroku If your have account
-[![Deploy to Heroku](https://img.shields.io/static/v1?label=Deploy%20to&message=Heroku&color=430098&style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fpkdriller%2FPKXMD-BOT2)  
+[![Deploy to Heroku](https://img.shields.io/static/v1?label=Deploy%20to&message=Heroku&color=430098&style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fpkdriller%2FQUEEN+M)  
 
 <br>
 
  📞 call the owner 
  
-WELCOME TO PKXMD-BOT2🔥⚠️A SIMPLE WHATSAPP BOT   
+WELCOME TO QUEEN👑M A SIMPLE WHATSAPP BOT   
 
 👇 Follow My WhatsApp Channel 🤝 
 [![Follow My WhatsApp Channel](https://img.shields.io/static/v1?label=Follow%20My%20WhatsApp%20Channel&message=follow&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)  
