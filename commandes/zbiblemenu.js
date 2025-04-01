@@ -129,9 +129,9 @@ let menuMsg = `
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "*PKXMD-BOT* HOLY BIBLE LIST",
+                    title: "*QUEEN-M* HOLY BIBLE LIST",
                     body: "Live with God my friends you don't know your tomorrow",
-                    thumbnailUrl: "https://files.catbox.moe/cb4y6h.jpeg",
+                    thumbnailUrl: "https://files.catbox.moe/5hlmas.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
                     mediaType: 1,
                     renderLargerThumbnail: true
