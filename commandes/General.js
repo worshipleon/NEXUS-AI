@@ -62,7 +62,7 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "⭐" }, async (dest, zk,
         { nom: "dev Pkdriller", numero: "254785392165" }  
     ];  
   
-    let message = "WELCOME TO PKXMD-BOT HELP CENTER! ASK FOR HELP FROM THE DEVELOPER BELOW:\n\n";  
+    let message = "WELCOME TO QUEEN-M HELP CENTER! ASK FOR HELP FROM THE DEVELOPER BELOW:\n\n";  
     for (const dev of devs) {  
         message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;  
     }  
@@ -92,6 +92,6 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "⭐" }, async (dest, zk,
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {  
     const { ms, repondre, auteurMessage } = commandeOptions;  
   
-    repondre("THANK YOU FOR CHOOSING PKXMD-BOT, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/CP8daWdavnXF11826hxius] \n\n ☉ GITHUB LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://github.com/Pkdriller/PKXMD-BOT] \n\n\n𝑴𝒂𝒅𝒆 𝒃𝒚 𝑷𝒌𝒅𝒓𝒊𝒍𝒍𝒆𝒓");  
-    await zk.sendMessage(auteurMessage, { text: `THANK YOU FOR CHOOSING PKXMD-BOT, MAKE SURE YOU FOLLOW THESE LINKS.` }, { quoted: ms });  
+    repondre("THANK YOU FOR CHOOSING QUEEN-M, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/CP8daWdavnXF11826hxius] \n\n ☉ GITHUB LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://github.com/Pkdriller/PKXMD-BOT] \n\n\n𝑴𝒂𝒅𝒆 𝒃𝒚 𝑷𝒌𝒅𝒓𝒊𝒍𝒍𝒆𝒓");  
+    await zk.sendMessage(auteurMessage, { text: `THANK YOU FOR CHOOSING QUEEN-M, MAKE SURE YOU FOLLOW THESE LINKS.` }, { quoted: ms });  
 });
