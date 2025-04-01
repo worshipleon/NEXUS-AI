@@ -5,7 +5,7 @@ const conf = require(__dirname + '/../set');
 
 // Define the command with aliases for play
 zokou({
-  nomCom: "play",
+  nomCom: "playy",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "Search",
   reaction: "🧠"
@@ -70,7 +70,7 @@ let downloadData;
 
     // Prepare the message with song details
     const messagePayload = {
-      caption: `\n*𝚫𝚴𝐃𝚩𝚫𝐃-𝚳𝐃 𝗦𝗢𝗡𝗚𝗦*\n
+      caption: `\n*QUEEN-M MUSIC*\n
 ╭━⊷
 ┃ *Title:* ${songTitle} 
 ┃ *Quality:* High
@@ -85,10 +85,10 @@ let downloadData;
         mimetype: 'audio/mpeg',
         contextInfo: {
           externalAdReply: {
-            title: "𝚫𝚴𝐃𝚩𝚫𝐃-𝚳𝐃" ,
+            title: "QUEEN-M" ,
             body: "Tap her to follow our channel",
             mediaType: 1,
-            sourceUrl:"https://chat.whatsapp.com/DU79JfdnOI83ZFVAyD74Mo",
+            sourceUrl:"https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
             thumbnailUrl: firstVideo.thumbnail,
             renderLargerThumbnail: false,
             showAdAttribution: true,
