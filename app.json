@@ -2,7 +2,7 @@
   "name":"Queen-M",
   "description":"Best whatsapp bot",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/30bful.jpg",
+  "logo":"https://files.catbox.moe/8zb9uf.jpg",
   "repository":"https://github.com/Pkdriller/QUEEN-M",
   "succes_url":"/",
   "stack":"container",
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Queen-M",
+      "value":"Njabulo-Jb",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/30bful.jpg",
+      "value":"https://files.catbox.moe/8zb9uf.jpg",
       "required":false
        
      },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "PkDriller"
+    "value": "ɴᴊᴀʙᴜʟᴏ ᴊʙ"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254785392165"
+    "value": "26777821911"
   },
     "WARN_COUNT":
   {
