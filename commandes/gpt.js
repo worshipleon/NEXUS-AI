@@ -1,55 +1,64 @@
-const { zokou } = require("../framework/zokou");
-const axios = require("axios");
+const { zokou } = require('../framework/zokou');
+const traduire = require("../framework/traduction") ;
+const { default: axios } = require('axios');
+const fs = require('fs');
+const pkg = require('@whiskeysockets/baileys');
+const { generateWAMessageFromContent, proto } = pkg;
 
-zokou({
-  nomCom: "gpt3",
-  reaction: "🤖", // Changed to robot emoji
-  categorie: "AI",
-  aliases: ["ai", "ask"],
-  desc: "ChatGPT-powered AI assistant",
-  fromMe: false // Accessible to everyone
-}, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "pkgpt", reaction: "🪅", categorie: "pkai" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
-  // Check if question is provided
-  if (!arg || arg.length === 0) {
-    return repondre(`Please ask a question.\nExample: *${s.PREFIXE}gpt3 What is WhatsApp?*`);
-  }
-
-  const question = arg.join(' ');
-  
   try {
-    // Show typing indicator
-    await zk.sendPresenceUpdate('composing', dest);
+    if (!arg || arg.length === 0) {
+      return repondre('Hello 🖐️.\n\n What help can I offer you today?');
+    }
 
-    const response = await axios.get(`https://test-api-apms.onrender.com/api/chatgpt`, {
-      params: {
-        text: question,
-        name: s.BOT || "Queen-M",
-        prompt: "You are a helpful WhatsApp bot AI assistant",
-        apikey: "BrunoSobrino"
-      },
-      timeout: 30000 // 30 seconds timeout
-    });
+    // Combine arguments into a single string
+    const prompt = arg.join(' ');
+    const response = await fetch(`https://api.gurusensei.workers.dev/llama?prompt=${prompt}`);
+    const data = await response.json();
 
-    if (response.data?.resultado) {
-      // Format the response with bot branding
-      const formattedResponse = `*${s.BOT || '✧LUCKY_MD✧'} AI Response:*\n\n${response.data.resultado}\n\n_Powered by ChatGPT_`;
-      
-      return repondre(formattedResponse);
+    if (data && data.response && data.response.response) {
+      const answer = data.response.response;
+
+      // Check if the answer contains code
+      const codeMatch = answer.match(/```([\s\S]*?)```/);
+
+      const msg = generateWAMessageFromContent(dest, {
+        viewOnceMessage: {
+          message: {
+            messageContextInfo: {
+              deviceListMetadata: {},
+              deviceListMetadataVersion: 2
+            },
+            interactiveMessage: proto.Message.InteractiveMessage.create({
+              body: proto.Message.InteractiveMessage.Body.create({
+                text: answer
+              }),
+              footer: proto.Message.InteractiveMessage.Footer.create({
+                text: "> *PKXMD-BOT*"
+              }),
+              header: proto.Message.InteractiveMessage.Header.create({
+                title: "",
+                subtitle: "",
+                hasMediaAttachment: false
+              }),
+              nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
+                buttons: [] // No buttons
+              })
+            })
+          }
+        }
+      }, {});
+
+      await zk.relayMessage(dest, msg.message, {
+        messageId: msg.key.id
+      });
     } else {
-      return repondre("❌ No response from AI service");
+      throw new Error('Invalid response from the API.');
     }
   } catch (error) {
-    console.error('GPT Error:', error);
-    
-    // Different error messages based on error type
-    if (error.response) {
-      return repondre(`⚠️ API Error: ${error.response.status}`);
-    } else if (error.request) {
-      return repondre("⌛ The AI is taking too long to respond. Please try again later.");
-    } else {
-      return repondre("❌ An error occurred while processing your request.");
-    }
+    console.error('Error getting response:', error.message);
+    repondre('Error getting response.');
   }
 });

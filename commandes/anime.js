@@ -4,8 +4,8 @@ const {zokou} = require("../framework/zokou");
 const traduire = require("../framework/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 
-adams({
-  nomCom: "randompic",
+zokou({
+  nomCom: "ranime",
   categorie: "Fun",
   reaction: "📺"
 },
@@ -36,8 +36,8 @@ async (origineMessage, zk, commandeOptions) => {
   }
 });
 
-adams({
-  nomCom: "google2",
+zokou({
+  nomCom: "google",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre } = commandeOptions;
@@ -65,8 +65,8 @@ adams({
   }
 });
 
-adams({
-  nomCom: "imdb2",
+zokou({
+  nomCom: "imdb",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
@@ -115,8 +115,8 @@ adams({
   }
 });
 
-adams({
-  nomCom: "series",
+zokou({
+  nomCom: "movie",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
@@ -132,7 +132,7 @@ adams({
     const imdbData = response.data;
 
     let imdbInfo = "Tap on the link to join movie channel on telegram and download movies there : https://t.me/ibrahimtechai\n";
-    imdbInfo += " ``` BUGATTI FILMS```\n";
+    imdbInfo += " ``` BMW MD FILMS```\n";
     imdbInfo += "*Made by Ibrahim Adams*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";
@@ -165,8 +165,8 @@ adams({
   }
 });
 
-adams({
-  nomCom: "emoji",
+zokou({
+  nomCom: "emomix",
   categorie: "Conversion"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre,ms , nomAuteurMessage } = commandeOptions;
@@ -213,4 +213,3 @@ adams({
   }
 });
 
-          
