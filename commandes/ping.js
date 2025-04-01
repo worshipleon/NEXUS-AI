@@ -36,7 +36,7 @@ zokou({
         'forwardingScore': 0x3e7,
         'externalAdReply': {
           'title': "QUEEN-M",
-          'body': "*Pong*" + _0x202b3a + "Ms\n*Date:* " + _0x4596ed + "\n⏰ *Time:* " + _0xf4b569,
+          'body': "Pong" + _0x202b3a + "Ms\n*Date:* " + _0x4596ed + "\n⏰ *Time:* " + _0xf4b569,
           'thumbnailUrl': "https://files.catbox.moe/r1j72m.jpeg",
           'sourceUrl': "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
           'mediaType': 0x1,
