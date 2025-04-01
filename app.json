@@ -2,7 +2,7 @@
   "name":"Queen-M",
   "description":"Best whatsapp bot",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/8zb9uf.jpg",
+  "logo":"https://files.catbox.moe/4i9gd4.jpg",
   "repository":"https://github.com/Pkdriller/QUEEN-M",
   "succes_url":"/",
   "stack":"container",
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Njabulo-Jb",
+      "value":"Queen-M",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/8zb9uf.jpg",
+      "value":"https://files.catbox.moe/4i9gd4.jpg",
       "required":false
        
      },
@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "ɴᴊᴀʙᴜʟᴏ ᴊʙ"
+    "value": "PkDriller"
   },
     "NUMERO_OWNER":
   {
