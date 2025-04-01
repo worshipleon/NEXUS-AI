@@ -37,7 +37,7 @@ Powered by *QUEEN-M*`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *PKXMD-BOT*`);
+Powered by *PKDRILLER*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
