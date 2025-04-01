@@ -17,7 +17,7 @@ zokou({
 
   // Create information message
   const infoMsg = `*Hello ${nomAuteurMessage || "User"}!*\n\n` +
-                 `⚙️ *Deployer Information:*\n` +
+                 `*Deployer Information:*\n` +
                  `• *Name:* ${s.OWNER_NAME}\n` +
                  `• *Date:* ${date}\n` +
                  `• *Time:* ${temps}\n\n` +
@@ -55,8 +55,8 @@ zokou({
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 1,
-              mediaUrl: "",
-              sourceUrl: ""
+              mediaUrl: "https://files.catbox.moe/r1j72m.jpeg",
+              sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x"
             }
           }
         }, { quoted: ms });
