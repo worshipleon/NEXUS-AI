@@ -33,7 +33,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   tag +=`
   
 ╭─────────────━┈⊷ 
-│🔰 PKXMD-BOT
+│👑 QUEEN -M
 ╰─────────────━┈⊷ \n
 │👥 *Group* : ${nomGroupe} 
 │👤 *Hey😀* : *${nomAuteurMessage}* 
