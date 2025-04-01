@@ -19,7 +19,7 @@ zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions)
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *PKXMD-BOT*`);
+Powered by *QUEEN-M*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -31,7 +31,7 @@ Powered by *PKXMD-BOT*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`PKXMD-BOT
+          repondre(`QUEEN-M
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
