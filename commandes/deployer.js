@@ -35,7 +35,7 @@ zokou({
           gifPlayback: true,
           contextInfo: {
             externalAdReply: {
-              title: `${s.BOT || "Lucky-MD"} Deployer`,
+              title: `Queen-M Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 2,
@@ -51,7 +51,7 @@ zokou({
           caption: infoMsg,
           contextInfo: {
             externalAdReply: {
-              title: `${s.BOT || "Queen-M"} Deployer`,
+              title: `Queen-M Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 1,
