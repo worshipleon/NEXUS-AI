@@ -16,7 +16,7 @@ zokou({
     mybotpic: _0x43a6e2
   } = _0x2358bf;
   const _0x21b56d = [{
-    'nom': "PK CEO PKXMDBOT",
+    'nom': "PK OWNER",
     'numero': "254785392165" 
   },{
     'nom': "DEPLOMENT SERVICES",
