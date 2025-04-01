@@ -528,7 +528,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Anyway-Md',
+                pack: 'Queen-M',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -806,18 +806,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Njabulo Jb is connecting...");
+                console.log("connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Njabulo Jb Connected to WhatsApp! ☺️");
+                console.log("Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Anyway Md is Online 🕸\n\n");
+                console.log("Online\n\n");
                 //chargement des commandes 
-                console.log("Loading Anyway Commands ...\n");
+                console.log("Loading Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -848,14 +848,19 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`     ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ
-╭─────────────━┈⊷ 
-│💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
-│⭕ ᴍᴏᴅᴇ: *${md}*
-│🌐use . settings 
-│🪰follow channel 
-│✅https://shorturl.at/q8ZuS
-╰─────────────━┈⊷⁠⁠⁠⁠`;
+                let cmsg =`*Queen-M Connected Successfully*
+╭━━━〔 *Queen-M* 〕━━━┈⊷
+┃★╭──────────────
+┃★│ *Prefix : [ ${prefixe} ]*
+┃★│ *Baileys : Multi Device*
+┃★│ *Type : NodeJs*
+┃★│ *Platform : Heroku*
+┃★│ *Version : 1.0*
+┃★│ *Owner : PkDriller*
+┃★╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷
+*Follow Below*⁠⁠⁠⁠
+https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
