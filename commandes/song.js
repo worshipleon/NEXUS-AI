@@ -72,7 +72,7 @@ zokou({
  *Title: ${videoDetails.title}*
  *Quality: High*
  *Duration: ${firstVideo.timestamp}*
-> *sir Njabulo Jb* 
+> *Queen-M Player* 
 `,
        document: { url: downloadUrl },
        mimetype: 'audio/mpeg',
