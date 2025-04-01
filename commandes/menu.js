@@ -42,7 +42,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-╭━━〔 *${s.BOT}* 〕━━┈⊷
+╭━━〔 *Queen-M* 〕━━┈⊷
 ┃๏╭───────────
 ┃๏│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
 ┃๏│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
@@ -53,9 +53,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗠𝗮𝗿𝗶𝘀𝗲𝗹
 ┃๏└───────────···▸
 ╰──────────────┈⊷
-*${greeting}*
-*QUEEN-M MENU OVERVIEW*
-`;
+*${greeting}*`;
 
     let menuMsg = "";
     for (const cat in coms) {
