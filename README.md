@@ -18,7 +18,7 @@
 <br>
 
 2 .👇 Get Session Id here!.
-[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=white)]() 
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=white)](https://pkdriller-scanner.onrender.com) 
 
 
 
@@ -50,7 +50,7 @@ WELCOME TO QUEEN👑M A SIMPLE WHATSAPP BOT
 
 <br>
 
-👇 Contact Me on WhatsApp  🤝
+👇 Contact Me on WhatsApp for help 🤝
 [![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=Contact%20Me%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/254785392165)  
 
 <br>
