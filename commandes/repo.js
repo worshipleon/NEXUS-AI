@@ -1,76 +1,66 @@
-const axios = require("axios");
+"use strict";
 const { zokou } = require("../framework/zokou");
-const moment = require("moment-timezone");
-const s = require("../set");
+const axios = require("axios");
 
-zokou({
-  nomCom: "repo",
-  aliases: ["script", "cs", "source"],
-  reaction: "📂",
+zokou({ 
+  nomCom: "repo", 
   categorie: "General",
+  reaction: "🔎",
+  aliases: ["source", "script"],
   desc: "Show bot repository information",
-  fromMe: false
+  nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
-  const { repondre, nomAuteurMessage, auteurMessage } = commandeOptions;
+  const { repondre } = commandeOptions;
+  const githubRepo = 'https://api.github.com/repos/pkdriller/QUEEN-M';
+  const thumbnailImg = 'https://files.catbox.moe/4i9gd4.jpg';
 
   try {
-    // Show typing indicator while fetching data
-    await zk.sendPresenceUpdate('composing', dest);
-
     // Fetch repository data
-    const response = await axios.get("https://api.github.com/repos/pkdriller/QUEEN-M", {
-      timeout: 10000 // 10 seconds timeout
-    });
-    const repoData = response.data;
+    const response = await axios.get(githubRepo, { timeout: 10000 });
+    const data = response.data;
 
-    if (!repoData) {
-      return repondre("❌ Could not fetch repository data");
+    if (!data) {
+      return repondre("Could not fetch data");
     }
 
-    // Format repository information
-    const starsCount = repoData.stargazers_count * 11;
-    const forksCount = repoData.forks_count * 11;
-    const releaseDate = moment(repoData.created_at).format("DD/MM/YYYY");
-    const lastUpdated = moment(repoData.updated_at).fromNow();
+    const repoInfo = {
+      stars: data.stargazers_count,
+      forks: data.forks_count,
+      lastUpdate: new Date(data.updated_at).toLocaleDateString('en-GB'),
+      owner: data.owner.login,
+    };
 
-    // Create message with better formatting
-    const message = `*QUEEN-M REPO INFO*\n\n` +
-      `*Hello ${nomAuteurMessage || 'User'}!*\n\n` +
-      `📌 *Description:* ${repoData.description || 'No description'}\n` +
-      `⭐ *Stars:* ${starsCount}\n` +
-      `⑂ *Forks:* ${forksCount}\n` +
-      `📅 *Released:* ${releaseDate}\n` +
-      `🔄 *Last Updated:* ${lastUpdated}\n\n` +
-      `👨‍💻 *Owner:* ${s.OWNER_NAME}\n` +
-      `🔗 *Repository:* ${repoData.html_url}\n\n` +
-      `_Fork and star the repo to support development!_`;
+    const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
 
-    // Send message with rich preview
-    await zk.sendMessage(dest, {
-      text: message,
+    // Maintained exact cage formatting as requested
+    const gitdata = `*Hey Pal? You love the bot Right?*\n  
+      *Here is all you need to Know*
+╭─────────────────
+││ *𝐑𝐞𝐩𝐨:* ${data.html_url}
+││ *𝐒𝐭𝐚𝐫𝐬:* ${repoInfo.stars}
+││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
+││ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
+││ *𝐔𝐩𝐝𝐚𝐭𝐞𝐝: ${repoInfo.lastUpdate}
+││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x
+╰─────────────────`;
+
+    await zk.sendMessage(dest, { 
+      image: { url: thumbnailImg }, 
+      caption: gitdata,
       contextInfo: {
-        mentionedJid: [auteurMessage],
         externalAdReply: {
-          title: s.BOT || "Queen-M",
-          body: "GitHub Repository",
-          thumbnailUrl: s.URL || "https://files.catbox.moe/4i9gd4.jpg",
+          title: "Bot Repository",
+          body: "Fork and star the repo!",
+          thumbnailUrl: thumbnailImg,
           mediaType: 1,
-          sourceUrl: repoData.html_url,
+          sourceUrl: data.html_url,
           renderLargerThumbnail: true
         }
       }
-    }, { quoted: ms });
+    });
 
   } catch (error) {
-    console.error("Repo Command Error:", error);
-    
-    // Different error messages based on error type
-    if (error.response) {
-      await repondre(`⚠️ GitHub API Error: ${error.response.status}`);
-    } else if (error.request) {
-      await repondre("⌛ The request timed out. Please try again later.");
-    } else {
-      await repondre("❌ An error occurred while fetching repository data.");
-    }
+    console.log("Error fetching data:", error);
+    repondre("An error occurred while fetching repository data.");
   }
 });
