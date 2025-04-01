@@ -3,28 +3,34 @@ const axios = require("axios");
 
 zokou({
   nomCom: "apk",
-  reaction: '📲', // Changed to more appropriate emoji
+  aliases: ["app", "playstore"],
+  reaction: '📲',
   categorie: "Download",
-  aliases: ["app", "playstore"]
+  desc: "Search and download APK files"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
-  const appName = arg.join(" ").trim();
-
-  if (!appName) {
-    return repondre(`Please provide an app name.\nExample: *${s.PREFIXE}apk WhatsApp*`);
-  }
 
   try {
-    // Step 1: Search for the app
-    const searchResponse = await axios.get(`https://bk9.fun/search/apk?q=${encodeURIComponent(appName)}`);
+    // Check if app name is provided
+    const appName = arg.join(" ").trim();
+    if (!appName) {
+      return repondre("Please provide an app name.\nExample: *!apk WhatsApp*");
+    }
+
+    // Search for the app
+    const searchResponse = await axios.get(`https://bk9.fun/search/apk?q=${encodeURIComponent(appName)}`, {
+      timeout: 15000
+    });
     
     if (!searchResponse.data?.BK9?.length) {
       return repondre(`❌ No apps found for *${appName}*`);
     }
 
-    // Step 2: Get download link (first result)
+    // Get download link for first result
     const appId = searchResponse.data.BK9[0].id;
-    const detailsResponse = await axios.get(`https://bk9.fun/download/apk?id=${appId}`);
+    const detailsResponse = await axios.get(`https://bk9.fun/download/apk?id=${appId}`, {
+      timeout: 15000
+    });
     
     if (!detailsResponse.data?.BK9?.dllink) {
       return repondre("⚠️ Download link not available for this app");
@@ -33,21 +39,21 @@ zokou({
     const appData = detailsResponse.data.BK9;
     const appFileName = `${appData.name.replace(/[^a-z0-9]/gi, '_')}.apk`;
 
-    // Step 3: Send the APK file
+    // Send the APK file
     await zk.sendMessage(
       dest,
       {
         document: { url: appData.dllink },
         fileName: appFileName,
         mimetype: "application/vnd.android.package-archive",
-        caption: `📱 *${appData.name}*\n⬇️ Downloading APK...\n\n*Powered by ${s.BOT}*`,
+        caption: `📱 *${appData.name}*\nDownloading APK...\n\n*Powered by Queen-M*`,
         contextInfo: {
           externalAdReply: {
             title: "APK Downloader",
             body: `Get ${appData.name} APK`,
-            thumbnail: (await axios.get(appData.icon || 'https://files.catbox.moe/xyz123.jpg', 
-                      { responseType: "arraybuffer" })).data,
-            mediaType: 1
+            thumbnailUrl: appData.icon || 'https://files.catbox.moe/xyz123.jpg',
+            mediaType: 1,
+            sourceUrl: appData.dllink
           }
         }
       },
@@ -56,6 +62,13 @@ zokou({
 
   } catch (error) {
     console.error("APK Command Error:", error);
-    repondre(`❌ Failed to download APK. Error: ${error.message}`);
+    
+    if (error.response) {
+      repondre(`⚠️ API Error: ${error.response.status}`);
+    } else if (error.code === 'ECONNABORTED') {
+      repondre("⌛ Request timed out. Please try again.");
+    } else {
+      repondre("❌ Failed to download APK. Please try again later.");
+    }
   }
 });
