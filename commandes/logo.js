@@ -70,7 +70,7 @@ zokou({ nomCom: "logo", categorie: "Search", reaction: "✋" }, async (dest, zk,
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "🌟𝐏𝐊 𝐗𝐌𝐃 ✨",
+        title: "🌟QUEEN-M ✨",
         body: "Regards, PKDRILLER🫅",
         thumbnailUrl: "https://i.ibb.co/YFvqwz8Y/lordcasey.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
