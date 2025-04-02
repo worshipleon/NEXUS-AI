@@ -3,7 +3,7 @@ const lyricsFinder = require('lyrics-finder');
 const yts = require('yt-search');
 
 zokou({
-    nomCom: 'lyrics',
+    nomCom: 'lyrics1',
     aliases: ['lyric', 'mistari'],
     reaction: '📑',
 }, async (zk, dest, context) => {
@@ -42,7 +42,7 @@ zokou({
 
         // Format the message to send to the user
         const formattedMessage = `
-*PKXMD-BOT LYRICS FINDER*
+*QUEEN 👑 M LYRICS FINDER*
 *Title:* ${title}
 *Artist:* ${artist}
 
