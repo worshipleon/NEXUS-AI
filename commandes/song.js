@@ -79,7 +79,7 @@ zokou({
        contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363345407274799@newsletter',
+          newsletterJid: '120363288304618280@newsletter',
           newsletterName: "Queen-M",
           serverMessageId: 143,
           },
@@ -100,7 +100,7 @@ zokou({
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363345407274799@newsletter',
+          newsletterJid: '120363288304618280@newsletter',
           newsletterName: "Queen-M",
           serverMessageId: 143,
           },
