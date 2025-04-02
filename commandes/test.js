@@ -4,7 +4,7 @@ const axios = require("axios");
 
 // Configuration constants
 const BOT_CONFIG = {
-  ALIVE_IMAGE: "https://files.catbox.moe/5hlmas.jpg",
+  ALIVE_IMAGE: "https://files.catbox.moe/euras7.jpg",
   AUDIO_MESSAGE: "https://files.catbox.moe/m1wgdb.mp3",
   CHANNEL_LINK: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
   NEWSLETTER_INFO: {
