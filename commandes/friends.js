@@ -32,7 +32,7 @@ zokou({
     'numero': "254702221671"
   }, {
     'nom': "dev marisel",
-    'numero': "254 740 007567"
+    'numero': "254740007567"
   }, {
     'nom': "",
     'numero': ""
@@ -58,7 +58,7 @@ zokou({
     'nom': "🤕",
     'numero': "load...."
   }];
-  let _0x2d5c7e = "Hello👋  *I'm PKXMD-BOT Wa Bot* \nThe Following Numbers Are For   *PKXMD* Agents, \nYou Can Ask Them Anything Regarding PKXMD-BOT\nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x \n*KEEP USING PKXMD-BOT*:\n\n";
+  let _0x2d5c7e = "Hello👋  *I'm QUEEN👑M Wa Bot* \nThe Following Numbers Are For   *QUEEN-M* Agents, \nYou Can Ask Them Anything Regarding QUEEN👑M\nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x \n*KEEP USING QUEEN-M*:\n\n";
   for (const _0x14eeec of _0x21b56d) {
     _0x2d5c7e += "----------------\n(●) " + _0x14eeec.nom + " : https://wa.me/" + _0x14eeec.numero + "\n";
   }
