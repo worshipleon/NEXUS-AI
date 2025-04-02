@@ -10,9 +10,10 @@ zokou({
   desc: "Show bot repository information",
   nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
-  const { repondre } = commandeOptions;
+  const { repondre, prefixe } = commandeOptions;
   const githubRepo = 'https://api.github.com/repos/pkdriller/QUEEN-M';
   const thumbnailImg = 'https://files.catbox.moe/7tmps9.jpg';
+  const channelThumbnail = 'https://files.catbox.moe/6e35pz.jpg';
 
   try {
     // Fetch repository data
@@ -32,28 +33,47 @@ zokou({
 
     const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
 
-    // Maintained exact cage formatting as requested
-    const gitdata = `*Hey Pal? You love the bot Right?*\n  
-      *Here is all you need to Know*
-╭─────────────────
-││ *𝐑𝐞𝐩𝐨:* ${data.html_url}
-││ *𝐒𝐭𝐚𝐫𝐬:* ${repoInfo.stars}
-││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
-││ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
-││ *𝐔𝐩𝐝𝐚𝐭𝐞𝐝: ${repoInfo.lastUpdate}
-││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
-╰─────────────────`;
+    // Enhanced cage design with channel information
+    const gitdata = `
+╭━━━〔 *Queen-M* 〕━━━┈⊷
+┃★╭──────────────
+┃★│ *Prefix : [ ${prefixe} ]*
+┃★│ *Baileys : Multi Device*
+┃★│ *Type : NodeJs*
+┃★│ *Platform : Heroku*
+┃★│ *Version : 1.0*
+┃★│ *Owner : PkDriller*
+┃★╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷
+
+╭━━━〔 *Repository Info* 〕━━━┈⊷
+┃★ *𝐑𝐞𝐩𝐨:* ${data.html_url}
+┃★ *𝐒𝐭𝐚𝐫𝐞𝐫𝐬:* ${repoInfo.stars}
+┃★ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
+┃★ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
+┃★ *𝐋𝐚𝐬𝐭 𝐔𝐩𝐝𝐚𝐭𝐞:* ${repoInfo.lastUpdate}
+┃★ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
+╰━━━━━━━━━━━━━━━━━━━━━━━━┈⊷
+
+*🌟 Join our channel for updates!*`;
 
     await zk.sendMessage(dest, { 
       image: { url: thumbnailImg }, 
       caption: gitdata,
       contextInfo: {
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363288304618280@newsletter',
+          newsletterName: "Queen-M",
+          serverMessageId: -1,
+        },
+        forwardingScore: 999,
         externalAdReply: {
-          title: "Bot Repository",
-          body: "Fork and star the repo!",
-          thumbnailUrl: thumbnailImg,
+          title: "Queen-M",
+          body: "Next Generation",
+          thumbnailUrl: channelThumbnail,
+          sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
           mediaType: 1,
-          sourceUrl: data.html_url,
           renderLargerThumbnail: true
         }
       }
