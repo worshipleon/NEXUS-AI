@@ -85,7 +85,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
                 externalAdReply: {
                     title: "Queen-M",
                     body: "Next Generation",
-                    thumbnailUrl: 'https://files.catbox.moe/4i9gd4.jpg',
+                    thumbnailUrl: 'https://files.catbox.moe/6e35pz.jpg',
                     sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
                     mediaType: 1,
                     renderLargerThumbnail: true
