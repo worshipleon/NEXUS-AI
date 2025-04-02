@@ -2,7 +2,7 @@
   "name":"Queen-M",
   "description":"Best whatsapp bot",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/8zb9uf.jpg",
+  "logo":"https://files.catbox.moe/6e35pz.jpg",
   "repository":"https://github.com/Pkdriller/QUEEN-M",
   "succes_url":"/",
   "stack":"container",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/8zb9uf.jpg",
+      "value":"https://files.catbox.moe/6e35pz.jpg,https://files.catbox.moe/7tmps9.jpg,https://files.catbox.moe/xtqnme.jpg,https://files.catbox.moe/euras7.jpg",
       "required":false
        
      },
