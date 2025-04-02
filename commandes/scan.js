@@ -35,9 +35,9 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- *Tap on the link to get session*
+ *Tap on the link to get session👑get connected by pkdriller*
   
- https://obedsession2-bf192fdb5326.herokuapp.com/pair
+ https://queenmsession-5f097131c2ec.herokuapp.com/
  
  
  *STEPS TO GET SESSION*
@@ -45,15 +45,15 @@ const date = moment().format('DD/MM/YYYY');
  1. Open link
  2. Enter your whatsapp number with your country code eg : 254,255. And tap submit
  3. OBED TECH will sent you a code. Copy that code. Then whatsapp will sent Notification
- 4. Tap on that notification then enter in the code that OBED TECH sent you.
- 5. It will load for sometime then OBED TECH will sent A long session to your inbox on whatsapp at your own number
+ 4. Tap on that notification then enter in the code that pk driller sent you.
+ 5. It will load for sometime then pk tech will sent A long session to your inbox on whatsapp at your own number
  6. Copy that long session and sent it to your deployer.
  
- 🦃🦃🦃
+ 💻enjoy💻queen🧸monica
  `;
     
 let menuMsg = `
-> Made by : ©OBED TECH 
+> Made by : © PKDRILLER
 `;
 
    var lien = mybotpic();
@@ -122,16 +122,16 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *BMW MD IMPORTANT INFO* 
+   *Pk tech IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/ibrahimaitech/BMW-MD
+> https://github.com/pkdriller/QUEEN-M
 
 *WHATSAPP CHANNEL*
 > https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠
+> https://github.com/pkdriller/pkdriller-INFO⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❒⁠⁠⁠⁠ *DEV* : *Ibrahim Adams*
@@ -139,7 +139,7 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺 𝑺𝑪𝑰𝑬𝑵𝑪𝑬
+     PK DRILLER DEV
 
 ❒────────────────────❒`;
 
