@@ -135,7 +135,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ PKXMD-BOT┗━━━┓
+┏━━━┛ QUEEN👑M┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -211,7 +211,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ PKXMD-BOT rank┗━━━┓
+┏━━━┛ QUEEN 👑 M rank┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -252,7 +252,7 @@ zokou( {
     const {ms , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ pkxmdbot-top-rang ┗━━┓\n\n`
+       let msg = `┏━━┛ queen👑m-top-rang ┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
