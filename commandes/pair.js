@@ -19,7 +19,7 @@ zokou(
       await repondre("*Please wait... Generating pair code*");
 
       const encodedNumber = encodeURIComponent(arg.join(" "));
-      const apiUrl = `https://queenmsession-5f097131c2ec.herokuapp.com/pair?number=${encodedNumber}`;
+      const apiUrl = `https://queenmsession-5f097131c2ec.herokuapp.com/code?number=${encodedNumber}`;
       
       const response = await axios.get(apiUrl);
       const data = response.data;
