@@ -1,36 +1,107 @@
-import requests
+const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
+const { zokou } = require("../framework/zokou");
+const { downloadMediaMessage } = require('@whiskeysockets/baileys');
+const fs = require("fs-extra");
+const ffmpeg = require("fluent-ffmpeg");
+const { Catbox } = require('node-catbox');
 
-CATBOX_UPLOAD_URL = "https://catbox.moe/user/api.php"
+const catbox = new Catbox();
 
-def upload_media(file_path, user_hash=None):
-    """
-    Uploads a media file to Catbox.moe.
-
-    :param file_path: The path to the media file to be uploaded.
-    :param user_hash: Optional user hash for authentication.
-    :return: The URL of the uploaded media.
-    """
-    files = {
-        'fileToUpload': open(file_path, 'rb')
+async function uploadToCatbox(Path) {
+    if (!fs.existsSync(Path)) {
+        throw new Error("File does not exist");
     }
-    data = {
-        'reqtype': 'fileupload'
-    }
-    if user_hash:
-        data['userhash'] = user_hash
-    
-    response = requests.post(CATBOX_UPLOAD_URL, files=files, data=data)
-    
-    if response.status_code == 200:
-        return response.text.strip()
-    else:
-        raise Exception("Failed to upload media file to Catbox.moe")
 
-# Example usage
-if __name__ == "__main__":
-    try:
-        file_path = "path/to/your/media/file.jpg"  # Replace with your file path
-        uploaded_url = upload_media(file_path)
-        print(f"Uploaded URL: {uploaded_url}")
-    except Exception as e:
-        print(f"Error: {e}")
+    try {
+        const response = await catbox.uploadFile({
+            path: Path // Provide the path to the file
+        });
+
+        if (response) {
+            return response; // returns the uploaded file URL
+        } else {
+            throw new Error("Error retrieving the file link");
+        }
+    } catch (err) {
+        throw new Error(String(err));
+    }
+}
+
+async function convertToMp3(inputPath, outputPath) {
+    return new Promise((resolve, reject) => {
+        ffmpeg(inputPath)
+            .toFormat("mp3")
+            .on("error", (err) => reject(err))
+            .on("end", () => resolve(outputPath))
+            .save(outputPath);
+    });
+}
+
+zokou({ nomCom: "tourl", categorie: "General", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
+    const { msgRepondu, repondre } = commandeOptions;
+
+    if (!msgRepondu) {
+        repondre('Please reply to an image, video, or audio file.');
+        return;
+    }
+
+    let mediaPath, mediaType;
+
+    if (msgRepondu.videoMessage) {
+        const videoSize = msgRepondu.videoMessage.fileLength;
+
+        if (videoSize > 50 * 1024 * 1024) {
+            repondre('The video is too long. Please send a smaller video.');
+            return;
+        }
+
+        mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.videoMessage);
+        mediaType = 'video';
+    } else if (msgRepondu.imageMessage) {
+        mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage);
+        mediaType = 'image';
+    } else if (msgRepondu.audioMessage) {
+        mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.audioMessage);
+        mediaType = 'audio';
+
+        const outputPath = `${mediaPath}.mp3`;
+
+        try {
+            // Convert audio to MP3 format
+            await convertToMp3(mediaPath, outputPath);
+            fs.unlinkSync(mediaPath); // Remove the original audio file
+            mediaPath = outputPath; // Update the path to the converted MP3 file
+        } catch (error) {
+            console.error("Error converting audio to MP3:", error);
+            repondre('Failed to process the audio file.');
+            return;
+        }
+    } else {
+        repondre('Unsupported media type. Reply with an image, video, or audio file.');
+        return;
+    }
+
+    try {
+        const catboxUrl = await uploadToCatbox(mediaPath);
+        fs.unlinkSync(mediaPath); // Remove the local file after uploading
+
+        // Respond with the URL based on media type
+        switch (mediaType) {
+            case 'image':
+                repondre(`pk url: ${catboxUrl}`);
+                break;
+            case 'video':
+                repondre(`pk url: ${catboxUrl}`);
+                break;
+            case 'audio':
+                repondre(`pk url: ${catboxUrl}`);
+                break;
+            default:
+                repondre('An unknown error occurred.');
+                break;
+        }
+    } catch (error) {
+        console.error('Error while creating your URL:', error);
+        repondre('Oops, an error occurred.');
+    }
+});
