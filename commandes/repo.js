@@ -52,10 +52,9 @@ zokou({
 ┃★ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
 ┃★ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
 ┃★ *𝐋𝐚𝐬𝐭 𝐔𝐩𝐝𝐚𝐭𝐞:* ${repoInfo.lastUpdate}
-┃★ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 ╰━━━━━━━━━━━━━━━━━━━━━━━━┈⊷
 
-*🌟 Join our channel for updates!*`;
+*Join our channel for updates!*`;
 
     await zk.sendMessage(dest, { 
       image: { url: thumbnailImg }, 
