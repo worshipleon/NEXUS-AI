@@ -35,23 +35,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *JustaTz Md IMPORTANT INFO* 
+   *QUEEN-M IMPORTANT INFO* 
 ❒═════════════════❒
 *GITHUB LINK*
-> https://github.com/JustaTz03/JustaTz-Md
+> https://github.com/pkdriller/QUEEN-M
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029Vap2lUBJuyA8HLdfho47
+> https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 ⁠
 ╭══════════════════⊷❍
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *JustaTz*
+│❒⁠⁠⁠⁠ *DEV* : *pkdriller*
 ╰══════════════════⊷❍
 `;
     
 let menuMsg = `
 ❒═══════════❒
-       *J𝖀𝗦𝐓Λ𝗧𝙕 𝐌𝐃*
+       *QUEEN-M*
 ❒═══════════❒`;
 
    var lien = mybotpic();
@@ -120,24 +120,24 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *JustaTz Md IMPORTANT INFO* 
+   *QUEEN-M IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/JustaTz03/JustaTz-Md
+> https://github.com/pkdriller/QUEEN-M
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029Vap2lUBJuyA8HLdfho47
+> https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/JustaTz03/JustaTz-Md-INFO⁠
+> https://github.com/pkdriller/QUEEN-M-INFO⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *JustaTz*
+│❒⁠⁠⁠⁠ *DEV* : *pkdriller*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     J𝖀𝗦𝐓Λ𝗧𝙕-MD
+     QUEEN-M
 
 ❒────────────────────❒`;
 
