@@ -105,7 +105,7 @@ zokou({ nomCom: 'rtime',
 
                  await repondre(`ʜᴇʟʟᴏ.... ɪ'ᴍ ʜᴀᴘᴘʏ ᴛᴏ sᴇᴇ ʏᴏᴜ
 
-pkxmd-bot ᴏᴡɴᴇʀ sᴀʏs ᴍᴏsᴛ ᴏғ ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀʀᴏᴜɴᴅ ᴛʜᴇ ᴄᴏʀɴᴇʀ... ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀs ʜᴇ ᴀᴅᴅs ᴛʜᴇᴍ...
+QUEEN-M👑 ᴏᴡɴᴇʀ sᴀʏs ᴍᴏsᴛ ᴏғ ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀʀᴏᴜɴᴅ ᴛʜᴇ ᴄᴏʀɴᴇʀ... ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀs ʜᴇ ᴀᴅᴅs ᴛʜᴇᴍ...
 
 ....ᴜsᴇ ᴍᴇ ᴄᴀʀᴇғᴜʟʟʏ 
 
@@ -148,7 +148,7 @@ zokou({ nomCom: 'pkl',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_PKXMD-BOT is running...... Love it_*`) 
+                 await repondre(`*_Queen-m👑 is running...... Love it_*`) 
 
    
 
@@ -217,7 +217,7 @@ zokou({ nomCom: 'scriptpk',
 )
 
 
-zokou({ nomCom: 'ast',
+zokou({ nomCom: 'queen',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
