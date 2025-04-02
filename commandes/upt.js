@@ -35,7 +35,7 @@ zokou({
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363345407274799@newsletter",
+          'newsletterJid': "120363288304618280@newsletter",
           'newsletterName': "QUEEN-M",
           'serverMessageId': 0x8f
         },
@@ -43,7 +43,7 @@ zokou({
         'externalAdReply': {
           'title': "Bot Runtime",
           'body': " Uptime: " + runtime(process.uptime()),
-          'thumbnailUrl': "https://files.catbox.moe/r1j72m.jpeg",
+          'thumbnailUrl': "https://files.catbox.moe/xtqnme.jpg",
           'sourceUrl': "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
           'mediaType': 0x1,
           'renderLargerThumbnail': true
