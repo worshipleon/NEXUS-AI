@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Njabulo-Jb",
+      "value":"Queen-M",
       "required":false
 
     } ,
@@ -51,11 +51,6 @@
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"yes",
       "required":false
-    }
-	,
-    "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "value":"HRKU-1e6bb54b-0fa4-478e-978d-5f1ace317903"
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (this is optionnal)",
@@ -74,14 +69,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "ɴᴊᴀʙᴜʟᴏ ᴊʙ"
+    "value": "PkDriller"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "26777821911"
+    "value": "254736761160"
   },
     "WARN_COUNT":
   {
