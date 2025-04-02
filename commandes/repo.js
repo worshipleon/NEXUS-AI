@@ -12,7 +12,7 @@ zokou({
 }, async (dest, zk, commandeOptions) => {
   const { repondre } = commandeOptions;
   const githubRepo = 'https://api.github.com/repos/pkdriller/QUEEN-M';
-  const thumbnailImg = 'https://files.catbox.moe/4i9gd4.jpg';
+  const thumbnailImg = 'https://files.catbox.moe/7tmps9.jpg';
 
   try {
     // Fetch repository data
@@ -41,7 +41,7 @@ zokou({
 ││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
 ││ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
 ││ *𝐔𝐩𝐝𝐚𝐭𝐞𝐝: ${repoInfo.lastUpdate}
-││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x
+││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 ╰─────────────────`;
 
     await zk.sendMessage(dest, { 
