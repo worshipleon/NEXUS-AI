@@ -62,7 +62,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃╭──────────
 `;
         for (const cmd of coms[cat]) {
-            menuMsg += `┃│▸ ${cmd}\n`;
+            menuMsg += `┃│▸ *${cmd}*\n`;
         }
         menuMsg += `┃╰────────┈⊷  
 ╰────────────┈⊷
@@ -77,7 +77,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363345407274799@newsletter',
+                    newsletterJid: '120363288304618280@newsletter',
                     newsletterName: "Queen-M",
                     serverMessageId: -1,
                 },
