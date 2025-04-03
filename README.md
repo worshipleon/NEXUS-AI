@@ -1,4 +1,4 @@
-## 𝗪𝗘𝗟𝗖𝗢𝗠E 𝗧𝗢 𝗝QUEEN-M 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧
+## 𝗪𝗘𝗟𝗖𝗢𝗠E 𝗧𝗢 QUEEN-M 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=350&height=50&lines=`🩸⃟༑༑QUEEN`🩸⃟༑༑+𝗠+𝗕𝗢𝗧+`🩸⃟༑༑)](https://git.io/typing-svg)
 
