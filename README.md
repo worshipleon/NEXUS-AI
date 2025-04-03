@@ -88,4 +88,6 @@ href="https://t.me/pkxmdbotuser_bot"><img title="CHAT TELEGRAM" src="https://img
  
 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<p align="center">
+  <img src="https://files.catbox.moe/0pahfh.jpeg" alt="Main Graphic" />
+</p>
