@@ -10,7 +10,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=815&height=60&lines=🩸⃟+✚+✚+✚+✚+✚+✚+✚+✚+✚+✚+✜+✜+✚+✚+✚+✚)](https://git.io/typing-svg) 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=815&height=60&lines=QUEEN`🩸⃟༑༑+𝗠+𝗕𝗢𝗧`🩸⃟༑༑+𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+`🩸⃟༑༑pkdriller)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=815&height=60&lines=QQUEEN`🩸⃟༑༑+𝗠+𝗕𝗢𝗧`🩸⃟༑༑+𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+`🩸⃟༑༑pkdrillerr)](https://git.io/typing-svg) 
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
