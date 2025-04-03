@@ -1,32 +1,43 @@
-import util from 'util';
+const { zokou } = require("../framework/zokou");
 
-handler.before = async function (m, { conn }) {
-    if (m.messageStubType === 68 && m.messageStubParameters) {
-        let chat = m.key.remoteJid;
-        let message = await conn.loadMessage(chat, m.messageStubParameters[0]);
+// Store Anti-Delete status per chat (group or personal)
+const antiDeleteStatus = new Map();
+
+// Anti-Delete handler - Always active for all chats
+module.exports.antiDeleteHandler = async (message, zk) => {
+  try {
+    const chatId = message.key.remoteJid;
+    if (!chatId) return;
+
+    // Only handle deleted messages
+    if (message.messageStubType === 68 && message.messageStubParameters) {
+      let deletedMessage = await zk.loadMessage(chatId, message.messageStubParameters[0]);
+
+      if (deletedMessage) {
+        let sender = deletedMessage.participant || "Unknown";
+        let content = extractMessageContent(deletedMessage.message);
         
-        if (message) {
-            let sender = message.pushName || message.participant || "Unknown";
-            let content = getContentFromMessage(message.message);
-            
-            if (content) {
-                let text = `*Anti-Delete Detected!*\n👤 *Sender:* @${message.participant.split('@')[0]}\n📩 *Recovered Message:* ${content}`;
-                await conn.sendMessage(chat, { text, mentions: [message.participant] });
-            }
+        if (content) {
+          let text = `*🚨 Anti-Delete Alert!*\n👤 *Sender:* @${sender.split('@')[0]}\n📩 *Recovered Message:* ${content}`;
+          await zk.sendMessage(chatId, { text, mentions: [sender] });
         }
+      }
     }
+  } catch (error) {
+    console.error("Anti-Delete Handler Error:", error);
+  }
 };
 
-function getContentFromMessage(msg) {
-    if (!msg) return null;
-    if (msg.conversation) return msg.conversation;
-    if (msg.extendedTextMessage) return msg.extendedTextMessage.text;
-    if (msg.imageMessage) return "[Image]";
-    if (msg.videoMessage) return "[Video]";
-    if (msg.documentMessage) return "[Document]";
-    if (msg.stickerMessage) return "[Sticker]";
-    if (msg.audioMessage) return "[Voice Note]";
-    return "[Unsupported Message Type]";
+// Function to extract message content (text, image, video, etc.)
+function extractMessageContent(msg) {
+  if (!msg) return null;
+  return (
+    msg.conversation ||
+    msg.extendedTextMessage?.text ||
+    (msg.imageMessage && "[📷 Image]") ||
+    (msg.videoMessage && "[📹 Video]") ||
+    (msg.stickerMessage && "[🧩 Sticker]") ||
+    (msg.audioMessage && "[🎵 Voice Note]") ||
+    "[🚫 Unsupported Message Type]"
+  );
 }
-
-export default handler;
