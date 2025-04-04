@@ -90,7 +90,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙲𝙾𝙽𝚃𝙰𝙲𝚃
+##  𝙲𝙾𝙽𝚃𝙰𝙲𝚃 PK DRILLER ON SERIOUS BUSINESS ONLY👇
   
 <a href="https://wa.me/255784766591"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a href="https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
@@ -113,6 +113,6 @@
     </a>
 </p>
 
-## 𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐓𝐄𝐂𝐇 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 
+## PK DRILLER 𝐓𝐄𝐂𝐇 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=MULT TIMNASA MD BOT +MAKE; STAR ⭐+AND+FORKS+BY+TIMNASA" alt="Typing SVG" /></a>
