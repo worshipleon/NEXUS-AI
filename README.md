@@ -1,16 +1,16 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +TIMNASA+MD;WHATSAPP+BOT+CREATED+BY+TIMNASA" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +QUEEN+M;WHATSAPP+BOT+CREATED+BY+PKDRILLER" alt="Typing SVG" /></a>
 
 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=𝚆𝙰𝚃𝚂𝙰𝙿𝙿.𝙱𝙾𝚃+𝙱𝚈+𝚃𝙸𝙼𝙽𝙰𝚂𝙰+𝚃𝙴𝙲𝙷)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=𝚆𝙰𝚃𝚂𝙰𝙿𝙿.𝙱𝙾𝚃+𝙱𝚈+PK+𝚃𝙴𝙲𝙷)](https://git.io/typing-svg) 
 
 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=TIMNASA+TMD+)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=QUEEN+M+)](https://git.io/typing-svg) 
 
-<p align="centre"><img src="https://files.catbox.moe/n4fjap.jpg" width="500" height="500" />
+<p align="centre"><img src="" width="500" height="500" />
 
 
 
