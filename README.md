@@ -5,7 +5,7 @@
 <p align="centre"><img src="https://files.catbox.moe/7tmps9.jpg" width="900" height="200" />
 
 
-## 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗜𝗦 𝗦𝗔𝗙𝗘 𝗢𝗡 𝗛𝗘𝗥𝗢𝗨𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧
+## 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗜𝗦 𝗦𝗔𝗙𝗘 𝗢𝗡 𝗛𝗘𝗥𝗢KU 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=815&height=60&lines=🩸⃟+✚+✚+✚+✚+✚+✚+✚+✚+✚+✚+✜+✜+✚+✚+✚+✚)](https://git.io/typing-svg) 
 
