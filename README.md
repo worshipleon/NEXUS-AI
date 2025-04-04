@@ -22,13 +22,13 @@
 <a href="https://github.com/Next5x/followers"><img title="Followers" src="https://img.shields.io/github/followers/Next5x?color=blue&style=flat-square"></a>
 <a href="https://github.com/pkdriller/QUEEN-M/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/pkdriller/QUEEN-M?color=blue&style=flat-square"></a>
 <a href="https://github.com/pkdriller/QUEEN-M/network/members"><img title="Forks" src="https://img.shields.io/github/forks/pkdriller/QUEEN-M?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/QUEEN-M/"><img title="Size" src="https://img.shields.io/github/repo-size/pkdriller/QUEEN-M?style=flat-square&color=blue"></a>
+<a href="https://github.com/pkdriller/QUEEN-M"><img title="Size" src="https://img.shields.io/github/repo-size/pkdriller/QUEEN-M?style=flat-square&color=blue"></a>
 <a href="https://github.com/pkdriller/QUEEN-M/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
 </p>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{QUEEN-M}/count.svg" alt="pkdriller:: Visitor's Count" old_src="https://profile-counter.glitch.me/{enzo}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{QUEEN-M}/count.svg" alt="pkdriller:: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
 
 
 
