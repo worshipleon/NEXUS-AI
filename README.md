@@ -108,11 +108,11 @@
 
 
 <p align="center">
-    <a href="https://chat.whatsapp.com/GfmBCCZR34g5EqMHpFLzZN">
+    <a href="https://chat.whatsapp.com/CP8daWdavnXF11826hxius">
         <img height="30" title="Support Group" src="https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
     </a>
 </p>
 
 ## PK DRILLER 𝐓𝐄𝐂𝐇 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=MULT TIMNASA MD BOT +MAKE; STAR ⭐+AND+FORKS+BY+TIMNASA" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=MULTI-DEVICE QUEEN-M BOT +MAKE; STAR ⭐+AND+FORKS+BY+QUEEN-M" alt="Typing SVG" /></a>
