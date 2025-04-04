@@ -1,13 +1,13 @@
-# Contributing to Silva MD Bot  
+# Contributing to QUEEN-M MD Bot  
 
-Thank you for considering contributing to Silva MD Bot! Your contributions help make this project better for everyone.  
+Thank you for considering contributing to QUEEN M Bot! Your contributions help make this project better for everyone.  
 
 ## How to Contribute  
 1. **Fork the Repository** – Click the "Fork" button on the repository page to create your own copy.  
 2. **Clone the Repository** – Clone your fork locally using:  
     ```sh
-    git clone https://github.com/YOUR_USERNAME/silva-md-bot.git
-    cd silva-md-bot
+    git clone https://github.com/YOUR_USERNAME/queen-m-bot.git
+    cd queen-m-bot
     ```
 3. **Create a New Branch** – Create a new branch for your changes:  
     ```sh
