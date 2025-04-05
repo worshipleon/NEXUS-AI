@@ -19,7 +19,7 @@
 
 
 <p align="center">
-<a href="https://github.com/pkdriller/followers"><img title="Followers" src="https://img.shields.io/github/followers/Next5x?color=blue&style=flat-square"></a>
+<a href="https://github.com/pkdriller/followers"><img title="Followers" src="https://img.shields.io/github/followers/pkdriller?color=blue&style=flat-square"></a>
 <a href="https://github.com/pkdriller/QUEEN-M/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/pkdriller/QUEEN-M?color=blue&style=flat-square"></a>
 <a href="https://github.com/pkdriller/QUEEN-M/network/members"><img title="Forks" src="https://img.shields.io/github/forks/pkdriller/QUEEN-M?color=blue&style=flat-square"></a>
 <a href="https://github.com/pkdriller/QUEEN-M"><img title="Size" src="https://img.shields.io/github/repo-size/pkdriller/QUEEN-M?style=flat-square&color=blue"></a>
