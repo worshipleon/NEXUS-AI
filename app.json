@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/6e35pz.jpg",
+  "logo": "https://files.catbox.moe/vm9usm.jpeg",
   "repository": "https://github.com/Pkdriller/QUEEN-M",
   "succes_url": "/",
   "stack": "container",
@@ -104,7 +104,7 @@
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/6e35pz.jpg",
+      "value": "https://files.catbox.moe/4nt2ds.jpeg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
