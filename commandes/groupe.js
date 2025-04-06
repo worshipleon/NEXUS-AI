@@ -1,5 +1,9 @@
 
 
+
+
+
+
 const { zokou } = require("../framework/zokou")
 //const { getGroupe } = require("../bdd/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
@@ -32,12 +36,12 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   var tag = ""; 
   tag +=`
   
-╭─────────────━┈⊷ 
-│👑 QUEEN -M
-╰─────────────━┈⊷ \n
-│👥 *Group* : ${nomGroupe} 
-│👤 *Hey😀* : *${nomAuteurMessage}* 
-│📜 *Message* : *${mess}* 
+╭─────────────────━┈⊷ 
+│⛔ 𝐊𝐈𝐍𝐆𝐒-𝐌𝐃 𝐓𝐀𝐆𝐒
+╰─────────────────━┈⊷ \n
+│⭕ *Group* : ${nomGroupe} 
+│⭕ *Hey😀* : *${nomAuteurMessage}* 
+│⭕ *Message* : *${mess}* 
 ╰─────────────━┈⊷\n
 \n
 
@@ -74,7 +78,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n©𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬 𝐒𝐜𝐢𝐞𝐧𝐜𝐞`
+Group link :${lien} \n\n©𝐊𝐈𝐍𝐆𝐒-𝐌𝐃 𝐬𝐜𝐢𝐞𝐧𝐜𝐞`
   repondre(mess)
 
 
@@ -662,7 +666,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'Bmw-mdtag',
+          pack: 'Redmi-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -728,7 +732,7 @@ zokou({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, z
 
     const downloadLink = appData.dllink;
     const captionText =
-      "『 *Bmw-Md Application* 』\n\n*Name :* " + appData.name +
+      "『 *Redmi-XMD Application* 』\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
