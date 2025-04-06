@@ -399,7 +399,7 @@ let menuMsg = `
                 externalAdReply: {
                     title: "QUEEN-M SURAH LIST",
                     body: "Live with God my friends you don't know your tomorrow",
-                    thumbnailUrl: "https://files.catbox.moe/30bful.jpg",
+                    thumbnailUrl: "https://files.catbox.moe/vm9usm.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
                     mediaType: 1,
                     renderLargerThumbnail: true
