@@ -12,8 +12,8 @@ zokou({
 }, async (dest, zk, commandeOptions) => {
   const { repondre, prefixe } = commandeOptions;
   const githubRepo = 'https://api.github.com/repos/pkdriller/QUEEN-M';
-  const thumbnailImg = 'https://files.catbox.moe/7tmps9.jpg';
-  const channelThumbnail = 'https://files.catbox.moe/6e35pz.jpg';
+  const thumbnailImg = 'https://files.catbox.moe/vm9usm.jpeg';
+  const channelThumbnail = 'https://files.catbox.moe/4nt2ds.jpeg';
 
   try {
     // Fetch repository data
