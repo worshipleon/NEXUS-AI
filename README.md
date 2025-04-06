@@ -54,7 +54,7 @@
  
 
 
-  <a href="https://queenmsession-5f097131c2ec.herokuapp.com/"><img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=black&style=for-the-badge&logo=nike" width="230" height="38.45"/></a></p>
+  <a href="https://queenmsessionpair-4aeb5fe11312.herokuapp.com/pair"><img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=black&style=for-the-badge&logo=nike" width="230" height="38.45"/></a></p>
 
   
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
