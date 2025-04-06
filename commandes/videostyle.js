@@ -16,7 +16,7 @@ zokou({ nomCom: "videostyle", categorie: "search", reaction: "✋" }, async (des
     const messageText = `Reply with below numbers to generate *${text}* logo
 
 1 ➠ sweet love 💕😘
-2 ➠ lightning pubg
+2 ➠ lightning pubg 
 3 ➠ intro video 📷
 4 ➠ tiger 🐯 video logo
 
@@ -25,10 +25,10 @@ zokou({ nomCom: "videostyle", categorie: "search", reaction: "✋" }, async (des
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "𝐊𝐈𝐍𝐆𝐒-𝐌𝐃",
-        body: "Regards, Ⴊl𐌀Ꮳk 𐌕𐌀ႲႲჄ",
-        thumbnailUrl: "https://files.catbox.moe/kjt43f.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10",
+        title: "QUEEN-M",
+        body: "Regards, pkdriller",
+        thumbnailUrl: "https://files.catbox.moe/a2qpmi.jpeg",
+        sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
