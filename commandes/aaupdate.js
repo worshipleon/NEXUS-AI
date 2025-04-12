@@ -13,7 +13,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("This command can only be used by Njabulo Jb or owner");
+    return repondre("This command can only be used by pkdriller or owner");
   }
 
   // Ensure Heroku app name and API key are set
@@ -33,7 +33,7 @@ zokou({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/NjabuloJ/Njabulo-JB1/tree/main",
+            url: "https://github.com/pkdriller/QUEEN-M/tree/main",
           },
         },
         {
@@ -45,7 +45,7 @@ zokou({
       );
 
       // Notify the user about the update and redeployment
-      await repondre("Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of Njabulo Jb .");
+      await repondre("Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of QUEEN-M .");
       console.log("Build details:", response.data);
     } catch (error) {
       // Handle any errors during the redeployment process
