@@ -37,7 +37,7 @@ href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="2
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
  <p align="lift">
- <a href="https://github.com/pkdriller/PK-XMD/fork"><img title="PK-XMD" src="https://img.shields.io/badge/FORK-SHABAN MD V5-h?color=008000&style=for-the-badge&logo=github"></a>
+ <a href="https://github.com/pkdriller/PK-XMD/fork"><img title="PK-XMD" src="https://img.shields.io/badge/FORK-PK XMD-h?color=008000&style=for-the-badge&logo=github"></a>
  
 
   > **⚠️ OPTION ONE**
@@ -72,19 +72,6 @@ href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="2
   <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may result in account bans.</p>
 </div>
 
-
-## 🤖 _PK-XMD STATUS_
-
-```diff
-+ Project Status: Active
-! Version: 3.0.0 Neon Edition
-# License: MIT
-```
-
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-  </div>
 
 
 <h1> 🇰🇪THUG LIFE🦾 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
