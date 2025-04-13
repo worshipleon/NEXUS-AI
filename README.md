@@ -1,45 +1,43 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=SHABAN-MD" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=🇰🇪PK-XMD🇰🇪" alt="Typing SVG" /></a>
   </div>
-<a><img src='https://i.ibb.co/b5WCv61V/shaban-md.jpg'/></a>
+<a><img src='https://i.ibb.co/DfNVQgcN/nexus-xmd.jpg'/></a>
 
 <p align="center">
-  <a href="https://github.com/MRSHABAN40"><img title="Developer" src="https://img.shields.io/badge/Author-SHABAN%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
+  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-PK%20XMD-FF00FF.svg?style=big-square&logo=github" /></a>
 </p>
 
 <div align="center">
   
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-9ACD32?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O)
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-9ACD32?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{SHABAN-MD}/count.svg" alt="MRSHABAN40 :: Visitor's Count" old_src="https://profile-counter.glitch.me/{MRSHABAN40}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{pkdriller}/count.svg" alt="MRSHABAN40 :: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
 
 
 <p align="center">
-<a href="https://github.com/MRSHABAN/SHABAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SHABAN-MD&label=VIEWS&style=square&color=blue" />
+<a href="https://github.com/pkdriller/PK-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=PK-XMD&label=VIEWS&style=square&color=blue" />
 </p>
 </p> 
 
 <p align="center">
-  <a href="https://github.com/MRSHABAN40/SHABAN-MD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0.0-cyan.svg?style=for-the-badge&logo=aqua" /></a>
+  <a href="https://github.com/pkdriller/PK-XMD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0.0-cyan.svg?style=for-the-badge&logo=aqua" /></a>
 </p>
 
 
-***BOT FEATURE ⤵️***
+***BOT REMEMBER TO GIVE A STAR⤵️***
 
-| Menu ⁠➜ | Status Save | Group | Pair | Download | Antidelete | Ai | Viewonce | Fun | Status Reply | Status Reacts | HeartReacts | Autoreacts |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Work ➜ | ✅ | ✅ | ✅ | ✅ | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
 
   
 <a
-href="https://github.com/MRSHABAN40/SHABAN-MD-V5/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
  <p align="lift">
- <a href="https://github.com/MRSHABAN40/SHABAN-MD-V5/fork"><img title="SHABAN-MD-V5" src="https://img.shields.io/badge/FORK-SHABAN MD V5-h?color=008000&style=for-the-badge&logo=github"></a>
+ <a href="https://github.com/pkdriller/PK-XMD/fork"><img title="PK-XMD" src="https://img.shields.io/badge/FORK-SHABAN MD V5-h?color=008000&style=for-the-badge&logo=github"></a>
  
 
   > **⚠️ OPTION ONE**
@@ -53,11 +51,11 @@ href="https://github.com/MRSHABAN40/SHABAN-MD-V5/graphs/commit-activity"><img he
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://dashboard.heroku.com/new-app?template=https://github.com/MRSHABAN40/SHABAN-MD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=0000FF"/></a></td>
+      <td><a href="https://dashboard.heroku.com/new-app?template=https://github.com/pkdriller/PK-XMD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=0000FF"/></a></td>
       <td><a href="https://host.talkdrove.com/share-bot/47" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-A52A2A?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=MRSHABAN40/SHABAN-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=pkdriller/PK-XMD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
@@ -76,12 +74,12 @@ href="https://github.com/MRSHABAN40/SHABAN-MD-V5/graphs/commit-activity"><img he
 
 ## 🗃️ _PROJECT ARCHITECTS_
 <div align="center">
-  <a href="https://github.com/MRSHABAN40">
-    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN40&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+  <a href="https://github.com/pkdriller">
+    <img src="https://github-readme-stats.vercel.app/api?username=pkdriller &show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
   </a>
 </div>
 
-## 🤖 _SHABAN-MD STATUS_
+## 🤖 _PK-XMD STATUS_
 
 ```diff
 + Project Status: Active
@@ -95,4 +93,4 @@ href="https://github.com/MRSHABAN40/SHABAN-MD-V5/graphs/commit-activity"><img he
   </div>
 
 
-<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
+<h1> 🇰🇪THUG LIFE🦾 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
