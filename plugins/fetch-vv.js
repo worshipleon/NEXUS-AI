@@ -69,5 +69,5 @@ const OwnerCmd = async (m, Matrix) => {
   }
 };
 
-// Coded by JawadTechX
+// Coded by pkdriller 
 export default OwnerCmd;
