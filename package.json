@@ -9,7 +9,7 @@
     "stop": "pm2 stop PK-XMD",
     "restart": "pm2 restart PK-XMD"
   },
-  "keywords": ["pk-xmd", "whatsapp-bot", "whatsapp md bot"],
+  "keywords": ["Pk-xmd", "whatsapp-bot", "whatsapp md bot"],
   "author": "pkdriller",
   "license": "ISC",
   "dependencies": {
