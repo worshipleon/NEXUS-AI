@@ -39,8 +39,8 @@ const seconds = Math.floor(uptime % 60); // Calculate seconds
 const uptimeMessage = `*I am alive now since ${day}d ${hours}h ${minutes}m ${seconds}s*`;
 const runMessage = `*☀️ ${day} Day*\n*🕐 ${hours} Hour*\n*⏰ ${minutes} Minutes*\n*⏱️ ${seconds} Seconds*\n`;
 
-const xtime = moment.tz("Asia/Colombo").format("HH:mm:ss");
-const xdate = moment.tz("Asia/Colombo").format("DD/MM/YYYY");
+const xtime = moment.tz("Africa/kenya").format("HH:mm:ss");
+const xdate = moment.tz("Africa/kenya").format("DD/MM/YYYY");
 const time2 = moment().tz("Asia/Colombo").format("HH:mm:ss");
 let pushwish = "";
 
@@ -124,8 +124,8 @@ const menu = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398040175935@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterJid: '120363288304618280@newsletter',
+          newsletterName: "pkdriller",
           serverMessageId: 143
         }
       }
@@ -135,7 +135,7 @@ const menu = async (m, Matrix) => {
 
     // Send audio after sending the menu
     await Matrix.sendMessage(m.from, {
-      audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+      audio: { url: 'https://files.catbox.moe/enb83w.mp3' },
       mimetype: 'audio/mp4',
       ptt: true
     }, { quoted: m });
@@ -284,7 +284,7 @@ const menu = async (m, Matrix) => {
         case "8":
           menuTitle = "Owner Menu";
           menuResponse = `
-╭━━〔 *Owner Menu* 〕━━┈⊷
+╭━━〔 *Owner🇰🇪♥️🇰🇪 Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• join
 ┃◈┃• leave
@@ -305,7 +305,7 @@ const menu = async (m, Matrix) => {
         case "9":
           menuTitle = "Stalk Menu";
           menuResponse = `
-╭━━〔 *Stalk Menu* 〕━━┈⊷
+╭━━〔 *Stalk ♥️🇰🇪♥️Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• truecaller
 ┃◈┃• instastalk
@@ -343,8 +343,8 @@ ${menuResponse}
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363398040175935@newsletter',
-            newsletterName: "JawadTechX",
+            newsletterJid: '120363288304618280@newsletter',
+            newsletterName: "pkdriller",
             serverMessageId: 143
           }
         }
