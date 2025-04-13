@@ -41,7 +41,7 @@ const runMessage = `*☀️ ${day} Day*\n*🕐 ${hours} Hour*\n*⏰ ${minutes} M
 
 const xtime = moment.tz("Africa/kenya").format("HH:mm:ss");
 const xdate = moment.tz("Africa/kenya").format("DD/MM/YYYY");
-const time2 = moment().tz("Asia/Colombo").format("HH:mm:ss");
+const time2 = moment().tz("Africa/kenya").format("HH:mm:ss");
 let pushwish = "";
 
 if (time2 < "05:00:00") {
@@ -107,10 +107,10 @@ const menu = async (m, Matrix) => {
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('./media/khan.jpg');
+          return fs.readFileSync('https://files.catbox.moe/8gpbl2.jpeg');
         }
       } else {
-        return fs.readFileSync('./media/khan.jpg');
+        return fs.readFileSync('https://files.catbox.moe/8gpbl2.jpeg');
       }
     };
 
