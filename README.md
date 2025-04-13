@@ -72,12 +72,6 @@ href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="2
   <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may result in account bans.</p>
 </div>
 
-## 🗃️ _PROJECT ARCHITECTS_
-<div align="center">
-  <a href="https://github.com/pkdriller">
-    <img src="https://github-readme-stats.vercel.app/api?username=pkdriller &show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
-  </a>
-</div>
 
 ## 🤖 _PK-XMD STATUS_
 
