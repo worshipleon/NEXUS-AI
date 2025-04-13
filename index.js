@@ -56,7 +56,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const sessdata = config.SESSION_ID.split("KHAN-MD~")[1];
+    const sessdata = config.SESSION_ID.split("Pkdriller~")[1];
 
     if (!sessdata || !sessdata.includes("#")) {
         console.error('❌ Invalid SESSION_ID format! It must contain both file ID and decryption key.');
@@ -95,7 +95,7 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["JAWAD-MD", "safari", "3.3"],
+            browser: ["PK-XMD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -116,22 +116,22 @@ Matrix.ev.on('connection.update', (update) => {
         if (initialConnection) {
             console.log(chalk.green("Connected Successfully KHAN-MD 🤍"));
             Matrix.sendMessage(Matrix.user.id, { 
-                image: { url: "https://files.catbox.moe/pf270b.jpg" }, 
-                caption: `*Hello there JAWAD-MD User! 👋🏻* 
+                image: { url: "https://i.ibb.co/rGNYNxH0/nexus-xmd.jpg" }, 
+                caption: `*Hello there PK-XMD User! 👋🏻* 
 
-> Simple, Straightforward, But Loaded With Features 🎊. Meet JAWAD-MD WhatsApp Bot.
+> Simple, Straightforward, But Loaded With Features 🎊. Meet PK-XMD WhatsApp Bot.
 
-*Thanks for using JAWAD-MD 🚩* 
+*Thanks for using PK-XMD 🚩* 
 
 > Join WhatsApp Channel: ⤵️  
-https://whatsapp.com/channel/0029Vb5n6oH0QeaoT1Shcn35
+https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 
 - *YOUR PREFIX:* = ${prefix}
 
 Don't forget to give a star to the repo ⬇️  
-https://github.com/XdTechPro/JAWAD-MD
+https://github.com/pkdriller/PK-XMD
 
-> © Powered BY JawadTechX 🖤`
+> © Powered BY pkdriller 🤍`
             });
             initialConnection = false;
         } else {
@@ -179,7 +179,7 @@ https://github.com/XdTechPro/JAWAD-MD
             await Matrix.readMessages([mek.key]);
             
             if (config.AUTO_STATUS_REPLY) {
-                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By JAWAD-MD';
+                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By PK-XMD';
                 await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
             }
         }
