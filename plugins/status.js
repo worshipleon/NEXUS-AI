@@ -35,10 +35,10 @@ const handleGreeting = async (m, gss) => {
             const videoCaption = quotedMessage.videoMessage.caption;
             const videoUrl = await gss.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
             await gss.sendMessage(m.from, {
-              video: { url: videoUrl },
+              video: { url:'https://files.catbox.moe/9j7w8o.mp4' },
               caption: videoCaption,
               contextInfo: {
-                mentionedJid: [m.sender],
+                mentionedJid:'1120363288304618280@newsletter',
                 forwardingScore: 9999,
                 isForwarded: true,
               },
