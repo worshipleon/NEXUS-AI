@@ -36,8 +36,8 @@ export default async function GroupParticipants(sock, { id, participants, action
             })
          } else if (action == "remove" && config.WELCOME ) {
            const userName = jid.split('@')[0];
-                    const leaveTime = moment.tz('Asia/Kolkata').format('HH:mm:ss');
-                    const leaveDate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
+                    const leaveTime = moment.tz('Africa/kenya').format('HH:mm:ss');
+                    const leaveDate = moment.tz('Africa/Kenya').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
                text: `> Goodbye @${userName} from ${metadata.subject}.\n> We are now ${membersCount} in the group.\n> Left at: ${leaveTime} on ${leaveDate}"`, contextInfo: {
