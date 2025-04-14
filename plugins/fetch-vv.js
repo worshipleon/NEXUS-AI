@@ -49,7 +49,7 @@ const OwnerCmd = async (m, Matrix) => {
     if (!buffer) return;
 
     const mimetype = msg.audioMessage?.mimetype || 'audio/ogg';
-    const caption = `> *© Powered By JawadTechX*`;
+    const caption = `> *© Powered By pkdriller*`;
 
     const recipient = secretMode || cmd === 'vv2'
       ? botNumber
