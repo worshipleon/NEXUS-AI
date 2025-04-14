@@ -7,7 +7,7 @@ const play = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
   const args = m.body.slice(prefix.length + cmd.length).trim().split(" ");
 
-  if (cmd === "play") {
+  if (cmd === "play1") {
     if (args.length === 0 || !args.join(" ")) {
       return m.reply("*Please provide a song name or keywords to search for.*");
     }
