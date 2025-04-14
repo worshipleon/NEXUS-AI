@@ -73,10 +73,10 @@ href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="2
 </div>
 
 
-# My Project
+# Project Title
 
-This project is built on a base provided by my amazing friend. I couldn't have done it without their support and inspiration!
+This project is built with the amazing support of the GitHub community.
 
-## Special Thanks
+## Acknowledgments
 
-I would like to express my heartfelt gratitude to my friend [https://github.com/XdTechPro] for providing me with the foundation to start this project. Your help and guidance mean the world to me. Thank you for being awesome!
+- Special thanks to [MR.JAWAD](https://github.com/XdTechPro) for providing the base and helping me get started!
