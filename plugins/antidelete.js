@@ -113,7 +113,7 @@ class AntiDeleteSystem {
 
   formatTime(timestamp) {
     return new Date(timestamp).toLocaleString('en-PK', {
-      timeZone: "Asia/Karachi",
+      timeZone: "Africa/Kenya",
       dateStyle: 'medium',
       timeStyle: 'medium',
       hour12: true
