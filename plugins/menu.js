@@ -85,15 +85,15 @@ const menu = async (m, Matrix) => {
 
 ╭━━〔 *📛MENU LIST📛* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• 1. Download Menu      
-┃◈┃• 2. Converter Menu        
-┃◈┃• 3. AI Menu  
-┃◈┃• 4. Tools Menu  
-┃◈┃• 5. Group Menu 
-┃◈┃• 6. Search Menu   
-┃◈┃• 7. Main Menu
-┃◈┃• 8. Owner Menu 
-┃◈┃• 9. Stalk Menu     
+┃◈┃• 1. DOWNLOAD MENU      
+┃◈┃• 2. CONVERTER MENU       
+┃◈┃• 3. AI MENU  
+┃◈┃• 4. TOOLS MENU  
+┃◈┃• 5. GROUP MENU
+┃◈┃• 6. SEARCH MENU   
+┃◈┃• 7. MAIN MENU
+┃◈┃• 8. OWNER MENU 
+┃◈┃• 9. STALK MENU    
 ┃◈┃• update
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
@@ -155,7 +155,7 @@ const menu = async (m, Matrix) => {
         case "1":
           menuTitle = "Download Menu";
           menuResponse = `
-╭━━〔 *Download Menu* 〕━━┈⊷
+╭━━〔 *🐉DOWNLOAD MENU🐉* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• apk
 ┃◈┃• facebook
@@ -179,7 +179,7 @@ const menu = async (m, Matrix) => {
         case "2":
           menuTitle = "Converter Menu";
           menuResponse = `
-╭━━〔 *Converter Menu* 〕━━┈⊷
+╭━━〔 *🇰🇪CONVERT MENU🇰🇪* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• attp
 ┃◈┃• attp2
@@ -195,7 +195,7 @@ const menu = async (m, Matrix) => {
         case "3":
           menuTitle = "AI Menu";
           menuResponse = `
-╭━━〔 *AI Menu* 〕━━┈⊷
+╭━━〔 *🤍AI MENU🤍* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ai
 ┃◈┃• bug
@@ -211,7 +211,7 @@ const menu = async (m, Matrix) => {
         case "4":
           menuTitle = "Tools Menu";
           menuResponse = `
-╭━━〔 *Tools Menu* 〕━━┈⊷
+╭━━〔 *🦜TOOLS MENU🦜* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• calculator
 ┃◈┃• tempmail
@@ -225,7 +225,7 @@ const menu = async (m, Matrix) => {
         case "5":
           menuTitle = "Group Menu";
           menuResponse = `
-╭━━〔 *Group Menu* 〕━━┈⊷
+╭━━〔 *🫂GROUP MENU🫂* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• linkgroup
 ┃◈┃• setppgc
@@ -250,7 +250,7 @@ const menu = async (m, Matrix) => {
         case "6":
           menuTitle = "Search Menu";
           menuResponse = `
-╭━━〔 *Search Menu* 〕━━┈⊷
+╭━━〔 *🔎 SEARCH MENU🔎* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• play
 ┃◈┃• yts
@@ -270,7 +270,7 @@ const menu = async (m, Matrix) => {
         case "7":
           menuTitle = "Main Menu";
           menuResponse = `
-╭━━〔 *Main Menu* 〕━━┈⊷
+╭━━〔 *📥MAIN MENU📥* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ping
 ┃◈┃• alive
@@ -282,7 +282,7 @@ const menu = async (m, Matrix) => {
           break;
           
         case "8":
-          menuTitle = "Owner Menu";
+          menuTitle = "🇰🇪OWNER MENU🇰🇪";
           menuResponse = `
 ╭━━〔 *Owner🇰🇪♥️🇰🇪 Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
