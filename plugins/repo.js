@@ -6,7 +6,7 @@ const repo = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/XdTechPro/JAWAD-MD";
+    const githubRepoURL = "https://github.com/pkdriller/PK-XMD";
 
     try {
       // Extract username and repo name from the URL
@@ -28,15 +28,15 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/juroe8.jpg" },
+          image: { url: "https://files.catbox.moe/86knel.jpeg" },
           caption: formattedInfo,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363354023106228@newsletter",
-              newsletterName: "JawadTechX",
+              newsletterJid: "120363288304618280@newsletter",
+              newsletterName: "pkdriller",
               serverMessageId: 143,
             },
           },
@@ -48,16 +48,15 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          audio: { url: "https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a" },
-          mimetype: "audio/mp4",
+          audio: { url: "https://files.catbox.moe/omgnb7.mp3",
           ptt: true,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363354023106228@newsletter",
-              newsletterName: "JawadTechX",
+              newsletterJid: "120363288304618280@newsletter",
+              newsletterName: "pkdriller",
               serverMessageId: 143,
             },
           },
