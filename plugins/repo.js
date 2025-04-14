@@ -4,7 +4,7 @@
 const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
-    pattern: "pk",
+    pattern: "repo",
     alias: ["sc","repo","info"],
     desc: "bot repo",
     react: "🤖",
@@ -62,10 +62,10 @@ const config = require('../config');
 const { cmd } = require('../command');
 
 cmd({
-    pattern: "pk",
+    pattern: "repo",
     alias: ["repo", "sc", "info"],
     desc: "Fetch information about a GitHub repository.",
-    react: "🎗️",
+    react: "🇰🇪",
     category: "info",
     filename: __filename,
 },
@@ -86,15 +86,15 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 NEXUS-XMD 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 PK-XMD 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
 > *a whatsapp bot that enhance your experience with amazing features,developed by pkdriller 🇰🇪.*🤍
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 NEXUS-𝐗𝐌𝐃🫶* 
+*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 PK-𝐗𝐌𝐃🫶* 
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
-https://github.com/pkdriller/NEXUS-XMD
+https://github.com/pkdriller/PK-XMD
 ──────────────────
 ${readMore}
 \`BOT NAME:\`🇰🇪
@@ -116,7 +116,7 @@ ${readMore}
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/46ebpi.jpeg` },
+            image: { url: `https://files.catbox.moe/0r5x5k.jpeg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -132,7 +132,7 @@ ${readMore}
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/5ho5yu.mp3' },
+            audio: { url: 'https://files.catbox.moe/omgnb7.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
