@@ -41,7 +41,7 @@ href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="2
  
 
   > **⚠️ OPTION ONE**
-  <a href='https://sk-shaban-pair-7c36e562dcf5.herokuapp.com/' target="_blank">
+  <a href='https://nexus-xmd-piar.onrender.com/pair' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-800080?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
 
