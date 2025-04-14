@@ -102,7 +102,7 @@ async function start() {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "JAWAD-MD whatsapp user bot" };
+                return { conversation: "PK-XMD whatsapp user bot" };
             }
         });
 
@@ -114,7 +114,7 @@ Matrix.ev.on('connection.update', (update) => {
         }
     } else if (connection === 'open') {
         if (initialConnection) {
-            console.log(chalk.green("Connected Successfully KHAN-MD 🤍"));
+            console.log(chalk.green("Connected Successfully PK-XMD 🤍"));
             Matrix.sendMessage(Matrix.user.id, { 
                 image: { url: "https://i.ibb.co/rGNYNxH0/nexus-xmd.jpg" }, 
                 caption: `*Hello there PK-XMD User! 👋🏻* 
