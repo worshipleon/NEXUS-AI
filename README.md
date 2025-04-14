@@ -73,5 +73,10 @@ href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="2
 </div>
 
 
+# My Project
 
-<h1> 🇰🇪THUG LIFE🦾 <video src="https://files.catbox.moe/9j7w8o.mp4" width="45"> </h1>
+This project is built on a base provided by my amazing friend. I couldn't have done it without their support and inspiration!
+
+## Special Thanks
+
+I would like to express my heartfelt gratitude to my friend [https://github.com/XdTechPro] for providing me with the foundation to start this project. Your help and guidance mean the world to me. Thank you for being awesome!
