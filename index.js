@@ -119,16 +119,16 @@ Matrix.ev.on('connection.update', (update) => {
                 image: { url: "https://i.ibb.co/rGNYNxH0/nexus-xmd.jpg" }, 
                 caption: `*Hello there PK-XMD User! 👋🏻* 
 
-> Simple, Straightforward, But Loaded With Features 🎊. Meet PK-XMD WhatsApp Bot.
+> call developer or message developer +254785392165.
 
-*Thanks for using PK-XMD 🚩* 
+*Thanks for using PK-XMD 🇰🇪* 
 
 > Join WhatsApp Channel: ⤵️  
 https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 
 - *YOUR PREFIX:* = ${prefix}
 
-Don't forget to give a star to the repo ⬇️  
+Don't forget to give a star to the repo  ⬇️  
 https://github.com/pkdriller/PK-XMD
 
 > © Powered BY pkdriller 🤍`
