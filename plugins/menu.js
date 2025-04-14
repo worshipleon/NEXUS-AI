@@ -83,7 +83,7 @@ const menu = async (m, Matrix) => {
 
 > ${pushwish} *${m.pushName}*!
 
-╭━━〔 *Menu List* 〕━━┈⊷
+╭━━〔 *📛MENU LIST📛* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• 1. Download Menu      
 ┃◈┃• 2. Converter Menu        
@@ -107,10 +107,10 @@ const menu = async (m, Matrix) => {
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('https://files.catbox.moe/8gpbl2.jpeg');
+          return fs.readFileSync('https://i.ibb.co/rGNYNxH0/nexus-xmd.jpg');
         }
       } else {
-        return fs.readFileSync('https://files.catbox.moe/8gpbl2.jpeg');
+        return fs.readFileSync('');
       }
     };
 
