@@ -19,7 +19,7 @@ let repo =`
 *|* *pkdriller*
 
 > *pkdriller REPO:*
-*|* https://github.com/pkdriller/NEXUS-XMD
+*|* https://github.com/pkdriller/PK-XMD
 
 > *SUPPORT GROUP:*
 *|* Follow the PKDRILLER 🇰🇪TECH 🇰🇪 channel on WhatsApp: https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
@@ -70,7 +70,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/pkdriller/NEXUS-XMD';
+    const githubRepoURL = 'https://github.com/pkdriller/PK-XMD';
 
     try {
         // Extract username and repo name from the URL
