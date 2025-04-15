@@ -116,7 +116,7 @@ Matrix.ev.on('connection.update', (update) => {
         if (initialConnection) {
             console.log(chalk.green("Connected Successfully PK-XMD 🤍"));
             Matrix.sendMessage(Matrix.user.id, { 
-                image: { url: "https://i.ibb.co/rGNYNxH0/nexus-xmd.jpg" }, 
+                image: { url: "https://files.catbox.moe/0b8oo7.jpeg" }, 
                 caption: `*Hello there PK-XMD User! 👋🏻* 
 
 > call developer or message developer +254785392165.
