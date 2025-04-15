@@ -179,7 +179,7 @@ https://github.com/pkdriller/PK-XMD
             await Matrix.readMessages([mek.key]);
             
             if (config.AUTO_STATUS_REPLY) {
-                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By PK-XMD';
+                const customMessage = config.STATUS_READ_MSG || '✅ status viewed by pkdriller 🇰🇪';
                 await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
             }
         }
