@@ -1,7 +1,7 @@
 {
   "name": "PK-XMD",
   "description": "A Whatsapp bot made to enhance your experience using amazing features ",
-  "logo": "https://files.catbox.moe/0b8oo7.jpeg",
+  "logo": "https://i.ibb.co/vCM08dc4/nexus-xmd.jpg",
   "keywords": ["PK-XMD"],
   "success_url": "/",
 
@@ -125,7 +125,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://i.ibb.co/Nd8xB05p/nexus-xmd.jpg"
+      "value": "https://i.ibb.co/vCM08dc4/nexus-xmd.jpg"
     },
     
      "DESCRIPTION": {
