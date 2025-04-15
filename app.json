@@ -79,14 +79,14 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY PK-XMD*"
+      "value": "*SEEN YOUR STATUS BY PK-XMD🇰🇪*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "pk driller"
+      "value": "PK DRILLER"
 }, 
 
     "OWNER_NUMBER": {
