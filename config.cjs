@@ -37,7 +37,7 @@ OWNER_NAME: process.env.OWNER_NAME || "pk driller",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ PK DRILLER*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/njedi4.jpeg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/vCM08dc4/nexus-xmd.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *PK-XMD*⚡",
 // add alive msg here 
