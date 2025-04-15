@@ -45,7 +45,14 @@ href="https://github.com/pkdriller/PK-XMD/graphs/commit-activity"><img height="2
     <img src='https://img.shields.io/badge/PAIR_CODE_1-800080?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
 
-
+PURCHASE BOT DIRECT FROM DEVELOPER CLICK HERE
+<p align="center">
+  <a href="https://pr-driller-gho2.onrender.com" target="_blank">
+    <img alt="Pair Code" src="https://img.shields.io/badge/CLICK HERE-⚡ GET YOUR BOT NOW ⚡-gold?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=black"/>
+  </a>
+</p>
+---
+---
 ## _📡 DEPLOYMENT_
 
 <div align="center">
