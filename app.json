@@ -10,6 +10,12 @@
       "description": "your session id",
       "required": true,
       "value": ""
+        },  
+    
+    "STICKER_NAME": {
+      "description": "type your sticker pack name.",
+      "required": false,
+      "value": "PK-XMD"
     },
     "MODE": {
       "description": "mode public or self",
