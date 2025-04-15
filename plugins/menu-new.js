@@ -7,7 +7,7 @@ cmd({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
-    react: "🧾",
+    react: "🇰🇪",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
@@ -24,21 +24,21 @@ cmd({
 ┃★│ 🚀 Platform : *Heroku*
 ┃★│ ⚙️ Mode : *[${config.MODE}]*
 ┃★│ 🔣 Prefix : *[${config.PREFIX}]*
-┃★│ 🏷️ Version : *3.0.0 Bᴇᴛᴀ*
+┃★│ 🏷️ Version : *4.0.0 Bᴇᴛᴀ*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *Menu List* 〕━━┈⊷
+╭━━〔 *🤍MENU LIST🤍* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈│1️⃣  📥 *Download Menu*
-┃◈│2️⃣  👥 *Group Menu*
-┃◈│3️⃣  😄 *Fun Menu*
-┃◈│4️⃣  👑 *Owner Menu*
-┃◈│5️⃣  🤖 *AI Menu*
-┃◈│6️⃣  🎎 *Anime Menu*
-┃◈│7️⃣  🔄 *Convert Menu*
-┃◈│8️⃣  📌 *Other Menu*
-┃◈│9️⃣  💞 *Reactions Menu*
-┃◈│🔟  🏠 *Main Menu*
+┃◈│1️⃣  🌚 *Download Menu*
+┃◈│2️⃣  👾 *Group Menu*
+┃◈│3️⃣  👾 *Fun Menu*
+┃◈│4️⃣  👾 *Owner Menu*
+┃◈│5️⃣  👾 *AI Menu*
+┃◈│6️⃣  👾 *Anime Menu*
+┃◈│7️⃣  👾 *Convert Menu*
+┃◈│8️⃣  👾 *Other Menu*
+┃◈│9️⃣  👾 *Reactions Menu*
+┃◈│🔟  👾 *Main Menu*
 ┃◈╰───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -48,7 +48,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363354023106228@newsletter',
+                newsletterJid: '120363288304618280@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -57,7 +57,7 @@ cmd({
         const sentMsg = await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/7zfdcq.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/0b8oo7.jpeg' },
                 caption: menuCaption,
                 contextInfo: contextInfo
             },
@@ -66,7 +66,7 @@ cmd({
 
         // Send menu audio only once
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: '' },
             mimetype: 'audio/mp4',
             ptt: true,       
         }, { quoted: mek });
