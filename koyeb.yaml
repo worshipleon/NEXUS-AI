@@ -1,6 +1,6 @@
-name: jawad-md
+name: pk-xmd
 services:
-  - name: jawad-md-service
+  - name: pk-xmd-service
     type: web
     ports:
       - 5000
