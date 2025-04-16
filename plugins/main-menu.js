@@ -39,9 +39,9 @@ const seconds = Math.floor(uptime % 60); // Calculate seconds
 const uptimeMessage = `*I am alive now since ${day}d ${hours}h ${minutes}m ${seconds}s*`;
 const runMessage = `*☀️ ${day} Day*\n*🕐 ${hours} Hour*\n*⏰ ${minutes} Minutes*\n*⏱️ ${seconds} Seconds*\n`;
 
-const xtime = moment.tz("Asia/Colombo").format("HH:mm:ss");
-const xdate = moment.tz("Asia/Colombo").format("DD/MM/YYYY");
-const time2 = moment().tz("Asia/Colombo").format("HH:mm:ss");
+const xtime = moment.tz("Africa/Kenya").format("HH:mm:ss");
+const xdate = moment.tz("Africa/Kenya").format("DD/MM/YYYY");
+const time2 = moment().tz("Africa/Kenya").format("HH:mm:ss");
 let pushwish = "";
 
 if (time2 < "05:00:00") {
@@ -84,23 +84,23 @@ const menu = async (m, Matrix) => {
 > ${pushwish} *${m.pushName}*!
 
 ╭━━〔 *Download Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• apk
-┃◈┃• facebook
-┃◈┃• mediafire
-┃◈┃• pinterestdl
-┃◈┃• gitclone
-┃◈┃• gdrive
-┃◈┃• insta
-┃◈┃• ytmp3
-┃◈┃• ytmp4
-┃◈┃• play
-┃◈┃• song
-┃◈┃• video
-┃◈┃• ytmp3doc
-┃◈┃• ytmp4doc
-┃◈┃• tiktok
-┃◈└───────────┈⊷
+┃♦♦╭─────────────·๏
+┃♦♦┃• apk
+┃♦♦┃• facebook
+┃♦♦┃• mediafire
+┃♦♦┃• pinterestdl
+┃♦♦┃• gitclone
+┃♦♦┃• gdrive
+┃♦♦┃• insta
+┃♦♦┃ytmp3
+┃♦♦┃• ytmp4
+┃♦♦┃• play
+┃♦♦┃• song
+┃♦♦┃• video
+┃♦♦┃• ytmp3doc
+┃♦♦┃• ytmp4doc
+┃♦♦┃• tiktok
+┃♦♦└───────────┈⊷
 ╰──────────────┈⊷
 
 ╭━━〔 *Converter Menu* 〕━━┈⊷
@@ -219,11 +219,11 @@ const menu = async (m, Matrix) => {
         menuImage = Buffer.from(response.data, 'binary');
       } catch (error) {
         console.error('Error fetching menu image from URL, falling back to local image:', error);
-        menuImage = fs.readFileSync('./media/khan.jpg');
+        menuImage = fs.readFileSync('https://files.catbox.moe/n2w73d.jpeg');
       }
     } else {
       // Use local image if MENU_IMAGE is not configured
-      menuImage = fs.readFileSync('./media/khan.jpg');
+      menuImage = fs.readFileSync('https://files.catbox.moe/n2w73d.jpeg');
     }
 
     await Matrix.sendMessage(m.from, {
@@ -234,8 +234,8 @@ const menu = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398040175935@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterJid: '',
+          newsletterName: "pkdriller",
           serverMessageId: 143
         }
       }
@@ -245,7 +245,7 @@ const menu = async (m, Matrix) => {
 
     // Send audio after sending the menu
     await Matrix.sendMessage(m.from, {
-      audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+      audio: { url: 'https://files.catbox.moe/pbblop.mp3' },
       mimetype: 'audio/mp4',
       ptt: true
     }, { quoted: m });
