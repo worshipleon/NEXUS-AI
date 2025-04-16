@@ -1,9 +1,9 @@
 {
-  "name": "JAWAD-MD",
-  "description": "I am JAWAD-MD WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
-  "logo": "https://raw.githubusercontent.com/XdTechPro/KHAN-DATA/refs/heads/main/logo/KHAN.png",
-  "keywords": ["JAWAD-MD"],
-  "repository": "https://github.com/XdTechPro/JAWAD-MD",
+  "name": "PK-XMD",
+  "description": "I am PK-XMD WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
+  "logo": "https://files.catbox.moe/n2w73d.jpeg",
+  "keywords": ["PK-XMD"],
+  "repository": "https://github.com/Pkdriller/PK-XMD",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -19,17 +19,17 @@
     "BOT_NAME": {
       "description": "change bot name what you want!",
       "required": false,
-      "value": "JAWAD-MD"
+      "value": "PK-XMD"
     },
     "MENU_IMAGE": {
       "description": "change menu image if want otherwise use default",
       "required": false,
-      "value": "https://files.catbox.moe/7l1tt5.jpg"
+      "value": "https://files.catbox.moe/n2w73d.jpeg"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and etc",
       "required": false,
-      "value": "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX"
+      "value": "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ PK DRILLER"
     },
     "ANTI_DELETE": {
       "description": "set path for antidelete for same chat set to same",
@@ -55,7 +55,7 @@
     "STATUS_READ_MSG": {
       "description": "set your status reply message",
       "required": false,
-      "value": "*Status Seen By JAWAD-MD 👻🤍*"
+      "value": "*Status Seen By PK-XMD 🤍🇰🇪🤍*"
     },
     "OWNER_NAME": {
       "description": "set your status reply message",
@@ -65,7 +65,7 @@
     "OWNER_NUMBER": {
       "description": "set your status reply message",
       "required": false,
-      "value": "92310344XXXX"
+      "value": "254785392165"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
