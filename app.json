@@ -1,7 +1,7 @@
 {
   "name": "PK-XMD",
   "description": "Javascript WhatsApp bot made by pkdriller",
-  "logo": "https://i.ibb.co/nqgJMnp1/nexus-xmd.jpg",
+  "logo": "https://i.ibb.co/x8tZhDJ3/nexus-xmd.jpg",
   "keywords": ["PK-XMD"],
   "success_url": "/",
 
@@ -125,7 +125,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://i.ibb.co/nqgJMnp1/nexus-xmd.jpg"
+      "value": "https://i.ibb.co/x8tZhDJ3/nexus-xmd.jpg"
     },
     
      "DESCRIPTION": {
