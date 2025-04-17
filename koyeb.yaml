@@ -1,4 +1,4 @@
-name: shaban-md
+name: pk-xmd
 services:
   - name: khan-md-service
     type: web
