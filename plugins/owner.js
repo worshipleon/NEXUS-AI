@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/9mYSb2Vz/shaban-md.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *SHABAN-MD* 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/n3m6ys.jpeg' }, // Image URL from your request
+            caption: `╭━━〔 *PK-XMD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,14 +38,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 3.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Sʜᴀʙᴀɴ Mᴅ`, // Display the owner's details
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ PK-XMD`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363358310754973@newsletter',
-                    newsletterName: 'SʜᴀʙᴀɴMᴅ',
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: 'Pk-xmd',
                     serverMessageId: 143
                 }            
             }
@@ -53,7 +53,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/MRSHABAN40/SHABAN-MD_DATABASE/raw/refs/heads/main/autovoice/owner.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/hfgwvf.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
