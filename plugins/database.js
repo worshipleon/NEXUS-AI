@@ -33,10 +33,10 @@ cmd({
   fs.writeFileSync('./config.json', JSON.stringify(config, null, 2)); 
   reply(`*Prefix changed to:* ${newPrefix}`); 
   const { exec } = require("child_process"); 
-  reply("*_DATABASE UPDATE SHABAN-MD RESTARTING NOW...🚀_*"); 
+  reply("*_DATABASE UPDATE PK-XMD RESTARTING NOW...🚀_*"); 
   await sleep(1500); 
   exec("pm2 restart all"); 
-  reply("*_SHABAN-MD STARTED NOW...🚀_*"); 
+  reply("*_PK-XMD STARTED NOW...🚀_*"); 
 });
 
 //========mode
