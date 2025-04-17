@@ -53,15 +53,15 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/8fy6up.jpg` }, // Image URL here
+                image: { url: `https://files.catbox.moe/n2w73d.jpeg` }, // Image URL here
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'SʜᴀʙᴀɴMᴅ',
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: 'PK-XMD',
                         serverMessageId: 143
                     }
                 }
