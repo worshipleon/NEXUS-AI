@@ -33,14 +33,14 @@
 
 > **1. PAIR CODE SESSION ID**
 
-<a href='https://ali-md.onrender.com/' target="_blank">
+<a href='https://nexus-xmd-pair-code.onrender.com/pair' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
 
 > **2. PAIR CODE SESSION ID**
 
-<a href='https://ali-md-72003ad89817.herokuapp.com' target="_blank">
+<a href='https://nexus-xmd-piar.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
@@ -49,7 +49,7 @@
 
 ---
 
-### <h2 align="">𐃁ALI-MD DEPLOYMENT OPTIONS𐃁</h2>
+### <h2 align="">𐃁PK-XMD DEPLOYMENT OPTIONS𐃁</h2>
 
 ---
 
@@ -140,14 +140,14 @@
 HII DEARS FRIENDS IF YOU WANT ANY HELP SO YOU CAN CONTACT↘︎ WITH ME WIA WHATSAPP ITS ME ALI࿐➺
 
 <p align="">
-<a href='https://wa.me/+923003588997?text=*ʜɪɪ+ᴀʟɪ+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+ᴀʟɪ-ᴍᴅ+ʀᴇᴘᴏ!!*' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white'/< width=150 height=28/p></a> </a>
+<a href='https://wa.me/+254785392165?text=*ʜɪɪ+pk+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+ᴀʟɪ-ᴍᴅ+ʀᴇᴘᴏ!!*' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white'/< width=150 height=28/p></a> </a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 ## 🪀 WHATSAPP CHANNEL 
 STAY CONNECTED WITH THE LATEST UPDATES AND COMMUNITY BY JOINING OUR OFFICIAL WHATSAPP GROUP AND CHANNEL. YOU CAN ALSO CONTACT THE OWNER DIRECTLY.
 
-[![WhatsApp Channel](https://img.shields.io/badge/JOIN-WHATSAAP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h)
+[![WhatsApp Channel](https://img.shields.io/badge/JOIN-WHATSAAP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
 
 #
 
