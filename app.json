@@ -1,8 +1,8 @@
 {
-  "name": "SHABAN-MD",
-  "description": "Javascript WhatsApp bot made by MR-SHABAN",
-  "logo": "https://i.ibb.co/jkg89Z5t/shaban-md.jpg",
-  "keywords": ["SHABAN-MD"],
+  "name": "PK-XMD",
+  "description": "Javascript WhatsApp bot made by MR-PKDRILLER",
+  "logo": "https://files.catbox.moe/j2wtf4.jpeg",
+  "keywords": ["PK-XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "SHABAN-MD"
+      "value": "PK-XMD"
     }, 
       
     "PREFIX": {
@@ -79,7 +79,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*🪩SEEN YOUR STATUS SHABAN-MD🪩*"
+      "value": "*🪩SEEN YOUR STATUS PK-XMD🪩*"
    
      }, 
     
@@ -92,14 +92,14 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": true,
-      "value": "923043788282"
+      "value": "254785392165"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "SHABAN-MD"
+      "value": "PK-XMD"
 
       }, 
 
@@ -119,7 +119,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mʀ Sʜᴀʙᴀɴ*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ MR PKDRILLER*"
     },
 
       "DELETE_LINKS": {
