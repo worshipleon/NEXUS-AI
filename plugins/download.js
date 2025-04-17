@@ -36,13 +36,13 @@ cmd({
         await conn.sendMessage(from, {
           video: { url: item.url },
           mimetype: "video/mp4",
-          caption: "📥 *Instagram Video Downloaded SHABAN-MD*"
+          caption: "📥 *Instagram Video Downloaded PK-XMD*"
         }, { quoted: m });
         break; // Stop once we send the first video
       } else if (item.type === "image" && item.url) {
         await conn.sendMessage(from, {
           image: { url: item.url },
-          caption: "📥 *Instagram Image Downloaded SHABAN-MD*"
+          caption: "📥 *Instagram Image Downloaded PK-XMD*"
         }, { quoted: m });
         break; // Stop once we send the first image
       }
@@ -105,12 +105,12 @@ conn.ev.on("messages.upsert", async message => {
     if (userResponse === '1') {
       await conn.sendMessage(chatID, {
         'video': { 'url': downloadLinks.noWatermark },
-        'caption': "*Downloaded SHABAN-MD*"
+        'caption': "*Downloaded PK-XMD*"
       }, { 'quoted': receivedMessage });
     } else if (userResponse === '2') {
       await conn.sendMessage(chatID, {
         'video': { 'url': downloadLinks.withWatermark },
-        'caption': "*Downloaded SHABAN-MD*"
+        'caption': "*Downloaded PK-XMD*"
       }, { 'quoted': receivedMessage });
     } else if (userResponse === '3') {
       await conn.sendMessage(chatID, {
@@ -180,14 +180,14 @@ conn.ev.on("messages.upsert", async (msgData) => {
       case "1":
         await conn.sendMessage(senderID, {
           video: { url: fbData.BK9.sd },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded PK-XMD*"
         }, { quoted: receivedMsg });
         break;
 
       case "2":
         await conn.sendMessage(senderID, {
           video: { url: fbData.BK9.hd },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded PK-XMD*"
         }, { quoted: receivedMsg });
         break;
 
@@ -203,7 +203,7 @@ conn.ev.on("messages.upsert", async (msgData) => {
           document: { url: fbData.BK9.sd },
           mimetype: "audio/mpeg",
           fileName: "Facebook_Audio.mp3",
-          caption: "📥 *Audio Downloaded SHABAN-MD*"
+          caption: "📥 *Audio Downloaded PK-XMD*"
         }, { quoted: receivedMsg });
         break;
 
@@ -281,14 +281,14 @@ conn.ev.on("messages.upsert", async (msgData) => {
       case "1":
         await conn.sendMessage(senderID, {
           video: { url: video1.url },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded PK-XMD*"
         }, { quoted: receivedMsg });
         break;
 
       case "2":
         await conn.sendMessage(senderID, {
           video: { url: video2.url },
-          caption: "📥 *Downloaded SHABAN-MD*"
+          caption: "📥 *Downloaded PK-XMD*"
         }, { quoted: receivedMsg });
         break;
 
@@ -382,7 +382,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By Mʀ-Sʜᴀʙᴀɴ*`;
+🔗 *Powered By pk-xmd*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -433,7 +433,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© Powered By Mʀ-Sʜᴀʙᴀɴ*"
+        caption: "*© Powered By PK-XMD*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
