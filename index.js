@@ -245,7 +245,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("923043788282")){
+  if(senderNumber.includes("254785392165")){
   if(isReact) return
   m.react("🪀")
    }
@@ -768,7 +768,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("SHABAN MD STARTED ✅");
+  res.send("PK-XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
