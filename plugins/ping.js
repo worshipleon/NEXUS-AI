@@ -23,7 +23,7 @@ const ping = async (m, Matrix) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `*JAWAD-MD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+    const text = `*PK-XMD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
     await Matrix.sendMessage(m.from, {
       text,
@@ -32,8 +32,8 @@ const ping = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398040175935@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterJid: '120363288304618280@newsletter',
+          newsletterName: "pkdriller",
           serverMessageId: 143
         }
       }
