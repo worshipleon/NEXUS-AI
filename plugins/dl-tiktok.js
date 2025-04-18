@@ -34,14 +34,14 @@ const tiktok = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363354023106228@newsletter",
-          newsletterName: "JawadTechX",
+          newsletterJid: "",
+          newsletterName: "pkdriller",
           serverMessageId: 143,
         },
       },
     }, { quoted: m });
 
-    await Matrix.sendMessage(m.from, { react: { text: "✅", key: m.key } });
+    await Matrix.sendMessage(m.from, { react: { text: "🇰🇪", key: m.key } });
 
     // Send the TikTok music separately
     await Matrix.sendMessage(m.from, {
