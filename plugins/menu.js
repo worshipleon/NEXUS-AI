@@ -68,7 +68,7 @@ const menu = async (m, Matrix) => {
 
   if (validCommands.includes(cmd)) {
     const mainMenu = `
-╭━━━〔 *${config.📌BOT_NAME}* 〕━━━┈⊷
+╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ Owner : *${config.OWNER_NAME}*
 ┃★│ User : *${m.pushName}*
@@ -83,7 +83,7 @@ const menu = async (m, Matrix) => {
 
 > ${pushwish} *${m.pushName}*!
 
-╭━━〔 *📌Menu List* 〕━━┈⊷
+╭━━〔 *Menu List* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• 1. Download Menu      
 ┃◈┃• 2. Converter Menu        
@@ -107,10 +107,10 @@ const menu = async (m, Matrix) => {
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('https://files.catbox.moe/j2wtf4.jpeg');
+          return fs.readFileSync('./media/khan.jpg');
         }
       } else {
-        return fs.readFileSync('https://files.catbox.moe/j2wtf4.jpeg');
+        return fs.readFileSync('./media/khan.jpg');
       }
     };
 
@@ -124,7 +124,7 @@ const menu = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363288304618280@newsletter',
+          newsletterJid: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x@newsletter',
           newsletterName: "Pk-Xmd",
           serverMessageId: 143
         }
@@ -135,7 +135,7 @@ const menu = async (m, Matrix) => {
 
     // Send audio after sending the menu
     await Matrix.sendMessage(m.from, {
-      audio: { url: 'https://files.catbox.moe/efq7jx.mp3' },
+      audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
       mimetype: 'audio/mp4',
       ptt: true
     }, { quoted: m });
@@ -155,7 +155,7 @@ const menu = async (m, Matrix) => {
         case "1":
           menuTitle = "Download Menu";
           menuResponse = `
-╭━━〔 *📌Download Menu* 〕━━┈⊷
+╭━━〔 *Download Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• apk
 ┃◈┃• facebook
@@ -179,7 +179,7 @@ const menu = async (m, Matrix) => {
         case "2":
           menuTitle = "Converter Menu";
           menuResponse = `
-╭━━〔 *📌Converter Menu* 〕━━┈⊷
+╭━━〔 *Converter Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• attp
 ┃◈┃• attp2
@@ -195,7 +195,7 @@ const menu = async (m, Matrix) => {
         case "3":
           menuTitle = "AI Menu";
           menuResponse = `
-╭━━〔 *📌AI Menu* 〕━━┈⊷
+╭━━〔 *AI Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ai
 ┃◈┃• bug
@@ -211,7 +211,7 @@ const menu = async (m, Matrix) => {
         case "4":
           menuTitle = "Tools Menu";
           menuResponse = `
-╭━━〔 *📌Tools Menu* 〕━━┈⊷
+╭━━〔 *Tools Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• calculator
 ┃◈┃• tempmail
@@ -225,7 +225,7 @@ const menu = async (m, Matrix) => {
         case "5":
           menuTitle = "Group Menu";
           menuResponse = `
-╭━━〔 *📌Group Menu* 〕━━┈⊷
+╭━━〔 *Group Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• linkgroup
 ┃◈┃• setppgc
@@ -250,7 +250,7 @@ const menu = async (m, Matrix) => {
         case "6":
           menuTitle = "Search Menu";
           menuResponse = `
-╭━━〔 *📌Search Menu* 〕━━┈⊷
+╭━━〔 *Search Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• play
 ┃◈┃• yts
@@ -270,7 +270,7 @@ const menu = async (m, Matrix) => {
         case "7":
           menuTitle = "Main Menu";
           menuResponse = `
-╭━━〔 *📌Main Menu* 〕━━┈⊷
+╭━━〔 *Main Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ping
 ┃◈┃• alive
@@ -284,7 +284,7 @@ const menu = async (m, Matrix) => {
         case "8":
           menuTitle = "Owner Menu";
           menuResponse = `
-╭━━〔 *📌Owner Menu* 〕━━┈⊷
+╭━━〔 *Owner Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• join
 ┃◈┃• leave
@@ -305,7 +305,7 @@ const menu = async (m, Matrix) => {
         case "9":
           menuTitle = "Stalk Menu";
           menuResponse = `
-╭━━〔 *📌Stalk Menu* 〕━━┈⊷
+╭━━〔 *Stalk Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• truecaller
 ┃◈┃• instastalk
@@ -321,7 +321,7 @@ const menu = async (m, Matrix) => {
 
       // Format the full response with title and description
       const fullResponse = `
-╭━━━〔 *📌${config.BOT_NAME} - ${menuTitle}* 〕━━━┈⊷
+╭━━━〔 *${config.BOT_NAME} - ${menuTitle}* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│• Owner : *${config.OWNER_NAME}*
 ┃★│• User : *${m.pushName}*
