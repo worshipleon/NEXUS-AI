@@ -107,10 +107,10 @@ const menu = async (m, Matrix) => {
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('./media/khan.jpg');
+          return fs.readFileSync('https://files.catbox.moe/jbsvn4.jpeg');
         }
       } else {
-        return fs.readFileSync('./media/khan.jpg');
+        return fs.readFileSync('https://files.catbox.moe/jbsvn4.jpeg');
       }
     };
 
@@ -124,7 +124,7 @@ const menu = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x@newsletter',
+          newsletterJid: '120363288304618280@newsletter',
           newsletterName: "Pk-Xmd",
           serverMessageId: 143
         }
