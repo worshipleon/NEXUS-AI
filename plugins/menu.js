@@ -343,7 +343,7 @@ ${menuResponse}
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x@newsletter',
+            newsletterJid: '120363288304618280@newsletter',
             newsletterName: "Pk-Xmd",
             serverMessageId: 143
           }
