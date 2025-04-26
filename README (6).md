@@ -6,8 +6,6 @@
   <h1 align="center">❄️ INFOGENIE-AI ❄️</h1>
 </p>
 
-
-> **Current Bot Version ➜ `3.1.0⚡`**
 ---
 
 ```
@@ -16,7 +14,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 ---
 
 <p align="center">
-  <a href="https://github.com/mrfrank-ofc">
+  <a href="https://github.com/pkdriller-ofc">
     <img src="http://readme-typing-svg.herokuapp.com?color=blue&center=true&vCenter=true&multiline=false&lines=INFOGENI-AI+MultiDevice;Developed+by+Mr+pkdriller;Give+star+and+fork+this+Repo+bro+🌟" alt="mrfrankReadme">
   </a>
 </p>
@@ -30,7 +28,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 ***
 
 <p align="center">
-  <a href="https://github.com/mrfrank-ofc"><img title="Developer" src="https://img.shields.io/badge/Author-Mr%20Frank-397604.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pkdriller-ofc"><img title="Developer" src="https://i.ibb.co/5xWhw0kD/nexus-xmd.jpg?style=for-the-badge&logo=github" /></a>
 </p>
 
 <div align="center">
