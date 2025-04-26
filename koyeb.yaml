@@ -1,4 +1,4 @@
-name: shaban-md
+name: infogenie-ai
 services:
   - name: khan-md-service
     type: web
