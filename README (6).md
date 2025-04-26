@@ -15,7 +15,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 
 <p align="center">
   <a href="https://github.com/pkdriller-ofc">
-    <img src="http://readme-typing-svg.herokuapp.com?color=blue&center=true&vCenter=true&multiline=false&lines=INFOGENI-AI+MultiDevice;Developed+by+Mr+pkdriller;Give+star+and+fork+this+Repo+bro+🌟" alt="mrfrankReadme">
+    <img src="http://readme-typing-svg.herokuapp.com?color=blue&center=true&vCenter=true&multiline=false&lines=INFOGENI-AI+MultiDevice;Developed+by+Mr+pkdriller;Give+star+and+fork+this+Repo+bro+🌟" alt="pkdrillerReadme">
   </a>
 </p>
 
@@ -23,7 +23,7 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 
 <a><img src='https://i.imgur.com/wQOgFCH.jpeg'/></a>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></>
 
 ***
 
