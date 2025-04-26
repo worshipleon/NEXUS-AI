@@ -1,8 +1,8 @@
 {
-  "name": "INFOGENIE-AI",
-  "description": "Javascript WhatsApp bot made by pkdriller",
+  "name": "INFOGENI-AI",
+  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒𝐇𝐀𝐁𝐀𝐍",
   "logo": "https://i.ibb.co/0jNnSxm4/nexus-xmd.jpg",
-  "keywords": ["INFOGENIE-AI"],
+  "keywords": ["INFOGENI-AI"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "♕︎ INFOGENIEAI"
+      "value": "♕︎INFOGENIEAI"
     }, 
       
     "PREFIX": {
@@ -79,21 +79,21 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Sʜᴀʙᴀɴ-Mᴅ 𓅓*"
+      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW By INFOGENI-AI𓅓*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "INFOGENIE-AI"
+      "value": "INFOGENI-AI"
 
       }, 
     
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.ibb.co/HLbxFy0M/shaban-md.jpg" 
+      "value": "https://i.ibb.co/0jNnSxm4/nexus-xmd.jpg" 
       },
 
     "DELETE_LINK": {
@@ -108,6 +108,12 @@
       "value": "true"
     }, 
     
+    "ANTI_CALL": {
+      "description": "Make it true if you want bot auto call rejected.",
+      "required": false,
+      "value": "true"
+      
+    }, 
     "ANTI_BAD_WORD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
