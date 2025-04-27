@@ -21,7 +21,7 @@
   <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/divider.gif?raw=true" width="100%"/>
 </div>
 <div align="center">
-  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
+  <img src="https://github.com/pkdriller/INFOGENIE-AI/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
 </div>
 
 ## 🛰️ Deployment Steps
@@ -32,7 +32,7 @@
   
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #ff00ff;">
   <p style="color: #00ffff;">First star & Fork repo using button Below !</p>
-  <a href='https://github.com/JawadYT36/KHAN-MD/fork' target="_blank">
+  <a href='https://github.com/Pkdriler/INFOGENIE-AI/fork' target="_blank">
     <img src='https://img.shields.io/badge/FORK_REPOSITORY-008000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
   </a>
 </div>
@@ -41,7 +41,7 @@
 
 <div style="background: #000000; border: 1px solid #ff00ff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #ff00ff; margin-bottom: 30px;">
 
-### <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/keyicon.gif?raw=true" width="25"/> 2. Get Session ID
+### <img src="https://github.com/Pkdriller/INFOGENIE-AI/blob/main/assets/keyicon.gif?raw=true" width="25"/> 2. Get Session ID
   
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #00ffff;">
   
@@ -54,7 +54,7 @@
   <div style="height: 10px;"></div>
   
 > **PAIRiNG LINK (02)**
-  <a href='https://jawadik.onrender.com/' target="_blank">
+  <a href='🪀🪀' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_2-FF00FF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a>
   
