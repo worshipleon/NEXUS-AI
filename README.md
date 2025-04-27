@@ -1,18 +1,3 @@
-
-
-
-
-<p align="center">
-  <h1 align="center">❄️ INFOGENIE-AI ❄️</h1>
-</p>
-
----
-
-```
-Dont forget to fork 🍴 & star 🌟 repo😇
-```
----
-
 <p align="center">
   <a href="https://github.com/pkdriller-ofc">
     <img src="http://readme-typing-svg.herokuapp.com?color=blue&center=true&vCenter=true&multiline=false&lines=INFOGENI-AI+MultiDevice;Developed+by+Mr+pkdriller;Give+star+and+fork+this+Repo+bro+🌟" alt="pkdrillerReadme">
@@ -65,14 +50,6 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
-
-> **2️⃣Pair Code (Session ID)**
-
-<a href='https://subzero-md-pair5.onrender.com/' target="_blank">
-  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
-</a>
-<br> 
-
 
 
 ---
