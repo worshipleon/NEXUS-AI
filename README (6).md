@@ -21,9 +21,6 @@ Dont forget to fork 🍴 & star 🌟 repo😇
 
 --- 
 
-<a><img src='https://i.imgur.com/wQOgFCH.jpeg'/></a>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></>
 
 ***
 
