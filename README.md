@@ -24,11 +24,11 @@
   <img src="https://github.com/pkdriller/INFOGENIE-AI/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
 </div>
 
-## 🛰️ Deployment Steps
+## 🧡💙💜💜 NOW GET YOUR BOT DEPLOYED 
 
 <div style="background: #000000; border: 1px solid #00ffff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #00ffff; margin-bottom: 30px;">
   
-### <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/forkicon.gif?raw=true" width="25"/> 1. Fork This Repository
+### <img src="https://github.com/Pkdriller/INFOGENIE-AI/blob/main/assets/forkicon.gif?raw=true" width="25"/> 1. Fork This Repository
   
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #ff00ff;">
   <p style="color: #00ffff;">First star & Fork repo using button Below !</p>
@@ -46,21 +46,18 @@
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #00ffff;">
   
 --- 
-> **PAIRING LINK (01)**
+> **PAIRING LINK **
   <a href='https://khanmdx-pair.onrender.com/' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
   
   <div style="height: 10px;"></div>
   
-> **PAIRiNG LINK (02)**
-  <a href='🪀🪀' target="_blank">
-    <img src='https://img.shields.io/badge/PAIR_CODE_2-FF00FF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
-  </a>
+
   
   ---
   <p style="color: #aaaaaa; font-size: 12px; margin-top: 10px;">
-    <img src="https://github.com/JawadYT36/TINFOGE/blob/main/assets/warning.gif?raw=true" width="15"/> 
+    <img src="https://github.com/Pkdriller/INFOGENIE-AI/blob/main/assets/warning.gif?raw=true" width="15"/> 
     Connection issues may require VPN activation
   </p>
 </div>
@@ -68,7 +65,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/pkdriller/INFOGENIV-/blob/main/assets/techwave.gif?raw=true" width="80%"/>
+  <img src="https://github.com/pkdriller/INFOGENIE-/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 
 ## 📡 DEPLOYMENT OPTIONS
@@ -104,15 +101,7 @@
   <img src="https://github.com/Pkdriller/INFOGENIE-AI/blob/main/assets/techwave.gif?raw=true" width="100%"/>
 </div>
 
-## 🌟 BOT FEATURES
 
-```bash
-✦ Antidelete, Antiviewonce, Antilink
-✦ High speed YT, Tiktok, FB, IG Downloaders
-✦ 10+ AI models + Image anlysis AI
-✦ Fast low latensie, Powerful
-✦ Futuristic Cool ICY UI
-```
 
 <div align="center">
   <img src="https://github.com/Pkdriller/INFOGENIE-AI/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
