@@ -1,158 +1,182 @@
 <p align="center">
-  <a href="https://github.com/pkdriller-ofc">
-    <img src="http://readme-typing-svg.herokuapp.com?color=blue&center=true&vCenter=true&multiline=false&lines=INFOGENI-AI+MultiDevice;Developed+by+Mr+pkdriller;Give+star+and+fork+this+Repo+bro+🌟" alt="pkdrillerReadme">
-  </a>
+  <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">𝗞𝗛𝗔𝗡-𝗠𝗗</h1>
 </p>
 
---- 
-
-
-***
-
 <p align="center">
-  <a href="https://github.com/pkdriller-ofc"><img title="Developer" src="https://i.ibb.co/5xWhw0kD/nexus-xmd.jpg?style=for-the-badge&logo=github" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+BAILEYS;FAST++SECURE++RELIABLE" alt="Animated Typing SVG" />
 </p>
 
 <div align="center">
-  
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
+  <a href="https://github.com/JawadYT36/followers"><img title="Followers" src="https://img.shields.io/github/followers/JawadYT36?color=EB5406&style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/JawadYT36/KHAN-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/JawadYT36/KHAN-MD?color=FFCE44&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
+  <a href="https://github.com/JawadYT36/KHAN-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/JawadYT36/KHAN-MD?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://github.com/JawadYT36/KHAN-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/JawadYT36/KHAN-MD?style=for-the-badge&color=FFFF33&logo=docusign&logoColor=white"></a>
+  <a href="https://github.com/JawadYT36/KHAN-MD/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{INFOGENI-AI}/count.svg" alt="mrfrank-ofc :: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
-
-
 <p align="center">
-<a href="https://github.com/pkdriller/INFOGENIE-AI"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=INFOGENIE-AI&label=VIEWS&style=flat-square&color=blue" />
-</p>
-</p> 
-
-<p align="center">
-  <a href="https://github.pkdriller/INFOGENIE-AI"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <img src="https://komarev.com/ghpvc/?username=KHAN-MD&label=VISITORS&style=flat-square&color=0002FF" />
 </p>
 
-
-***
-
-### 1. Fork This Repository
-
-Start by forking this repository to your own GitHub account. Click the button below to fork:
-
-  <a href="https://github.com/mrfrank-ofc/INFOGENI-AI/fork"><img title="INFOGENIE-AI" src="https://img.shields.io/badge/INFOGENI-AIh?color=blue&style=for-the-badge&logo=stackshare"></a>
-  
-### 2. Get Session ID 
-
-You will need a session ID to run the INFOGENI-AI. Click the button below to obtain your session ID.if any error in loading site try vpn:
-
-> **1️⃣Pair Code (Session ID)**
-
-<a href='https://nexus-xmd-piar.onrender.com' target="_blank">
-  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
-</a>
-<br> 
-
+> **Current Bot Version `5.0.0`**  
 
 ---
 
-<h2 align="center">INFOGENIE Deployment Options</h2>
+*Dont forget to fork & star repo*
 
 ---
 
-<h4 align="center">1. Heroku</h4>
-<p style="text-align: center; font-size: 1.2em;">
+<div align="center">
+  <img src="https://cdn.ironman.my.id/i/9zd4if.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
+</div>
 
+<div align="center">
+  <img src="https://i.imgur.com/LyHic3i.gif" width="400" style="border-radius: 20px; box-shadow: 0 0 25px #0088ff;"/>
+</div>
 
-<p align="center">
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Pkdriller/INFOGENIE-AI/tree/main' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/divider.gif?raw=true" width="100%"/>
+</div>
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
+</div>
 
-----------
+## 🛰️ Deployment Steps
 
-<h4 align="center">2. TalkDrove Free</h4>
-<p style="text-align: center; font-size: 1.2em;">
+<div style="background: #000000; border: 1px solid #00ffff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #00ffff; margin-bottom: 30px;">
   
-<p align="center">
-<a href='https://talkdrove.com/share-bot/11' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-TalkDrove ‎Deploy-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
+### <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/forkicon.gif?raw=true" width="25"/> 1. Fork This Repository
   
-<details>
+<div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #ff00ff;">
+  <p style="color: #00ffff;">First star & Fork repo using button Below !</p>
+  <a href='https://github.com/JawadYT36/KHAN-MD/fork' target="_blank">
+    <img src='https://img.shields.io/badge/FORK_REPOSITORY-008000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
+  </a>
+</div>
+
+</div>
+
+<div style="background: #000000; border: 1px solid #ff00ff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #ff00ff; margin-bottom: 30px;">
+
+### <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/keyicon.gif?raw=true" width="25"/> 2. Get Session ID
   
-<b><strong><summary align="center" style="color: Yello;">EASIEST METHOD</summary></strong></b>
-<p style="text-align: center; font-size: 1.2em;">
- 
-
-<h3 align="center"> HOW TO DEPLOY ON TALKDROVE</h3>
-<h6 align-"center">
-Create Account Here:
-
-https://host.talkdrove.com/auth/signup?ref=9535F15A
-
-Then Login
-Claim 10 coins in wallet section
-Locate where to deploy your bot
-You will see a dashboard of bots listed 
-
-
-Click next , next
-Until you see INFOGENI-AI
-Then click on it
-
-You will be asked to fill in some stuffs like your session Id , and other stuffs on how you want your bot to be ( bot settings ) , it's not hard I added examples
-
-
-Get session I'd here:
-
-https://nexus-xmd-piar.onrender.com
-
-After you're done filling it
-Click deploy button 
-
-If you can't see any deploy button , switch the website to dark mode 
-
-It will show
-
-That's all bot connected
-
-`MR PKDRILLER`</h6>
-</details>
-
---------------
-
-
-<h4 align="center">3. Koyeb</h4>
-<p style="text-align: center; font-size: 1.2em;">
-
-
-<p align="center">
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=pkdriller/INFOGENI-AI&ports=3000&env[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-koyeb ‎ deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
-
------
-<h4 align="center">4. Railway</h4>
-<p style="text-align: center; font-size: 1.2em;">
-
-<p align="center">
-<a href='https://railway.app/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-railway deploy-FF8700?style=for-the-badge&logo=railway&logoColor=white'/< width=150 height=28/p></a>
-
------
-
-<h4 align="center">5. Render</h4>
-<p style="text-align: center; font-size: 1.2em;">
+<div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #00ffff;">
   
-<p align="center">
-<a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-black?style=for-the-badge&logo=render&logoColot=white'/< width=150 height=28/p></a>
---------
-
-<h4 align="center">6. Hugging Face</h4>
-<p style="text-align: center; font-size: 1.2em;">
+--- 
+> **PAIRING LINK (01)**
+  <a href='https://khanmdx-pair.onrender.com/' target="_blank">
+    <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
+  </a></br>
   
-<p align="center">
-<a href='https://app.netlify.com/' target="_blank"><img alt='Netlify' src='https://img.shields.io/badge/-Netlify Deploy-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white'/< width=150 height=28/p></a> </a>
-
-<details>
+  <div style="height: 10px;"></div>
   
-<b><strong><summary align="center" style="color: Yello;">EASIEST METHOD 2</summary></strong></b>
-<p style="text-align: center; font-size: 1.2em;">
- 
+> **PAIRiNG LINK (02)**
+  <a href='https://jawadik.onrender.com/' target="_blank">
+    <img src='https://img.shields.io/badge/PAIR_CODE_2-FF00FF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
+  </a>
+  
+  ---
+  <p style="color: #aaaaaa; font-size: 12px; margin-top: 10px;">
+    <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/warning.gif?raw=true" width="15"/> 
+    Connection issues may require VPN activation
+  </p>
+</div>
 
-<h3 align="center"> HOW TO DEPLOY ON HUGGING FACE</h3>
-<h6 align-"center">
-*❄️ Deploy SubZero On Hugging Face For Free !*
+</div>
 
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
+</div>
+
+## 📡 DEPLOYMENT OPTIONS
+
+<div align="center">
+  <table>
+    <tr>
+      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/JawadYT36/KHAN-MD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+      <td><a href="https://talkdrove.com" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=JawadYT36/KHAN-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
+      <td><a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+  </table>
+</div>
+
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j/1368" target="_blank">
+        <img alt="View Workflow Codes" src="https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>  
+
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
+</div>
+
+## 🌟 BOT FEATURES
+
+```bash
+✦ Antidelete, Antiviewonce, Antilink
+✦ High speed YT, Tiktok, FB, IG Downloaders
+✦ 10+ AI models + Image anlysis AI
+✦ Fast low latensie, Powerful
+✦ Futuristic Cool ICY UI
+```
+
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
+</div>
+
+## 🪀  SUPPORT CHANNEL
+
+<div align="center">
+  <a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j">
+    <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/neonpulse.gif?raw=true" width="300"/>
+</div>
+
+## ⚠️ WARNING !
+
+<div style="background-color: #000000; border-left: 5px solid #ff00ff; padding: 10px; border-radius: 0 15px 15px 0; box-shadow: 0 0 15px #ff00ff;">
+  <h3 style="color: #00ffff; font-family: 'Orbitron', sans-serif;">DISCLAIMER</h3>
+  <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may result in account bans.</p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
+</div>
+
+## 🗃️ PROJECT ARCHITECTS
+<div align="center">
+  <a href="https://github.com/JawadYT36">
+    <img src="https://github-readme-stats.vercel.app/api?username=JawadYT36&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
+</div>
+
+## 👑 KHAN STATUS
+
+```diff
++ Project Status: Active
+! Version: 5.0.0 Neon Edition
+# License: APACHE
+```
+
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/endwave.gif?raw=true" width="100%"/>
+</div>
