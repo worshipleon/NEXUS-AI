@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center" style="font-family: '
 
-> **Current Bot Version `5.0.0`**  
+> **Current Bot Version `4.0.0`**  
 
 ---
 
@@ -18,7 +18,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/divider.gif?raw=true" width="100%"/>
+  <img src="https://github.com/pkdriller/INFOGENIE-AI/blob/main/assets/divider.gif?raw=true" width="100%"/>
 </div>
 <div align="center">
   <img src="https://github.com/pkdriller/INFOGENIE-AI/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
