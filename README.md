@@ -15,20 +15,20 @@
 
 <div align="center">
   
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D)
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{SUBZERO-BOT}/count.svg" alt="mrfrank-ofc :: Visitor's Count" old_src="https://profile-counter.glitch.me/{mrfrank-ofc}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{INFOGENI-AI}/count.svg" alt="mrfrank-ofc :: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
 
 
 <p align="center">
-<a href="https://github.com/mrfrank-ofc/SUBZERO-BOT"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SUBZERO-BOT&label=VIEWS&style=flat-square&color=blue" />
+<a href="https://github.com/pkdriller/INFOGENIE-AI"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=INFOGENIE-AI&label=VIEWS&style=flat-square&color=blue" />
 </p>
 </p> 
 
 <p align="center">
-  <a href="https://github.com/mrfrank-ofc/SUBZERO-BOT"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <a href="https://github.pkdriller/INFOGENIE-AI"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
 </p>
 
 
@@ -38,15 +38,15 @@
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/mrfrank-ofc/SUBZERO-BOT/fork"><img title="SUBZERO-MD" src="https://img.shields.io/badge/FORK-SUBZERO-BOTh?color=blue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/mrfrank-ofc/INFOGENI-AI/fork"><img title="INFOGENIE-AI" src="https://img.shields.io/badge/INFOGENI-AIh?color=blue&style=for-the-badge&logo=stackshare"></a>
   
 ### 2. Get Session ID 
 
-You will need a session ID to run the SUBZERO-MD. Click the button below to obtain your session ID.if any error in loading site try vpn:
+You will need a session ID to run the INFOGENI-AI. Click the button below to obtain your session ID.if any error in loading site try vpn:
 
 > **1️⃣Pair Code (Session ID)**
 
-<a href='https://subzero-md.koyeb.app/' target="_blank">
+<a href='https://nexus-xmd-piar.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
@@ -54,7 +54,7 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 ---
 
-<h2 align="center">SubZero Deployment Options</h2>
+<h2 align="center">INFOGENIE Deployment Options</h2>
 
 ---
 
@@ -63,7 +63,7 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 
 <p align="center">
-<a href='https://dashboard.heroku.com/new?template=https://github.com/mrfrank-ofc/SUBZERO-BOT/tree/main' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/pkdriller/INFOGENI-AI/tree/main' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
 ----------
 
@@ -92,7 +92,7 @@ You will see a dashboard of bots listed
 
 
 Click next , next
-Until you see SUBZERO MD
+Until you see INFOGENI-AI
 Then click on it
 
 You will be asked to fill in some stuffs like your session Id , and other stuffs on how you want your bot to be ( bot settings ) , it's not hard I added examples
@@ -100,7 +100,7 @@ You will be asked to fill in some stuffs like your session Id , and other stuffs
 
 Get session I'd here:
 
-https://tinyurl.com/subzero-md
+https://nexus-xmd-piar.onrender.com
 
 After you're done filling it
 Click deploy button 
@@ -111,7 +111,7 @@ It will show
 
 That's all bot connected
 
-`MR FRANK OFC`</h6>
+`MR PKDRILLER`</h6>
 </details>
 
 --------------
@@ -122,7 +122,7 @@ That's all bot connected
 
 
 <p align="center">
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=mrfrank-ofc/SUBZERO-BOT&ports=3000&env[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-koyeb ‎ deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://app.koyeb.com/services/deploy?type=git&repository=pkdriller/INFOGENI-AI&ports=3000&env[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-koyeb ‎ deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
 
 -----
 <h4 align="center">4. Railway</h4>
