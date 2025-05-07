@@ -1,8 +1,8 @@
 {
-  "name": "TOHID_MD",
-  "description": "Javascript WhatsApp bot made by Tohid Khan",
-  "logo": "https://i.ibb.co/4ZSYvPTq/lordali.jpg",
-  "keywords": ["TOHID_MD"],
+  "name": "NEXUS-AI",
+  "description": "Javascript WhatsApp bot made by pkdriller",
+  "logo": "https://i.ibb.co/0p2bWfbv/nexus-xmd.jpg",
+  "keywords": ["NEXUS-AI"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "TOHID_MD"
+      "value": "NEXUS-AI"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY TOHID_MD 🇮🇳*"
+      "value": "*SEEN YOUR STATUS BY NEXUS_AI 😀*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Mr Tohid"
+      "value": "pkdriller"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "917849917350"
+      "value": "254702221671"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "TOHID_MD"
+      "value": "NEXUS-AI"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://i.ibb.co/4ZSYvPTq/lordali.jpg"
+      "value": "https://i.ibb.co/0p2bWfbv/nexus-xmd.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚃𝙾𝙷𝙸𝙳_𝙼𝙳*"
+      "value": "*©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 Pkdriller*"
     },
 
       "DELETE_LINKS": {
