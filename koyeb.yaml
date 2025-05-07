@@ -1,4 +1,4 @@
-name: tohid_md
+name: Nexus-ai
 services:
   - name: tohid_md-service
     type: web
