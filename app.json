@@ -1,6 +1,6 @@
 {
   "name":"NEXUS-AI",
-  "description":"Best whatsapp bot💥 developed by Pldriller👾",
+  "description":"Best whatsapp bot💥 developed by Pkdriller👾",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
   "repository":"https://github.com/ekitale/maths-project",
@@ -97,7 +97,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©charles"
+    "value": "©pkdriller"
   },
     "NUMERO_OWNER":
   {
