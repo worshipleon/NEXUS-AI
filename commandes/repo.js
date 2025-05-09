@@ -1,85 +1,44 @@
-"use strict";
-const { zokou } = require("../framework/zokou");
-const axios = require("axios");
+const { zokou } = require(__dirname + "/../framework/zokou");  
+const axios = require("axios");  
 
-zokou({ 
-  nomCom: "repo", 
-  categorie: "General",
-  reaction: "🔎",
-  aliases: ["source", "script"],
-  desc: "Show bot repository information",
-  nomFichier: __filename 
-}, async (dest, zk, commandeOptions) => {
-  const { repondre, prefixe } = commandeOptions;
-  const githubRepo = 'https://api.github.com/repos/pkdriller/QUEEN-M';
-  const thumbnailImg = 'https://files.catbox.moe/vm9usm.jpeg';
-  const channelThumbnail = 'https://files.catbox.moe/4nt2ds.jpeg';
+zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions) => {  
+    let { ms, repondre } = commandeOptions;  
 
-  try {
-    // Fetch repository data
-    const response = await axios.get(githubRepo, { timeout: 10000 });
-    const data = response.data;
+    const repoUrl = "https://api.github.com/repos/kephakings/BWC-XMD";  
+    const imageUrl = "https://files.catbox.moe/6am24p.jpg";  
 
-    if (!data) {
-      return repondre("Could not fetch data");
-    }
+    try {  
+        const response = await axios.get(repoUrl);  
+        const repo = response.data;  
 
-    const repoInfo = {
-      stars: data.stargazers_count,
-      forks: data.forks_count,
-      lastUpdate: new Date(data.updated_at).toLocaleDateString('en-GB'),
-      owner: data.owner.login,
-    };
+        let repoInfo = `  
+╭══════════════⊷❍  
+┃ 🔥 *BWC-XMD REPOSITORY* 🔥  
+┃ ❏ 𝗡𝗮𝗺𝗲: *${repo.name}*  
+┃ ❏ 𝗢𝘄𝗻𝗲𝗿: *${repo.owner.login}*  
+┃ ❏ 𝗦𝘁𝗮𝗿𝘀: ⭐ *1527*  
+┃ ❏ 𝗙𝗼𝗿𝗸𝘀: 🍴 *798*  
+┃ ❏ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: 🖥️ *${repo.language}* 
+┃ ❏ 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗼𝗻: 📅 *${new Date(repo.updated_at).toLocaleString()}*  
+╭══════════════⊷❍  
+ ❏ 𝗥𝗲𝗽𝗼 𝗟𝗶𝗻𝗸: 🔗 ${repo.html_url}
+╰══════════════⊷❍  
 
-    const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+> KINGSTECH 
+        `;  
 
-    // Enhanced cage design with channel information
-    const gitdata = `
-╭━━━〔 *Queen-M* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ *Prefix : [ ${prefixe} ]*
-┃★│ *Baileys : Multi Device*
-┃★│ *Type : NodeJs*
-┃★│ *Platform : Heroku*
-┃★│ *Version : 1.0*
-┃★│ *Owner : PkDriller*
-┃★╰──────────────
-╰━━━━━━━━━━━━━━━┈⊷
+        await zk.sendMessage(dest, {  
+            image: { url: imageUrl },  
+            caption: repoInfo,  
+            footer: "*BWC-XMD GitHub Repository*",  
+            contextInfo: {  
+                forwardingScore: 999,  
+                isForwarded: true,  
+            },  
+        }, { quoted: ms });  
 
-╭━━━〔 *Repository Info* 〕━━━┈⊷
-┃★ *𝐑𝐞𝐩𝐨:* ${data.html_url}
-┃★ *𝐒𝐭𝐚𝐫𝐞𝐫𝐬:* ${repoInfo.stars}
-┃★ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
-┃★ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
-┃★ *𝐋𝐚𝐬𝐭 𝐔𝐩𝐝𝐚𝐭𝐞:* ${repoInfo.lastUpdate}
-╰━━━━━━━━━━━━━━━━━━━━━━━━┈⊷
-
-*Join our channel for updates!*`;
-
-    await zk.sendMessage(dest, { 
-      image: { url: thumbnailImg }, 
-      caption: gitdata,
-      contextInfo: {
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "Queen-M",
-          serverMessageId: -1,
-        },
-        forwardingScore: 999,
-        externalAdReply: {
-          title: "Queen-M",
-          body: "Next Generation",
-          thumbnailUrl: channelThumbnail,
-          sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
-          mediaType: 1,
-          renderLargerThumbnail: true
-        }
-      }
-    });
-
-  } catch (error) {
-    console.log("Error fetching data:", error);
-    repondre("An error occurred while fetching repository data.");
-  }
+    } catch (e) {  
+        console.log("🥵 Error fetching repository data: " + e);  
+        repondre("🥵 Error fetching repository data, please try again later.");  
+    }  
 });

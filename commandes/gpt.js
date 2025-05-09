@@ -5,7 +5,7 @@ const fs = require('fs');
 const pkg = require('@whiskeysockets/baileys');
 const { generateWAMessageFromContent, proto } = pkg;
 
-zokou({ nomCom: "pkgpt", reaction: "🪅", categorie: "pkai" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "gpt", reaction: "🤪", categorie: "ai" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
@@ -36,7 +36,7 @@ zokou({ nomCom: "pkgpt", reaction: "🪅", categorie: "pkai" }, async (dest, zk,
                 text: answer
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "> *PKXMD-BOT*"
+                text: "> *KINGSTECH*"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 title: "",
