@@ -1,4 +1,4 @@
 
 
 
-web: node pkdriller.js && node pkdriller.js
+web: node index.js && node index.js
