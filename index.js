@@ -874,7 +874,7 @@ zk.ev.on("messages.upsert", async (m) => {
         // Check if the command is issued in a group
         if (!sender.endsWith("@g.us")) {
             await zk.sendMessage(sender, {
-                text: `❌ This command only works in groups.\n\n🚀 Charles Ke`,
+                text: `❌ This command only works in groups.\n\n🚀 NEXUS AI`,
             });
             return;
         }
@@ -1564,7 +1564,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log(" pkdriller is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ pkdriller Connected to WhatsApp! ☺️");
+                console.log("✅ NEXUS-AI Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
