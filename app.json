@@ -67,7 +67,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BWC-XMD",
+      "value":"NEXUS-AI",
       "required":false
 
     } ,
