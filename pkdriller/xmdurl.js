@@ -88,13 +88,13 @@ zokou({ nomCom: "url", categorie: "General", reaction: "💗" }, async (origineM
         // Respond with the URL based on media type
         switch (mediaType) {
             case 'image':
-                repondre(`Njabulo Jb url: ${catboxUrl}`);
+                repondre(`Nexus  url: ${catboxUrl}`);
                 break;
             case 'video':
-                repondre(`Njabulo Jb url: ${catboxUrl}`);
+                repondre(`Nexus  url: ${catboxUrl}`);
                 break;
             case 'audio':
-                repondre(`Njabulo Jb url: ${catboxUrl}`);
+                repondre(`Nexus  url: ${catboxUrl}`);
                 break;
             default:
                 repondre('An unknown error occurred.');
