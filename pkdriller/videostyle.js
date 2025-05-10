@@ -25,10 +25,10 @@ zokou({ nomCom: "videostyle", categorie: "search", reaction: "✋" }, async (des
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "𝐊𝐈𝐍𝐆𝐒-𝐌𝐃",
-        body: "Regards, Ⴊl𐌀Ꮳk 𐌕𐌀ႲႲჄ",
-        thumbnailUrl: "https://files.catbox.moe/kjt43f.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10",
+        title: "NEXUS-AI",
+        body: "Regards, pkdriller",
+        thumbnailUrl: "https://files.catbox.moe/pdhcob.jpeg",
+        sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
