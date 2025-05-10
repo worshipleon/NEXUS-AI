@@ -108,7 +108,7 @@ zokou({
           externalAdReply: {
             title: "PkDriller",
             body: "YouTube Search",
-            thumbnailUrl: 'https://files.catbox.moe/4i9gd4.jpg', // Add thumbnail URL if required 
+            thumbnailUrl: 'https://files.catbox.moe/pdhcob.jpeg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
