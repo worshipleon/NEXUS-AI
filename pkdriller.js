@@ -1613,7 +1613,7 @@ zk.ev.on('group-participants.update', async (group) => {
 ╰─────────────━┈⊷
 
 *Follow our Channel For Updates*
-> https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z
+> https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
                 
                 
                  `;
