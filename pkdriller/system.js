@@ -136,7 +136,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐊𝐈𝐍𝐆𝐒-𝐌𝐃 owner 💀*");
+    return repondre("*This command is restricted to the bot owner or NEXUS-AI owner 💀*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -347,7 +347,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐊𝐈𝐍𝐆𝐒-𝐌𝐃 owner 💀*");
+    return repondre("*This command is restricted to the bot owner or NEXUS-AI owner 💀*");
   }
 
   // Ensure Heroku app name and API key are set
@@ -367,7 +367,7 @@ zokou({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/Black-Tappy/Bumblebee-XMD/tarball/main",
+            url: "https://github.com/Pkdriller/NEXUS-AI/tarball/main",
           },
         },
         {
