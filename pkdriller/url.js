@@ -37,7 +37,7 @@ async function convertToMp3(inputPath, outputPath) {
     });
 }
 
-zokou({ nomCom: "tourl", categorie: "General", reaction: "💗" }, async (origineMessage, zk, commandeOptions) => {
+zokou({ nomCom: "tourl7", categorie: "General", reaction: "💗" }, async (origineMessage, zk, commandeOptions) => {
     const { msgRepondu, repondre } = commandeOptions;
 
     if (!msgRepondu) {
