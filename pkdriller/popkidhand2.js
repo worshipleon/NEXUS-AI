@@ -108,7 +108,7 @@ zokou({
         break;
       case "balance":
         await _0x57b852("Checking your M-Pesa balance...");
-        await _0x57b852("To check your balance, please visit the M-Pesa app or dial *102#.");
+        await _0x57b852("To check your balance, please visit the M-Pesa app or dial *100#.");
         break;
       default:
         await _0x57b852("Unknown command. Please use .mpesa menu to see available options.");

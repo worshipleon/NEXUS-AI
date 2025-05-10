@@ -23,7 +23,7 @@ zokou(
     await repondre("*Generating pair code...*");
 
     try {
-      const apiUrl = `https://queenmsession-5f097131c2ec.herokuapp.com/pair?number=${encodeURIComponent(number)}`;
+      const apiUrl = `.https://nexus-ai-pair.onrender.com/?number=${encodeURIComponent(number)}`;
       const response = await axios.get(apiUrl, {
         headers: { "User-Agent": "Mozilla/5.0" },
       });

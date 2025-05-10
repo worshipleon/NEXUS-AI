@@ -19,12 +19,12 @@ zokou({
   try {
     // Notify user that pairing is in progress
 
-    await repondre("B.M.B-TECH is generating your pairing code ✅...");
+    await repondre("Nexus-ai is generating your pairing code ✅...");
 
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
     // Fetch the pairing code from the API
-    const response = await axios.get(`https://queenmsession-5f097131c2ec.herokuapp.com/code?number=${encodedNumber}`);
+    const response = await axios.get(`https://nexus-ai-pair.onrender.com/code?number=${encodedNumber}`);
     const data = response.data;
     if (data && data.code) {
       const pairingCode = data.code;
@@ -33,18 +33,18 @@ zokou({
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363382023564830@newsletter',
-            newsletterName: "B.M.B-TECH",
+            newsletterJid: '120363288304618280@newsletter',
+            newsletterName: "Queen-M",
             serverMessageId: 143
           },
           forwardingScore: 999,
           // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "B.M.B-TECH",
+            title: "Queen-M",
             body: "Here is your pairing code",
-            thumbnailUrl: 'https://files.catbox.moe/rpea5k.jpg',
+            thumbnailUrl: 'https://files.catbox.moe/pdhcob.jpeg',
             // Add thumbnail URL if required 
-            sourceUrl: 'https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z',
+            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAIntfQ8fRb2T',
             // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true

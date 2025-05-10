@@ -68,14 +68,14 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-       caption: `\n================================\n*B.M.B-TECH*\n
+       caption: `\n================================\n*PK Driller Player*\n
 ================================
  Title: ${videoDetails.title} 
  Quality: High
  Duration: ${firstVideo.timestamp}
 ================================
 
-> *DEVELOPER B.M.B-TECH* 
+> *sir Njabulo Jb* 
 `,
 
        document: { url: downloadUrl },
@@ -83,16 +83,16 @@ zokou({
        contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363382023564830@newsletter',
-          newsletterName: "B.M.B-TECH",
+          newsletterJid: '120363288304618280@newsletter',
+          newsletterName: "Pk driller",
           serverMessageId: 143,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "B.M.B-TECH",
+            title: "PkDriller",
             body: "fast via",
-            thumbnailUrl: 'https://files.catbox.moe/rpea5k.jpg', // Add thumbnail URL if required 
-            sourceUrl: 'https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z', // Add source URL if necessary
+            thumbnailUrl: 'https://files.catbox.moe/pdhcob.jpeg', // Add thumbnail URL if required 
+            sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
           },

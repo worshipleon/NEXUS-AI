@@ -15,13 +15,13 @@ const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: "120363382023564830@newsletter",
-    newsletterName: "B.M.B-TECH",
+    newsletterJid: "120363288304618280@newsletter",
+    newsletterName: "Nexus-ai",
     serverMessageId: Math.floor(100000 + Math.random() * 900000),
   },
   externalAdReply: {
     showAdAttribution: true,
-    title: conf.BOT || 'B.M.B-TECH',
+    title: conf.BOT || 'Queen-M',
     body: title || "Next Generation",
     thumbnailUrl: thumbnailUrl || conf.URL || '',
     sourceUrl: conf.GURL || '',
