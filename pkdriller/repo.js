@@ -41,7 +41,7 @@ zokou({
 ┃★│ *Baileys : Multi Device*
 ┃★│ *Type : NodeJs*
 ┃★│ *Platform : Heroku*
-┃★│ *Version : 1.0*
+┃★│ *Version : 5.0*
 ┃★│ *Owner : PkDriller*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
@@ -63,12 +63,12 @@ zokou({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "Queen-M",
+          newsletterName: "Nexus-ai",
           serverMessageId: -1,
         },
         forwardingScore: 999,
         externalAdReply: {
-          title: "Queen-M",
+          title: "Nexus-ai",
           body: "Next Generation",
           thumbnailUrl: channelThumbnail,
           sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
