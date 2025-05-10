@@ -1,2 +1,2 @@
 
-web: node bwcxmd.js && node bwcxmd.js
+web: node pkdriller.js && node pkdriller.js
