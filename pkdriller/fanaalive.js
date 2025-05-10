@@ -11,7 +11,7 @@ fana(
     const fullImageUrl = "https://files.catbox.moe/nw8nva.jpg"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/nw8nva.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
+    const sourceUrl = "  https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
