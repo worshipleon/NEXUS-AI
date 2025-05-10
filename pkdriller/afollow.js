@@ -14,12 +14,12 @@ zokou({
 }, async (_0x3258e7, _0x4c4732, _0x13b70c) => {
   console.log("Commande saisie !!!s");
   await _0x4c4732.sendMessage(_0x3258e7, {
-    'text': "Hello 👋\n\nClick on the button below to join the OFFICIAL *HACHERS HOOD* WhatsApp Group",
+    'text': "Hello 👋\n\nClick on the button below to join the OFFICIAL *NEXUS HOOD* WhatsApp Group",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': "hhttps://chat.whatsapp.com/JLVDDZLpcsk2byRMDWf0IR",
+        'sourceUrl': "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
      
         
       }
@@ -40,9 +40,9 @@ zokou({
       'externalAdReply': {
         'sourceUrl': 'https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Join Our WhatsApp Channel",
-        'body': "Click to join the official HACHERS HOOD WhatsApp channel!"
+        'body': "Click to join the official NEXUS HOOD WhatsApp channel!"
       }
     }
   });
@@ -59,9 +59,9 @@ zokou({
     'text': "Hello 👋\n\nClick on the button below to contact the OFFICIAL *Redmi-XMD* Owner",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://wa.me/254759000340',
+        'sourceUrl': 'https://wa.me/254785392165',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Join Our Developer Place",
       
       }
@@ -80,9 +80,9 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *HACHERS HOOD* Facebook Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.facebook.com/profile.php?id=100086056192263',
+        'sourceUrl': 'https://www.facebook.com/profile.php?id=100091580206517',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Follow Facebook Page 📄",
         
       }
@@ -101,9 +101,9 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *HACHERS HOOD* Instagram Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.instagram.com/bright_leizer_?igsh=Y2JmcnE1ajNjZXM=',
+        'sourceUr' :'https://www.instagram.com/pk_tech01?igsh=MTM3bjlqdjl0bTIwdw==,
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Follow Instagram Page 📄
       }
     }
@@ -118,14 +118,14 @@ zokou({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *HACHERS HOOD* Threads Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *NEXUS HOOD* Threads Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.threads.net/@bright_leizer_',
+        'sourceUrl': 'https://www.threads.net/@pkdriller_',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Follow Threads Page 📄",
-        'body': "Click to join the official HACHERS HOOD Threads Page!"
+        'body': "Click to join the official NEXUS HOOD Threads Page!"
       }
     }
   });
@@ -142,11 +142,11 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *HACHERS HOOD* TikTok Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.tiktok.com/@BlackTappy',
+        'sourceUrl': 'https://www.tiktok.com/@kenyan_gee0?_t=ZM-8wFY6WKylEt&_r=1',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl':  "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Follow TikTok Page 📄",
-        'body': "Click to join the official HACHERS HOOD TikTok Page!"
+        'body': "Click to join the official NEXUS HOOD TikTok Page!"
       }
     }
   });
@@ -167,7 +167,7 @@ zokou({
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Join Telegram Group📄",
-        'body': "Click to join the official HACHERS HOOD Telegram Group!"
+        'body': "Click to join the official NEXUS HOOD Telegram Group!"
       }
     }
   });
@@ -184,11 +184,11 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Subscribe the OFFICIAL *kingstech* YouTube Channel",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.youtube.com/kings',
+        'sourceUrl': 'https://www.youtube.com/@Pktech-1911',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Follow YouTube Channel📄",
-        'body': "Click to Subscribe the official Kingstech YouTube Channel!"
+        'body': "Click to Subscribe the official pkdriller YouTube Channel!"
       }
     }
   });
@@ -205,11 +205,11 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to connect the OFFICIAL *HACKERS HOOD* Telegram Inbox",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://t.me/blacktappy5',
+        'sourceUrl': 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
+        'mediaUrl': "https://files.catbox.moe/pdhcob.jpeg",
         'title': "Chating With Owner",
-        'body': "Click to Contact the official HACHERS HOOD Telegram Inbox!"
+        'body': "Click to Contact the official NEXUS HOOD Telegram Inbox!"
       }
     }
   });
