@@ -1,7 +1,7 @@
 
 {
-  "name":"BWC-XMD",
-  "description":"Best whatsapp bot developed by KEPHA KINGS",
+  "name":"NEXUS-AI",
+  "description":"Best whatsapp bot developed by pkdriller",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/6am24p.jpg",
   "repository":"https://github.com/ekitale/maths-project",
@@ -113,7 +113,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254743487575"
+    "value": "254785392165"
   },
     "WARN_COUNT":
   {
