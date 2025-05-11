@@ -513,7 +513,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Queen-M owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Nexus-ai owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
