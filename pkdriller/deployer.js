@@ -51,11 +51,11 @@ zokou({
           caption: infoMsg,
           contextInfo: {
             externalAdReply: {
-              title: `Queen-M Deployer`,
+              title: `Nexus-ai Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 1,
-              mediaUrl: "https://files.catbox.moe/r1j72m.jpeg",
+              mediaUrl: "https://files.catbox.moe/pdhcob.jpeg",
               sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x"
             }
           }
