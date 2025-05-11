@@ -15,7 +15,7 @@ zokou({ nomCom: "hacker",
         // console.log("&€"+res);
       //  let lien = "https://e1.yotools.net" + res;
         repondre("* processing...*");
-        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "* \t Logo by 𝐊𝐈𝐍𝐆𝐒-𝐌𝐃*" }, { quoted: ms });
+        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "* \t Logo by NEXUS-AI*" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -39,7 +39,7 @@ zokou({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest
         await zk.sendMessage(dest, { text: " *\t Traitement en cours ...*" }, { quoted: ms });
        // var idImg = Object.values(imgInfo)[3];
        
-        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "* \t Logo by 𝐊𝐈𝐍𝐆𝐒-𝐌𝐃*" }, { quoted: ms });
+        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "* \t Logo by NEXUS-AI*" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -242,7 +242,7 @@ var lien="https://en.ephoto360.com/boom-text-comic-style-text-effect-675.html";
          
 
 repondre("  processing ...")
-         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *Logo by 𝐊𝐈𝐍𝐆𝐒-𝐌𝐃*"})
+         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *Logo by NEXUS-AI*"})
          
         // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t *Logo by ANYWAY-Md*"})
          
