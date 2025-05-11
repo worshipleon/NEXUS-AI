@@ -23,7 +23,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr hαppínєss хmd σwnєr");
+    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr Nexus-ai σwnєr");
   }
 
   // Validate user input and respond accordingly
@@ -65,7 +65,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr hαppínєss хmd σwnєr");
+    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr nexus-ai σwnєr");
   }
 
   // Validate user input and respond accordingly
@@ -106,7 +106,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr hαppínєss хmd σwnє");
+    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr nexus-ai σwnє");
   }
 
   // Validate user input and respond accordingly
@@ -146,7 +146,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Queen-M owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or nexus-ai owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -187,7 +187,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Queen-M owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or nexus-ai owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
