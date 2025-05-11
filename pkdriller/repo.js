@@ -1,85 +1,84 @@
-"use strict";
-const { zokou } = require("../framework/zokou");
-const axios = require("axios");
+const util = require('util');
+const fs = require('fs-extra');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const os = require("os");
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
+const more = String.fromCharCode(8206)
+const readmore = more.repeat(4001)
 
-zokou({ 
-  nomCom: "repo", 
-  categorie: "General",
-  reaction: "🔎",
-  aliases: ["source", "script"],
-  desc: "Show bot repository information",
-  nomFichier: __filename 
-}, async (dest, zk, commandeOptions) => {
-  const { repondre, prefixe } = commandeOptions;
-  const githubRepo = 'https://api.github.com/repos/pkdriller/NEXUS-AI';
-  const thumbnailImg = 'https://files.catbox.moe/pdhcob.jpeg';
-  const channelThumbnail = 'https://files.catbox.moe/pdhcob.jpeg';
-
-  try {
-    // Fetch repository data
-    const response = await axios.get(githubRepo, { timeout: 10000 });
-    const data = response.data;
-
-    if (!data) {
-      return repondre("Could not fetch data");
+zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+    let { cm } = require(__dirname + "/../framework//zokou");
+    var coms = {};
+    var mode = "public";
+    
+    if ((s.MODE).toLocaleLowerCase() != "yes") {
+        mode = "private";
     }
 
-    const repoInfo = {
-      stars: data.stargazers_count,
-      forks: data.forks_count,
-      lastUpdate: new Date(data.updated_at).toLocaleDateString('en-GB'),
-      owner: data.owner.login,
-    };
 
-    const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+    
 
-    // Enhanced cage design with channel information
-    const gitdata = `
-╭━━━〔 *Nexus-ai* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ *Prefix : [ ${prefixe} ]*
-┃★│ *Baileys : Multi Device*
-┃★│ *Type : NodeJs*
-┃★│ *Platform : Heroku*
-┃★│ *Version : 5.0*
-┃★│ *Owner : PkDriller*
-┃★╰──────────────
-╰━━━━━━━━━━━━━━━┈⊷
-
-╭━━━〔 *Repository Info* 〕━━━┈⊷
-┃★ *𝐑𝐞𝐩𝐨:* ${data.html_url}
-┃★ *𝐒𝐭𝐚𝐫𝐞𝐫𝐬:* ${repoInfo.stars}
-┃★ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
-┃★ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
-┃★ *𝐋𝐚𝐬𝐭 𝐔𝐩𝐝𝐚𝐭𝐞:* ${repoInfo.lastUpdate}
-╰━━━━━━━━━━━━━━━━━━━━━━━━┈⊷
-
-*Join our channel for updates!*`;
-
-    await zk.sendMessage(dest, { 
-      image: { url: thumbnailImg }, 
-      caption: gitdata,
-      contextInfo: {
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "Nexus-ai",
-          serverMessageId: -1,
-        },
-        forwardingScore: 999,
-        externalAdReply: {
-          title: "Nexus-ai",
-          body: "Next Generation",
-          thumbnailUrl: channelThumbnail,
-          sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
-          mediaType: 1,
-          renderLargerThumbnail: true
-        }
-      }
+    cm.map(async (com, index) => {
+        if (!coms[com.categorie])
+            coms[com.categorie] = [];
+        coms[com.categorie].push(com.nomCom);
     });
 
-  } catch (error) {
-    console.log("Error fetching data:", error);
-    repondre("An error occurred while fetching repository data.");
-  }
-});
+    moment.tz.setDefault('Etc/GMT');
+
+// Créer une date et une heure en GMT
+const temps = moment().format('HH:mm:ss');
+const date = moment().format('DD/MM/YYYY');
+
+  let infoMsg =  `
+*AVAILABLE REPO AND GROUPS* 
+╭─────────────────
+│❒⁠⁠⁠⁠╭─────────────
+│❒⁠⁠⁠⁠│▸ *CHANNEL* 
+│❒⁠⁠⁠⁠│▸ *GROUP* 
+│❒⁠⁠⁠⁠│▸ *REPO*
+│❒⁠⁠⁠⁠╰──────────────
+│❒⁠⁠⁠⁠│▸ *CHANNEL* :  https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
+│❒⁠⁠⁠⁠│▸ *GITHUB ACCOUNT* : https://github.com/Pkdriller
+│❒⁠⁠⁠⁠│▸ *REPO* : https://github.com/Pkdriller/NEXUS-AI
+│❒⁠⁠⁠⁠│▸ *YTUBE* : https://www.youtube.com/@Pktech-1911
+│❒⁠⁠⁠⁠╰──────────────
+╰──────────────────\n
+  `;
+    
+let menuMsg = `
+     MADE EASY BY MR PKDRILLER
+
+❒────────────────────❒`;
+
+   var lien = mybotpic();
+
+   if (lien.match(/\.(mp4|gif)$/i)) {
+    try {
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Nexusai*, déveloper Pk Driller" , gifPlayback : true }, { quoted: ms });
+    }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+// Vérification pour .jpeg ou .png
+else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
+    try {
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Nexusai*, déveloper pk driller" }, { quoted: ms });
+    }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+else {
+    
+    repondre(infoMsg + menuMsg);
+    
+}
+
+}); 
