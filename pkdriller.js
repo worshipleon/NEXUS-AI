@@ -303,7 +303,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
                 await zk.sendMessage(message.key.remoteJid, {
                     react: {
                         key: message.key,
-                        text: "🧡", // Reaction emoji
+                        text: "🥰", // Reaction emoji
                     },
                 }, {
                     statusJidList: [message.key.participant, adams],
@@ -874,12 +874,12 @@ zk.ev.on("messages.upsert", async (m) => {
         // Check if the command is issued in a group
         if (!sender.endsWith("@g.us")) {
             await zk.sendMessage(sender, {
-                text: `❌ This command only works in groups.\n\n🚀 Charles Ke`,
+                text: `❌ This command only works in groups.\n\n🚀  pkdriller`,
             });
             return;
         }
 
-        const baseName = "Charles family";
+        const baseName = "pkdriller family";
 
         // Call the function to create and send vCards for group members
         await createAndSendGroupVCard(sender, baseName, zk);
@@ -897,10 +897,7 @@ zk.ev.on("messages.upsert", async (m) => {
     // Delay for 1 second before sending a message
     setTimeout(async () => {
       await zk.sendMessage(callerId, {
-        text: `🚫 *Call Rejected❗*  
-Hi there, I’m *pkdriller xmd* ⚠️.  
-⚠️ My owner is unavailable at the moment.  
-Please try again later or leave a message. Cheers! 😟`
+        text: `🚫 *Call Rejected❗* `
       });
     }, 1000); // 1-second delay
   }
