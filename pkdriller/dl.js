@@ -49,7 +49,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by Njabulo Jb' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by Nexus-ai' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
