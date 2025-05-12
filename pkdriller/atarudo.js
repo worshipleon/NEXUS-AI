@@ -2,7 +2,7 @@
 // Non visible script 
 // Prepare yourself men don't disturb others
 
-const { ezra } = require("../fredi/ezra");
+const { ezra } = require("../framework/zokou");
 const axios = require("axios");
 
 ezra({ nomCom: "videologo", categorie: "Dml-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
@@ -28,7 +28,7 @@ D ☞ tiger 🐯 video logo
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "DML DML",
+        title: "nexus nexus",
         body: "Pongezi Kwa, pkTech",
         thumbnailUrl: "https://files.catbox.moe/pdhcob.jpeg",
         sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
