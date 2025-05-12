@@ -1,84 +1,102 @@
-const util = require('util');
-const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
-const { format } = require(__dirname + "/../framework/mesfonctions");
-const os = require("os");
+const axios = require("axios");
 const moment = require("moment-timezone");
-const s = require(__dirname + "/../set");
-const more = String.fromCharCode(8206)
-const readmore = more.repeat(4001)
+const { zokou } = require(__dirname + "/../framework/zokou");
 
-zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions) => {
-    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-    let { cm } = require(__dirname + "/../framework//zokou");
-    var coms = {};
-    var mode = "public";
+let dynamicForks = 5000;
+
+const fetchGitHubRepoDetails = async () => {
+  try {
+    const response = await axios.get("https://api.https://github.com/Pkdriller/NEXUS-AI");
+    const { 
+      name, 
+      stargazers_count, 
+      watchers_count, 
+      open_issues_count, 
+      forks_count, 
+      owner 
+    } = response.data;
     
-    if ((s.MODE).toLocaleLowerCase() != "yes") {
-        mode = "private";
+    dynamicForks += forks_count;
+    
+    return {
+      'name': name,
+      'stars': stargazers_count,
+      'watchers': watchers_count,
+      'issues': open_issues_count,
+      'forks': dynamicForks,
+      'owner': owner.login,
+      'url': response.data.html_url
+    };
+  } catch (error) {
+    console.error("Error fetching GitHub repository details:", error);
+    return null;
+  }
+};
+
+const commands = ["git", "repo2", "script", 'hansc'];
+
+commands.forEach(command => {
+  zokou({
+    'nomCom': command,
+    'categorie': "GitHub"
+  }, async (destination, zk, commandOptions) => {
+    let { repondre } = commandOptions;
+    const repoDetails = await fetchGitHubRepoDetails();
+    
+    if (!repoDetails) {
+      repondre("❌ Failed to fetch GitHub repository information.");
+      return;
     }
 
+    const { 
+      name, 
+      stars, 
+      watchers, 
+      issues, 
+      forks, 
+      owner, 
+      url 
+    } = repoDetails;
 
+    const currentDate = moment().tz("Africa/Tanzania").format("DD/MM/YYYY HH:mm:ss");
     
+    const messageContent = `
+    ♦️ *${name} REPO INFO* ♦️
 
-    cm.map(async (com, index) => {
-        if (!coms[com.categorie])
-            coms[com.categorie] = [];
-        coms[com.categorie].push(com.nomCom);
-    });
+    ⭐ *Name:* ${name}
+    🔻 *Stars:* ${stars.toLocaleString()}
+    🍴 *Forks:* ${forks.toLocaleString()}
+    👀 *Watchers:* ${watchers.toLocaleString()}
+    🚧 *Open Issues:* ${issues.toLocaleString()}
+    👤 *Owner:* ${owner}
 
-    moment.tz.setDefault('Etc/GMT');
+    🗓️ *Fetched on:* ${currentDate}
 
-// Créer une date et une heure en GMT
-const temps = moment().format('HH:mm:ss');
-const date = moment().format('DD/MM/YYYY');
+    🔗 *Repo Link:* ${url}
 
-  let infoMsg =  `
-*AVAILABLE REPO AND GROUPS* 
-╭─────────────────
-│❒⁠⁠⁠⁠╭─────────────
-│❒⁠⁠⁠⁠│▸ *CHANNEL* 
-│❒⁠⁠⁠⁠│▸ *GROUP* 
-│❒⁠⁠⁠⁠│▸ *REPO*
-│❒⁠⁠⁠⁠╰──────────────
-│❒⁠⁠⁠⁠│▸ *CHANNEL* :  https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
-│❒⁠⁠⁠⁠│▸ *GITHUB ACCOUNT* : https://github.com/Pkdriller
-│❒⁠⁠⁠⁠│▸ *REPO* : https://github.com/Pkdriller/NEXUS-AI
-│❒⁠⁠⁠⁠│▸ *YTUBE* : https://www.youtube.com/@Pktech-1911
-│❒⁠⁠⁠⁠╰──────────────
-╰──────────────────\n
-  `;
-    
-let menuMsg = `
-     MADE EASY BY MR PKDRILLER
+    🚀 Scripted by *Pk driller*
 
-❒────────────────────❒`;
+    Stay connected and follow my updates!
+    `;
 
-   var lien = mybotpic();
-
-   if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Nexusai*, déveloper Pk Driller" , gifPlayback : true }, { quoted: ms });
+      await zk.sendMessage(destination, {
+        'text': messageContent,
+        'contextInfo': {
+          'externalAdReply': {
+            'title': "😊 Stay Updated with Pkdriller",
+            'body': "Tap here for the latest updates!",
+            'thumbnailUrl': ".https://files.catbox.moe/p5dt66.jpeg",
+            'mediaType': 1,
+            'renderLargerThumbnail': true,
+            'mediaUrl': ".https://files.catbox.moe/p5dt66.jpeg",
+            'sourceUrl': "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x"
+          }
+        }
+      });
+    } catch (error) {
+      console.error("❌ Error sending GitHub info:", error);
+      repondre("❌ Error sending GitHub info: " + error.message);
     }
-    catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
-    }
-} 
-// Vérification pour .jpeg ou .png
-else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
-    try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Nexusai*, déveloper pk driller" }, { quoted: ms });
-    }
-    catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
-    }
-} 
-else {
-    
-    repondre(infoMsg + menuMsg);
-    
-}
-
-}); 
+  });
+});
