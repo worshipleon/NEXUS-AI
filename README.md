@@ -29,8 +29,7 @@ NEXUS-AI BY PK DRILLER
 </a>
 <br> 
 
-<h2 align="center">Deployment Section</h2
----
+<h2 align="center">DEPLOY_ON</h2
 
 <p align="center">
 <a href='https://dashboard.heroku.com/new-app?template=https://github.com/Pkdriller/NEXUS-AI' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-purple?style=for-the-badge&logo=heroku&logoColor=white'/< width=250 height=45/p></a>
