@@ -11,10 +11,6 @@
 NEXUS-AI BY PK DRILLER 
 ```
 ---
-
-
- 
-
 ---
 ### 1. Fork This Repository
 
@@ -33,35 +29,15 @@ NEXUS-AI BY PK DRILLER
 </a>
 <br> 
 
-<h2 align="center">Deployment Section</h2>
-
----
-
-<h4 align="center">1. Heroku</h4>
-<p style="text-align: center; font-size: 1.2em;">
-
+<h2 align="center">Deployment Section</h2
 ---
 
 <p align="center">
 <a href='https://dashboard.heroku.com/new-app?template=https://github.com/Pkdriller/NEXUS-AI' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-purple?style=for-the-badge&logo=heroku&logoColor=white'/< width=250 height=45/p></a>
 
----
-
-<h4 align="center">2. Railway</h4>
-<p style="text-align: center; font-size: 1.2em;">
-
----
-
 <p align="center">
 <a href='https://railway.app/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-railway deploy-FF8700?style=for-the-badge&logo=railway&logoColor=white'/< width=250 height=45/p></a>
 
----
-
-<h4 align="center">3. Render</h4>
-<p style="text-align: center; font-size: 1.2em;">
-
----
-  
 <p align="center">
 <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-black?style=for-the-badge&logo=render&logoColot=white'/< width=250 height=45/p></a>
 
