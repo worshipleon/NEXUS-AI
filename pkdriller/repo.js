@@ -24,13 +24,13 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔞", nomFichier: __
       const gitdata = `*hellow whatsaap user
 this is* *NEXUS-AI.*\n support our channel *by*,  https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 
-_________● *ʟᴇᴏɴᴀʀᴅ* ●____________
+_________● *NEXUS-AI* ●____________
 |💥 *ʀᴇᴘᴏsɪᴛᴏʀʏ:* ${data.html_url}
 |🌟 *sᴛᴀʀs:* ${repoInfo.stars}
 |🍽 *ғᴏʀᴋs:* ${repoInfo.forks}
 |⌚️ *ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ:* ${releaseDate}
 |🕐 *ᴜᴘᴅᴀᴛᴇ ᴏɴ:* ${repoInfo.lastUpdate}
-|👨‍💻 *ᴏᴡɴᴇʀ:* *ʟᴇᴏɴᴀʀᴅ ᴛᴇᴄʜ*
+|👨‍💻 *ᴏᴡɴᴇʀ:* *Pk Driller*
 |💞 *ᴛʜᴇᴍᴇ:* *ʟᴇᴏɴᴀʀᴅ*
 |🥰*ᴏɴʟʏ ɢᴏᴅ ᴄᴀɴ ᴊᴜᴅɢᴇ ᴍᴇ!👑*
 __________________________________
