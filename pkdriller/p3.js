@@ -40,7 +40,7 @@ zokou({
           forwardingScore: 999,
           // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "Queen-M",
+            title: "NEXUS-AI",
             body: "Here is your pairing code",
             thumbnailUrl: 'https://files.catbox.moe/pdhcob.jpeg',
             // Add thumbnail URL if required 
