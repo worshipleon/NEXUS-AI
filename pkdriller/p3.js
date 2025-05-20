@@ -24,7 +24,7 @@ zokou({
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
     // Fetch the pairing code from the API
-    const response = await axios.get(`https://nexus-ai-pair.onrender.com/code?number=${encodedNumber}`);
+    const response = await axios.get(`https://nexus-qr-code-1-caxd.onrender.com/code?number=${encodedNumber}`);
     const data = response.data;
     if (data && data.code) {
       const pairingCode = data.code;
@@ -34,7 +34,7 @@ zokou({
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363288304618280@newsletter',
-            newsletterName: "Queen-M",
+            newsletterName: "Nexus-ai",
             serverMessageId: 143
           },
           forwardingScore: 999,
