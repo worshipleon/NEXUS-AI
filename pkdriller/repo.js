@@ -13,7 +13,6 @@ zokou({
   const { repondre, prefixe } = commandeOptions;
   const githubRepo = 'https://api.github.com/repos/Pkdriller/NEXUS-AI';
   const thumbnailImg = 'https://files.catbox.moe/hlpd7v.jpeg';
-  const channelThumbnail = '';
 
   try {
     // Fetch repository data
@@ -63,7 +62,7 @@ zokou({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "Queen-M",
+          newsletterName: "NEXUS-AI",
           serverMessageId: -1,
         },
         forwardingScore: 999,
