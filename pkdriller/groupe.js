@@ -1,5 +1,9 @@
 
 
+
+
+
+
 const { zokou } = require("../framework/zokou")
 //const { getGroupe } = require("../bdd/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
@@ -32,12 +36,12 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   var tag = ""; 
   tag +=`
   
-╭─────────────━┈⊷ 
-│☯️ NEXUS-AI
-╰─────────────━┈⊷ \n
-│👥 *Group* : ${nomGroupe} 
-│👤 *Hey😀Its Nexus here* : *${nomAuteurMessage}* 
-│📜 *Message* : *${mess}* 
+╭─────────────────━┈⊷ 
+│⛔ *NEXUS AI TAGS*
+╰─────────────────━┈⊷ \n
+│⭕ *Group* : ${nomGroupe} 
+│⭕ *Hey😀* : *${nomAuteurMessage}* 
+│⭕ *Message* : *${mess}* 
 ╰─────────────━┈⊷\n
 \n
 
@@ -74,7 +78,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n©NEXUS-AI`
+Group link :${lien} \n\n©NEXUS-AI 𝐬𝐜𝐢𝐞𝐧𝐜𝐞`
   repondre(mess)
 
 
@@ -424,7 +428,7 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
 
  //------------------------------------antibot-------------------------------
 
- zokou({ nomCom: "antibot", categorie: 'Group', reaction: "🔞" }, async (dest, zk, commandeOptions) => {
+ zokou({ nomCom: "antibot", categorie: 'Group', reaction: "😬" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -662,7 +666,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'Bmw-mdtag',
+          pack: 'Redmi-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -728,7 +732,7 @@ zokou({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, z
 
     const downloadLink = appData.dllink;
     const captionText =
-      "『 *NEXUS-AI Application* 』\n\n*Name :* " + appData.name +
+      "『 *Redmi-XMD Application* 』\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
