@@ -1,5 +1,5 @@
 
-const { ezra } = require("../Rahmani/Md");
+const { zokou } = require("../framework/zokou");
 const axios = require('axios');
 const ytSearch = require('yt-search');
 
