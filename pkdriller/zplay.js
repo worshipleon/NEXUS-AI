@@ -4,7 +4,7 @@ const axios = require('axios');
 const ytSearch = require('yt-search');
 
 // Define the command with aliases
-ezra({
+zokou({
   nomCom: "play3",
   aliases: ["music", "ytmp3", "audio", "mp3"],
   categorie: "Search",
