@@ -4,7 +4,7 @@ const {
 } = require("../framework/zokou");
 const axios = require("axios");
 const ytSearch = require("yt-search");
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "/../zokou");
 const getContextInfo = (_0x229bcc = '', _0x26cd38 = '', _0xbb61c4 = '') => ({
   'mentionedJid': [_0x26cd38],
   'forwardingScore': 0x3e7,
