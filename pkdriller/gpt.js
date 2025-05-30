@@ -3,7 +3,7 @@ const {
 } = require("../framework/zokou");
 const traduire = require("../framework/zokou");
 const axios = require("axios");
-ezra({
+zokou({
   'nomCom': "bot",
   'reaction': '🚀',
   'categorie': 'IA'
