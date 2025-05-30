@@ -1,7 +1,7 @@
 const {
   zokou
 } = require("../framework/zokou");
-const traduire = require("../framework/traduction");
+const traduire = require("../framework/zokou");
 const axios = require("axios");
 ezra({
   'nomCom': "bot",
