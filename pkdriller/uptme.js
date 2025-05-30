@@ -17,7 +17,7 @@ const runtime = function (seconds) {
  } 
 
 
-zokou({ nomCom: 'uptime',
+zokou({ nomCom: 'uptime2',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '⚙️', 
