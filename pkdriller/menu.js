@@ -31,7 +31,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const hour = moment().hour();
     let greeting = "🌅Good Morning my My friend 🌄";
     if (hour >= 12 && hour < 18) {
-        greeting = "🌄Good afternoon! My friend! 🌿";
+        greeting = "🌄Good afternnon! My friend! 🌿";
     } else if (hour >= 18) {
         greeting = "🌇Good Everning! Hope you had a great day! 🌙";
     } else if (hour >= 22 || hour < 5) {
@@ -44,15 +44,15 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 ╭━━〔 *${s.BOT}* 〕━━┈⊷
-┃★╭───────────
-┃★│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
-┃★│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
-┃★│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
-┃★│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
-┃★│▸ 𝗧𝗶𝗺𝗲  : *${temps}* 
-┃★│▸ 𝗣𝗶𝗻𝗴  : *${randomPing}ms*
-┃★│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗠𝗮𝗿𝗶𝘀𝗲𝗹
-┃★└───────────···▸
+┃๏╭───────────
+┃๏│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
+┃๏│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
+┃๏│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
+┃๏│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
+┃๏│▸ 𝗧𝗶𝗺𝗲  : *${temps}* 
+┃๏│▸ 𝗣𝗶𝗻𝗴  : *${randomPing}ms*
+┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗠𝗮𝗿𝗶𝘀𝗲𝗹
+┃๏└───────────···▸
 ╰──────────────┈⊷
 ${readmore} 
 
@@ -84,12 +84,12 @@ let menuMsg = `
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363288304618280@newsletter',
-            newsletterName: "NEXUS-AI",
+            newsletterName: "Nexus-ai",
             serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "NEXUS-AI",
+            title: "Nexus-ai",
             body: "Next Generation",
             thumbnailUrl: 'https://files.catbox.moe/ts2az9.jpg', // Add thumbnail URL if required
             sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x', // Add source URL if necessary
