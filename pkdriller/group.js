@@ -1,10 +1,10 @@
 
 
-const { ezra } = require("../fredi/ezra")
+const { zokou } = require("../framework/zokou")
 //const { getGroupe } = require("../luckydatabase/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const {ajouterOuMettreAJourJid,mettreAJourAction,verifierEtatJid} = require("../luckydatabase/antilien")
-const {atbajouterOuMettreAJourJid,atbverifierEtatJid} = require("../luckydatabase/antibot")
+const {atbajouterOuMettreAJourJid,atbverifierEtatJid} = require("../database/antibot")
 const { search, download } = require("aptoide-scraper");
 const fs = require("fs-extra");
 const conf = require("../set");
@@ -31,7 +31,7 @@ ezra({ nomCom: "tagall", categorie: 'Group', reaction: "📯" }, async (dest, zk
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *JEEPERS CREEPERS-XMD*𝕋𝔸𝔾𝔾𝔼𝔻 🌟
+        🦋 *NEXUS-AI*𝕋𝔸𝔾𝔾𝔼𝔻 ❄️
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -72,7 +72,7 @@ ezra({ nomCom: "link", categorie: 'Group', reaction: "🚜" }, async (dest, zk, 
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  jeepers-creepers tech`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  Pkdriller`
   repondre(mess)
 
 
@@ -660,7 +660,7 @@ ezra({nomCom:"tag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOpti
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPERS-XMD',
+          pack: 'NEXUS-AI',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -767,7 +767,7 @@ ezra({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commande
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPERS-XMD',
+          pack: 'NEXUS-£{',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -874,7 +874,7 @@ ezra({nomCom:"htag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOpt
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPERS-XMD',
+          pack: 'NEXUS-AI',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -916,7 +916,7 @@ ezra({nomCom:"htag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOpt
 });
 
 
-ezra({ nomCom: "app", reaction: "🚜", categorie: "Search" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "pk", reaction: "🚜", categorie: "Search" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
@@ -940,7 +940,7 @@ ezra({ nomCom: "app", reaction: "🚜", categorie: "Search" }, async (dest, zk, 
 
     const downloadLink = appData.dllink;
     const captionText =
-      "『 *DAVINCS-MD Application* 』\n\n*Name :* " + appData.name +
+      "『 *NEXUS-AI Application* 』\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
