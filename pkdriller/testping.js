@@ -57,7 +57,7 @@ zokou(
     // URLs and configurations
     const fullImageUrl = "https://files.catbox.moe/kyg8f6.mp3"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/ts2az9.jpg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/sekbmz.mp3"; // Voice note URL
+    const randomAudio = "https://files.catbox.moe/qqfvgv.mp3"; // Voice note URL
     const sourceUrl = "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
