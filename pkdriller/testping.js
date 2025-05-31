@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou(
-  { nomCom: "alive2", reaction: "❎", nomFichier: __filename },
+  { nomCom: "alive", reaction: "❎", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
