@@ -14,7 +14,7 @@ const conf = require('../set');
 
 zokou(
   {
-    nomCom: 'ping',
+    nomCom: 'ping2',
     categorie: 'General',
     reaction: '🚀',
     alias: ['p']
