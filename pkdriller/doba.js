@@ -4,7 +4,7 @@ const { fetchVideoData } = require(__dirname + "/../framework/songApi");
 zokou({
     nomCom: "play",
     aliases: ["playvid", "giftplay"],
-    reaction: '🎬',
+    reaction: '🌎',
     nomFichier: __filename
 }, async (command, zk, context) => {
     const { msg, repondre, arg } = context;
