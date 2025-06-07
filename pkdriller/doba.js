@@ -1,4 +1,4 @@
-const { ezra } = require(__dirname + "/../framework/zokou");
+const { zokou } = require(__dirname + "/../framework/zokou");
 const { fetchVideoData } = require(__dirname + "/../framework/zokou");
 
 zokou({
