@@ -1,5 +1,5 @@
 const { zokou } = require(__dirname + "/../framework/zokou");
-const { fetchVideoData } = require(__dirname + "/../framework/songApi");
+const { fetchVideoData } = require(__dirname + "/../framework/zokou");
 
 zokou({
     nomCom: "play",
