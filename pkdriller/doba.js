@@ -2,7 +2,7 @@ const { zokou } = require(__dirname + "/../framework/zokou");
 const { fetchVideoData } = require(__dirname + "/../framework/zokou");
 
 zokou({
-    nomCom: "play1",
+    nomCom: "play",
     aliases: ["playvid", "giftplay"],
     reaction: '🎬',
     nomFichier: __filename
