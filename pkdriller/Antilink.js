@@ -1,7 +1,7 @@
-const { keith } = require('../keizzah/keith');
+const { zokou } = require('../framework/zokou');
 const { getAntiLinkSettings, updateAntiLinkSettings } = require('../database/antilink');
 const { getWarnings, resetWarnings } = require('../database/warn');
-keith({
+zokou({
     nomCom: 'antilink',
     categorie: 'Group',
     reaction: '🔗'
