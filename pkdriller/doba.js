@@ -1,5 +1,5 @@
 const { zokou } = require(__dirname + "/../framework/zokou");
-const { fetchVideoData } = require(__dirname + "/../framework/zokou");
+const { fetchVideoData } = require(__dirname + "/../framework/songApi");
 
 zokou({
     nomCom: "play",
@@ -30,8 +30,9 @@ zokou({
     await zk.sendMessage(msg.key.remoteJid, {
         image: { url: data.thumb },
         caption: text,
-        footer: "🔗 Powered Nexus🚀Tech",
+        footer: "🔗 https://pkdriller-solutions.vercel.app/",
         buttons,
         headerType: 4
     });
 });
+    
