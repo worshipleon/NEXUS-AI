@@ -24,8 +24,8 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
-    let infoMsg = `┏━━━⚡ *Σ.И.ß-XM𝐃-𝚩𝚯T* ⚡━━━┓
-┃ 🔥  ʜᴇʟʟᴏ, *${nomAuteurMessage}*! 🔥
+    let infoMsg = `┏━━━☯️ NEXUS-AI ☯️━━━┓
+┃ 📲  ʜᴇʟʟᴏ, *${nomAuteurMessage}*! 📲
 ┣━━━━━━━━━━━━━━━━━━━━━
 ┃ 📌 *sʏsᴛᴇᴍ ɪɴғᴏ:*
 ┃ 💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
@@ -50,15 +50,15 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         menuMsg += `┣━━━━━━━━━━━━━━━━━━━━━\n`;
     }
 
-    menuMsg += `┗✨ *Σ.И.ß-XM𝐃-𝚩𝚯T - ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ʙᴇsᴛ!* ✨`;
+    menuMsg += `┗✨ *NEXUS-AI - ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ʙᴇsᴛ!* ✨`;
 
-    let imageUrl = "https://files.catbox.moe/qk7x8w.jpg";
+    let imageUrl = "https://files.catbox.moe/7uazgo.jpg";
 
     try {
         zk.sendMessage(dest, { 
             image: { url: imageUrl }, 
             caption: infoMsg + menuMsg, 
-            footer: "© Σ.И.ß-XM𝐃-𝚩𝚯T" 
+            footer: "©NEXUS-AI" 
         }, { quoted: ms });
     } catch (e) {
         console.log("🥵 Menu error: " + e);
