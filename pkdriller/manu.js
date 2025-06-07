@@ -35,6 +35,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃ 🔰 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 ┃ ⏳ ᴛɪᴍᴇ: *${temps}*
 ┃ 📆 ᴅᴀᴛᴇ: *${date}*
+┃ ♥️ CMDS : *${cm.length}*
 ┣━━━━━━━━━━━━━━━━━━━━━
 ┃ ${readMore}
 ┃ 🎩 *ᴄᴏᴍᴍᴀɴᴅ ᴍᴇɴᴜ* 🎩
