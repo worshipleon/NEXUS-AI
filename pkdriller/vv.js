@@ -42,7 +42,6 @@ const date = moment().format('DD/MM/YYYY');
 ┃★│ ❑ ▸  *𝙿𝚛𝚎𝚏𝚒𝚡* :┈⊷ [  ${s.PREFIXE}  ]
 ┃★│ ❑ ▸  *𝙼𝚘𝚍𝚎* : ┈⊷ ${mode} mode
 ┃★│ ❑ ▸  *Cmds* :┈⊷ ${cm.length}
-┃★│ ❑ ▸  *𝚁𝚊𝚖* :┈⊷ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃★│ ❑ ▸  *𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗* : ┈⊷ ${os.platform()}
 ┃★│ ❑ ▸  *𝙾𝚠𝚗𝚎𝚛* : ┈⊷ ${s.OWNER_NAME}
 ┃★╰───────────────♥️
