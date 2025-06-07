@@ -1,7 +1,7 @@
 const {zokou}=require("../framework/zokou")
 const {getContentType}=require("@whiskeysockets/baileys")
 
-ezra({ nomCom: "vv2", aliases: ["send", "keep"], categorie: "Pk codes" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "vv2", aliases: ["send", "keep"], categorie: "Pk codes" }, async (dest, zk, commandeOptions) => {
   const { repondre, msgRepondu, superUser } = commandeOptions;
 
   if (msgRepondu) {
