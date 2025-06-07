@@ -31,8 +31,8 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃ 💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 ┣━━━━━━━━━━━━━━━━━━━━━
 ┃ ⚙️ *ʙᴏᴛ sᴛᴀᴛᴜs:*
-┃ 🔘 ᴍᴏᴅᴇ: *${mode}*
-┃ 🚀 ᴘʀᴇғɪx: *[ ${prefixe} ]*
+┃ 📲 ᴍᴏᴅᴇ: *${mode}*
+┃ 🔰 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 ┃ ⏳ ᴛɪᴍᴇ: *${temps}*
 ┃ 📆 ᴅᴀᴛᴇ: *${date}*
 ┣━━━━━━━━━━━━━━━━━━━━━
@@ -50,7 +50,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         menuMsg += `┣━━━━━━━━━━━━━━━━━━━━━\n`;
     }
 
-    menuMsg += `┗✨ *NEXUS-AI - ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ʙᴇsᴛ!* ✨`;
+    menuMsg += `┗✨ *NEXUS-AI - ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ʙᴇsᴛ! PKDRILLER* ✨`;
 
     let imageUrl = "https://files.catbox.moe/7uazgo.jpg";
 
