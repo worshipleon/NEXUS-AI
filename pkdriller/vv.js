@@ -36,18 +36,18 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
   ╭━━━ 〔 •NEXUS-AI• 〕━━━┈⊷☯️ 
-┃⭐╭──🔸───🔸────🔸─────💠
-┃📶│ ❑ ▸  *𝙳𝚊𝚝𝚎*:┈⊷ ${date}
-┃💙│ ❑ ▸  *𝚃𝚒𝚖𝚎 𝚗𝚘𝚠*: ┈⊷ ${temps}
-┃💙│ ❑ ▸  *𝙿𝚛𝚎𝚏𝚒𝚡* :┈⊷ [  ${s.PREFIXE}  ]
-┃💙│ ❑ ▸  *𝙼𝚘𝚍𝚎* : ┈⊷ ${mode} mode
-┃💙│ ❑ ▸  *𝙿𝚕𝚞𝚐𝚒𝚗𝚜* :┈⊷ ${cm.length}
-┃💙│ ❑ ▸  *𝚁𝚊𝚖* :┈⊷ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃💙│ ❑ ▸  *𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗* : ┈⊷ ${os.platform()}
-┃💙│ ❑ ▸  *𝙾𝚠𝚗𝚎𝚛* : ┈⊷ ${s.OWNER_NAME}
-┃💙│ ❑ ▸  *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ┈⊷ Pkdriller 
-┃📶│ ❑ ▸  *ᴛɪᴍᴇᴢᴏɴᴇ* :┈⊷ ${s.KENY}
-┃⭐╰───────────────🔰
+┃★╭──🔸───🔸────🔸─────💠
+┃★│ ❑ ▸  *𝙳𝚊𝚝𝚎*:┈⊷ ${date}
+┃★│ ❑ ▸  *𝚃𝚒𝚖𝚎 𝚗𝚘𝚠*: ┈⊷ ${temps}
+┃★│ ❑ ▸  *𝙿𝚛𝚎𝚏𝚒𝚡* :┈⊷ [  ${s.PREFIXE}  ]
+┃★│ ❑ ▸  *𝙼𝚘𝚍𝚎* : ┈⊷ ${mode} mode
+┃★│ ❑ ▸  *𝙿𝚕𝚞𝚐𝚒𝚗𝚜* :┈⊷ ${cm.length}
+┃★│ ❑ ▸  *𝚁𝚊𝚖* :┈⊷ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃★│ ❑ ▸  *𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗* : ┈⊷ ${os.platform()}
+┃★│ ❑ ▸  *𝙾𝚠𝚗𝚎𝚛* : ┈⊷ ${s.OWNER_NAME}
+┃★│ ❑ ▸  *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ┈⊷ Pkdriller 
+┃★│ ❑ ▸  *ᴛɪᴍᴇᴢᴏɴᴇ* :┈⊷ ${s.KENY}
+┃★╰───────────────🔰
 ╰━━━━━━━━━━━━━━━┈⊷🔰
 
 https://pkdriller-solutions.vercel.app/ \n${readmore}`;
