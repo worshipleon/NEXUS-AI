@@ -35,18 +35,16 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-  ╭━━━ 〔 •NEXUS-AI• 〕━━━┈⊷☯️ 
+╭━━━ 〔 •NEXUS-AI• 〕━━━┈⊷☯️ 
 ┃★╭──🔸───🔸────🔸─────💠
 ┃★│ ❑ ▸  *𝙳𝚊𝚝𝚎*:┈⊷ ${date}
 ┃★│ ❑ ▸  *𝚃𝚒𝚖𝚎 𝚗𝚘𝚠*: ┈⊷ ${temps}
 ┃★│ ❑ ▸  *𝙿𝚛𝚎𝚏𝚒𝚡* :┈⊷ [  ${s.PREFIXE}  ]
 ┃★│ ❑ ▸  *𝙼𝚘𝚍𝚎* : ┈⊷ ${mode} mode
-┃★│ ❑ ▸  *Commands* :┈⊷ ${cm.length}
+┃★│ ❑ ▸  *Cmds* :┈⊷ ${cm.length}
 ┃★│ ❑ ▸  *𝚁𝚊𝚖* :┈⊷ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃★│ ❑ ▸  *𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗* : ┈⊷ ${os.platform()}
 ┃★│ ❑ ▸  *𝙾𝚠𝚗𝚎𝚛* : ┈⊷ ${s.OWNER_NAME}
-┃★│ ❑ ▸  *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ┈⊷ Pkdriller 
-┃★│ ❑ ▸  *ᴛɪᴍᴇᴢᴏɴᴇ* :┈⊷ ${s.Tz}
 ┃★╰───────────────♥️
 ╰━━━━━━━━━━━━━━━┈⊷♥️
 
