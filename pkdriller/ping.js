@@ -34,7 +34,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
         audio: { url: AUDIO_URL }, 
             mimetype: 'audio/mp4', 
             ptt: true, // Voice note form
-      text: `Pong...: ${ping}ms\n🍒🍓`,
+      text: `Pong...: ${ping}ms\n🎧💻`,
       contextInfo: {
         forwardingScore: 999,
             isForwarded: true,
@@ -55,7 +55,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
     }, { quoted: ms });
 
     await zk.sendMessage(dest, {
-        text: "```Testing ping..✓```"
+        text: "```ping tested 🧟🎭made by Pkdriller✓```"
     } ,{ quoted: ms });// Voice note form
     }catch (e) {
         console.log("❌ Ping Command Error: " + e);
