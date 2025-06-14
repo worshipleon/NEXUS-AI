@@ -210,7 +210,7 @@ zk.ev.on("messages.upsert", async (m) => {
             if (deletedMessage) {
                 try {
                     const participant = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-                    const notification = `*🛑 This message was deleted by @${participant.split("@")[0]}*`;
+                    const notification = `*🐄🎭 Antidelete message alert🧟 Nexus doesn't allow deleting of messages This message was deleted by @${participant.split("@")[0]}*`;
 
                     const botOwnerJid = `${conf.NUMERO_OWNER}@s.whatsapp.net`; // Bot owner's JID
 
@@ -303,7 +303,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
                 await zk.sendMessage(message.key.remoteJid, {
                     react: {
                         key: message.key,
-                        text: "🧡", // Reaction emoji
+                        text: "🐄", // Reaction emoji
                     },
                 }, {
                     statusJidList: [message.key.participant, adams],
@@ -897,10 +897,7 @@ zk.ev.on("messages.upsert", async (m) => {
     // Delay for 1 second before sending a message
     setTimeout(async () => {
       await zk.sendMessage(callerId, {
-        text: `🚫 *Call Rejected❗*  
-Hi there, I’m *pkdriller xmd* ⚠️.  
-⚠️ My owner is unavailable at the moment.  
-Please try again later or leave a message. Cheers! 😟`
+        text: `🚫 *Call Rejected❗*  am busy😒`
       });
     }, 1000); // 1-second delay
   }
