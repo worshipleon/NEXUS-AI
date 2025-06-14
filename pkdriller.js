@@ -63,16 +63,6 @@ app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
 async function authentification() {
-    const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-// Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
-});
     try {
         //console.log("le data "+data)
         if (!fs.existsSync(__dirname + "/scan/creds.json")) {
@@ -220,7 +210,7 @@ zk.ev.on("messages.upsert", async (m) => {
             if (deletedMessage) {
                 try {
                     const participant = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-                    const notification = `*🛑 Nexus antidelete alert This message was deleted by @${participant.split("@")[0]}*`;
+                    const notification = `*🛑 This message was deleted by @${participant.split("@")[0]}*`;
 
                     const botOwnerJid = `${conf.NUMERO_OWNER}@s.whatsapp.net`; // Bot owner's JID
 
@@ -313,7 +303,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
                 await zk.sendMessage(message.key.remoteJid, {
                     react: {
                         key: message.key,
-                        text: "🐄", // Reaction emoji
+                        text: "🧡", // Reaction emoji
                     },
                 }, {
                     statusJidList: [message.key.participant, adams],
