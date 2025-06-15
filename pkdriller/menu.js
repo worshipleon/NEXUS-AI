@@ -62,20 +62,19 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     menuMsg += `
 > @ℕ𝔼𝕏𝕌𝕊 𝔸𝕀\n`;
 
-contextInfo: {
-        forwardingScore: 999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363288304618280@newsletter',
-              newsletterName: 'NEXUS-AI',
-              serverMessageId: 143},
-        externalAdReply: {
-          
-          title: "Follow for updates 💙",
-      body: "Enjoy...",
-      thumbnailUrl: conf.URL,
-          sourceUrl: conf.GURL,
-          mediaType: 1,
+    try {
+        const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
+        await zk.sendMessage(dest, {
+            text: infoMsg + menuMsg,
+            contextInfo: {
+                mentionedJid: [senderName],
+                externalAdReply: {
+                    title: "𝕹𝕰𝖃𝖀𝕾 𝕬𝕴",
+                    body: "Tap here my friend join channel update",
+                    thumbnailUrl: "https://files.catbox.moe/p5dt66.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
+                    mediaType: 1,
+                    renderLargerThumbnail: true
                 }
             }
         });
