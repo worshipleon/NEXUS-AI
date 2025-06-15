@@ -68,13 +68,18 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             text: infoMsg + menuMsg,
             contextInfo: {
                 mentionedJid: [senderName],
-                externalAdReply: {
-                    title: "𝕹𝕰𝖃𝖀𝕾 𝕬𝕴",
-                    body: "Tap here my friend join channel update",
-                    thumbnailUrl: "https://files.catbox.moe/p5dt66.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
-                    mediaType: 1,
-                    renderLargerThumbnail: true
+                forwardingScore: 999,
+      isForwarded: true,
+      forwardedNewsletterMessageInfo: {
+        newsletterJid: '120363288304618280@newsletter',
+        newsletterName: 'Nexus xmd',
+        serverMessageId: 143
+      }
+    }
+  },
+  { quoted: mek }
+);
+```
                 }
             }
         });
