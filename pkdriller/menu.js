@@ -62,13 +62,15 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     menuMsg += `
 > @ℕ𝔼𝕏𝕌𝕊 𝔸𝕀\n`;
 
-    try {
-        const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
-        await zk.sendMessage(dest, {
-            text: infoMsg + menuMsg,
-            contextInfo: {
-                mentionedJid: [senderName],
-                forwardingScore: 999,
+    ```js
+await zokou.sendMessage(
+  from,
+  {
+    image: { url: 'https://files.catbox.moe/yek5ca.jpg' },
+    caption: dec,
+    contextInfo: {
+      mentionedJid: [m.sender],
+      forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363288304618280@newsletter',
