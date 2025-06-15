@@ -62,28 +62,27 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     menuMsg += `
 > @ℕ𝔼𝕏𝕌𝕊 𝔸𝕀\n`;
 
-    await conn.zokou(
-            from,
-            {
-                image: { url: `https://files.catbox.moe/yek5ca.jpg` },
-                caption: dec,
-                contextInfo: {
-                    mentionedJid: [m.sender],
-                    forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363288304618280@newsletter',
-                        newsletterName: 'Nexus xmd',
-                        serverMessageId: 143
-                    }
-                }
-            },
-            { quoted: mek }
-        );
-                
-                }
-            }
-        });
+```js
+await zokou.sendMessage(
+  from,
+  {
+    image: { url: 'https://files.catbox.moe/yek5ca.jpg' },
+    caption: dec,
+    contextInfo: {
+      mentionedJid: [m.sender],
+      forwardingScore: 999,
+      isForwarded: true,
+      forwardedNewsletterMessageInfo: {
+        newsletterJid: '120363288304618280@newsletter',
+        newsletterName: 'Nexus xmd',
+        serverMessageId: 143
+      }
+    }
+  },
+  { quoted: mek }
+);
+```
+
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
