@@ -1,5 +1,5 @@
 const { zokou } = require("../framework/zokou");
-const fancy = require("../charles/style");
+const fancy = require("../pkdriller/style");
 
 zokou({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk, commandeOptions) => {
     const { arg, repondre, prefixe } = commandeOptions;
