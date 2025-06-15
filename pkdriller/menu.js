@@ -62,7 +62,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     menuMsg += `
 > @ℕ𝔼𝕏𝕌𝕊 𝔸𝕀\n`;
 
-    await conn.sendMessage(
+    await conn.zokou(
             from,
             {
                 image: { url: `https://files.catbox.moe/yek5ca.jpg` },
