@@ -11,9 +11,9 @@ zokou(
     nomFichier: __filename,
   },
   async (dest, zk, commandOptions) => {
-    const githubRepo = "https://api.github.com/repos/Raheem-cm/RAHEEM_XMD-";
-    const imageUrl = "https://files.catbox.moe/z5g58c.jpg";
-    const audioUrl = "https://files.catbox.moe/2w6sq8.mp3";
+    const githubRepo = "https://api.github.com/repos/Pkdriller/NEXUS-AI";
+    const imageUrl = "https://files.catbox.moe/p5dt66.jpeg";
+    const audioUrl = "https://files.catbox.moe/v0idgg.mp3";
 
     try {
       const response = await fetch(githubRepo);
@@ -31,7 +31,7 @@ zokou(
         const lastUpdateDate = new Date(data.updated_at).toLocaleDateString("en-GB");
 
         const repoMessage = `
-╭━━━『 *RAHEEM XMD* 』━━⬣
+╭━━━『 *NEXUS-AI* 』━━⬣
 ┃
 ┃ 🔗 *Repository:* ${data.html_url}
 ┃ 👤 *Owner:* ${repoInfo.owner}
@@ -41,7 +41,7 @@ zokou(
 ┃ 🔄 *Last Updated:* ${lastUpdateDate}
 ┃
 ┃ 📣 *Join our Channel:* 
-┃ https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r
+┃ https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
 ┃
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━⬣
         `;
