@@ -1,1 +1,89 @@
-const _0x2c77bb=_0x3614;(function(_0x137433,_0xdc73ad){const _0x405b7f=_0x3614,_0x1b31a0=_0x137433();while(!![]){try{const _0x4bdc28=parseInt(_0x405b7f(0x21c))/0x1*(parseInt(_0x405b7f(0x1f0))/0x2)+parseInt(_0x405b7f(0x220))/0x3*(parseInt(_0x405b7f(0x202))/0x4)+parseInt(_0x405b7f(0x212))/0x5*(parseInt(_0x405b7f(0x200))/0x6)+parseInt(_0x405b7f(0x1fa))/0x7*(-parseInt(_0x405b7f(0x1f6))/0x8)+-parseInt(_0x405b7f(0x209))/0x9+-parseInt(_0x405b7f(0x204))/0xa*(-parseInt(_0x405b7f(0x20a))/0xb)+-parseInt(_0x405b7f(0x21b))/0xc;if(_0x4bdc28===_0xdc73ad)break;else _0x1b31a0['push'](_0x1b31a0['shift']());}catch(_0xe59982){_0x1b31a0['push'](_0x1b31a0['shift']());}}}(_0x2d84,0x80950));function _0x2d84(){const _0x5a23e3=['2573445qTIAJR','Tap\x20here\x20my\x20friend\x20join\x20channel\x20update','1233108Umjrbc','\x0a┃✇│◎\x20𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖\x20:\x20','\x20\x20*','\x0a┃✇│◎\x20𝚁𝚊𝚖\x20\x20:\x208/132\x20GB\x0a┃✇│◎\x20𝙳𝚊𝚝𝚎\x20\x20:\x20','PREFIXE','util','7616744idUUJZ','private','toLowerCase','/../set','7dTQCdq','/../framework/zokou','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a║┊◆\x20','format','HH:mm:ss','platform','96aAWJva','\x0a╭━━━❂\x20*','4tswxwg','length','70zuciWF','\x0a┃✇│◎\x20𝙿𝚛𝚎𝚏𝚒𝚡\x20:\x20[\x20','*\x20❂⁠⁠⁠⁠━━─••\x0a║╭━━══••══━━••⊷\x20','fromCharCode','\x0a║╰━━══••══━━••⊷\x0a╰════────════◆◆◆','5373639yhUjic','367345elyArO','𝕹𝕰𝖃𝖀𝕾\x20𝕬𝕴','fs-extra','\x0a┃✇│◎\x20𝙲𝚛𝚎𝚊𝚝𝚘𝚛\x20:\x20𝕻𝖐\x20𝖉𝖗𝖎𝖑𝖑𝖊𝖗\x0a┃✇│◎\x20𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜\x20:\x20','\x0a┃✇│\x20𝚃𝚑𝚎𝚖𝚎\x20:𝕹𝕰𝖃𝖀𝕾-𝕬𝕴\x0a┊\x20\x20\x20└────••••────⊷\x0a╰━━━••✧𝕹𝕰𝖃𝖀𝕾-𝕬𝕴✧••━━━◆\x20\x0a','yes','NEXUS-AI','from','326945gHDYTW','Menu','\x0a╭━━✧★☞\x20\x20η𝕖ⓧùⓢ-𝐀𝓘\x20\x20😾💜✧━━❖\x0a┊✺┌────••••────⊷\x0a┃✇│◎\x20𝙾𝚠𝚗𝚎𝚛\x20:\x20','menu','categorie','MODE','\x20]\x0a┃✇│◎\x20𝙼𝚘𝚍𝚎\x20:\x20','moment-timezone','OWNER_NAME','8142264ahMLmA','1woloEU','repeat','\x0a>\x20@ℕ𝔼𝕏𝕌𝕊\x20𝔸𝕀\x0a','public'];_0x2d84=function(){return _0x5a23e3;};return _0x2d84();}function _0x3614(_0x4010fd,_0x12506b){const _0x2d84e5=_0x2d84();return _0x3614=function(_0x3614a5,_0x2e5925){_0x3614a5=_0x3614a5-0x1ef;let _0x35cc7b=_0x2d84e5[_0x3614a5];return _0x35cc7b;},_0x3614(_0x4010fd,_0x12506b);}const util=require(_0x2c77bb(0x1f5)),fs=require(_0x2c77bb(0x20c)),{zokou}=require(__dirname+_0x2c77bb(0x1fb)),{format}=require(__dirname+'/../framework/mesfonctions'),os=require('os'),moment=require(_0x2c77bb(0x219)),s=require(__dirname+_0x2c77bb(0x1f9)),more=String[_0x2c77bb(0x207)](0x200e),readmore=more[_0x2c77bb(0x21d)](0xfa1);zokou({'nomCom':_0x2c77bb(0x215),'categorie':_0x2c77bb(0x213)},async(_0x4d7eb6,_0xc1b866,_0x50b581)=>{const _0x8b64a2=_0x2c77bb;let {ms:_0x4323b5,repondre:_0x213f18,prefixe:_0x519426,nomAuteurMessage:_0x5f3f47,mybotpic:_0x180a6e}=_0x50b581,{cm:_0x53e9d4}=require(__dirname+_0x8b64a2(0x1fb)),_0x3da88c={},_0x339fba=_0x8b64a2(0x21f);s[_0x8b64a2(0x217)][_0x8b64a2(0x1f8)]()!==_0x8b64a2(0x20f)&&(_0x339fba=_0x8b64a2(0x1f7));_0x53e9d4['map'](_0x44bcf6=>{const _0x23b096=_0x8b64a2;!_0x3da88c[_0x44bcf6['categorie']]&&(_0x3da88c[_0x44bcf6[_0x23b096(0x216)]]=[]),_0x3da88c[_0x44bcf6[_0x23b096(0x216)]]['push'](_0x44bcf6['nomCom']);}),moment['tz']['setDefault']('Etc/GMT');const _0x59054e=moment()[_0x8b64a2(0x1fd)](_0x8b64a2(0x1fe)),_0x36961d=moment()[_0x8b64a2(0x1fd)]('DD/MM/YYYY');let _0x52d553=_0x8b64a2(0x214)+s[_0x8b64a2(0x21a)]+_0x8b64a2(0x205)+s['PREFIXE']+_0x8b64a2(0x218)+_0x339fba+_0x8b64a2(0x1f3)+_0x36961d+_0x8b64a2(0x1f1)+os[_0x8b64a2(0x1ff)]()+_0x8b64a2(0x20d)+_0x53e9d4[_0x8b64a2(0x203)]+_0x8b64a2(0x20e),_0x3cfaa4=_0x8b64a2(0x20b);for(const _0x3d7f4d in _0x3da88c){_0x3cfaa4+=_0x8b64a2(0x201)+_0x3d7f4d+_0x8b64a2(0x206);for(const _0x144389 of _0x3da88c[_0x3d7f4d]){_0x3cfaa4+=_0x8b64a2(0x1fc)+s[_0x8b64a2(0x1f4)]+_0x8b64a2(0x1f2)+_0x144389+'*';}_0x3cfaa4+=_0x8b64a2(0x208);}_0x3cfaa4+=_0x8b64a2(0x21e);try{const _0x548b74=_0x5f3f47||message[_0x8b64a2(0x211)];await _0xc1b866['sendMessage'](_0x4d7eb6,{'text':_0x52d553+_0x3cfaa4,'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363288304618280@newsletter','newsletterName':_0x8b64a2(0x210),'serverMessageId':0x8f},'externalAdReply':{'title':'𝕹𝕰𝖃𝖀𝕾\x20𝕬𝕴','body':_0x8b64a2(0x1ef),'thumbnailUrl':'https://files.catbox.moe/p5dt66.jpeg','mediaType':0x1,'renderLargerThumbnail':!![]}}});}catch(_0x3a3082){console['error']('Menu\x20error:\x20',_0x3a3082),_0x213f18('🥵🥵\x20Menu\x20error:\x20'+_0x3a3082);}});
+const util = require('util');
+const fs = require('fs-extra');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const os = require("os");
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
+const more = String.fromCharCode(8206);
+const readmore = more.repeat(4001);
+
+zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
+    let { cm } = require(__dirname + "/../framework/zokou");
+    let coms = {};
+    let mode = "public";
+
+    if ((s.MODE).toLowerCase() !== "yes") {
+        mode = "private";
+    }
+
+    cm.map((com) => {
+        if (!coms[com.categorie]) {
+            coms[com.categorie] = [];
+        }
+        coms[com.categorie].push(com.nomCom);
+    });
+
+    moment.tz.setDefault('Etc/GMT');
+    const temps = moment().format('HH:mm:ss');
+    const date = moment().format('DD/MM/YYYY');
+
+    let infoMsg = `
+╭━━✧★☞  η𝕖ⓧùⓢ-𝐀𝓘  😾💜✧━━❖
+┊✺┌────••••────⊷
+┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
+┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
+┃✇│◎ 𝙼𝚘𝚍𝚎 : ${mode}
+┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
+┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
+┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
+┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝕻𝖐 𝖉𝖗𝖎𝖑𝖑𝖊𝖗
+┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
+┃✇│ 𝚃𝚑𝚎𝚖𝚎 :𝕹𝕰𝖃𝖀𝕾-𝕬𝕴
+┊   └────••••────⊷
+╰━━━••✧𝕹𝕰𝖃𝖀𝕾-𝕬𝕴✧••━━━◆ \n`;
+
+    let menuMsg = `𝕹𝕰𝖃𝖀𝕾 𝕬𝕴`;
+    
+    for (const cat in coms) {
+        menuMsg += `
+╭━━━❂ *${cat}* ❂⁠⁠⁠⁠━━─••
+║╭━━══••══━━••⊷ `;
+        for (const cmd of coms[cat]) {
+            menuMsg += `          
+║┊◆ ${s.PREFIXE}  *${cmd}*`;    
+        }
+        menuMsg += `
+║╰━━══••══━━••⊷
+╰════────════◆◆◆`;
+    }
+    
+    menuMsg += `
+> @ℕ𝔼𝕏𝕌𝕊 𝔸𝕀\n`;
+
+    try {
+        const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
+        await zk.sendMessage(dest, {
+            text: infoMsg + menuMsg,
+            contextInfo: {
+        forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+              newsletterJid: '120363288304618280@newsletter',
+              newsletterName: 'NEXUS-AI',
+              serverMessageId: 143},
+        externalAdReply: {
+                    title: "𝕹𝕰𝖃𝖀𝕾 𝕬𝕴",
+                    body: "Tap here my friend join channel update",
+                    thumbnailUrl: "https://files.catbox.moe/p5dt66.jpeg",
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                }
+            }
+        });
+    } catch (error) {
+        console.error("Menu error: ", error);
+        repondre("🥵🥵 Menu error: " + error);
+    }
+});
