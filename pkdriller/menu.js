@@ -78,6 +78,8 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
                     body: "Tap here my friend join channel update",
                     thumbnailUrl: "https://files.catbox.moe/7vh5pt.jpg",
                     mediaType: 1,
+                    audio: { url: 'https://files.catbox.moe/o1gkq2.mp3' },
+                    mimetype: 'audio/mp4',
                     renderLargerThumbnail: true
                 }
             }
