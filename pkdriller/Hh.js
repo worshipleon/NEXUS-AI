@@ -3,17 +3,29 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
 const { zokou } = require("../framework/zokou");
 
+const newsletterContext = {
+  contextInfo: {
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: "120363288304618280@newsletter",
+      newsletterName: "𝐍𝐄𝐗𝐔𝐒-𝐀𝐈",
+      serverMessageId: 1
+    }
+  }
+};
+
 zokou(
   {
-    nomCom: "repo",
-    catégorie: "General",
-    reaction: "🚀", // Reaction restored
-    nomFichier: __filename,
+    nomCom: "repo11",
+    catégorie: "Général",
+    reaction: "💥",
+    nomFichier: __filename
   },
-  async (dest, zk, commandOptions) => {
-    const githubRepo = "https://api.github.com/repos/Pkdriller/NEXUS-AI";
-    const imageUrl = "https://files.catbox.moe/p5dt66.jpeg";
-    const audioUrl = "https://files.catbox.moe/v0idgg.mp3";
+  async (dest, zk, commandeOptions) => {
+    const githubRepo = 'https://api.github.com/repos/Pkdriller/NEXUS-AI';
+    const img = 'https://files.catbox.moe/v5xs3h.jpg';
+    const audioUrl = 'https://files.catbox.moe/uhfull.mp3';
 
     try {
       const response = await fetch(githubRepo);
@@ -27,43 +39,44 @@ zokou(
           owner: data.owner.login,
         };
 
-        const releaseDate = new Date(data.created_at).toLocaleDateString("en-GB");
-        const lastUpdateDate = new Date(data.updated_at).toLocaleDateString("en-GB");
+        const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+        const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-        const repoMessage = `
-╭━━━『 *NEXUS-AI* 』━━⬣
-┃
-┃ 🔗 *Repository:* ${data.html_url}
-┃ 👤 *Owner:* ${repoInfo.owner}
-┃ ⭐ *Stars:* ${repoInfo.stars}
-┃ 🍴 *Forks:* ${repoInfo.forks}
-┃ 📆 *Created:* ${releaseDate}
-┃ 🔄 *Last Updated:* ${lastUpdateDate}
-┃
-┃ 📣 *Join our Channel:* 
-┃ https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
-┃
-╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━⬣
-        `;
+        const gitdata = `*𝐍𝐄𝐗𝐔𝐒-𝐀𝐈*
 
-        // Step 1: Send image with repo caption
-        const sentMsg = await zk.sendMessage(dest, {
-          image: { url: imageUrl },
-          caption: repoMessage,
+_________● *𝐍𝐄𝐗𝐔𝐒-𝐀𝐈* ●____________
+|💥 *ʀᴇᴘᴏsɪᴛᴏʀʏ:* ${data.html_url}
+|🌟 *sᴛᴀʀs:* ${repoInfo.stars}
+|🍽 *ғᴏʀᴋs:* ${repoInfo.forks}
+|⌚️ *ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ:* ${releaseDate}
+|🕐 *ᴜᴘᴅᴀᴛᴇ ᴏɴ:* ${repoInfo.lastUpdate}
+|👨‍💻 *ᴏᴡɴᴇʀ:* *𝐍𝐄𝐗𝐔𝐒-𝐀𝐈*
+|💞 *ᴛʜᴇᴍᴇ:* *𝐍𝐄𝐗𝐔𝐒-𝐀𝐈*
+|🥰*ᴏɴʟʏ ɢᴏᴅ ᴄᴀɴ ᴊᴜᴅɢᴇ ᴍᴇ!👑*
+__________________________________
+            *ᴍᴀᴅᴇ ᴡɪᴛʜ 𝐍𝐄𝐗𝐔𝐒-𝐀𝐈*`;
+
+        // Tuma picha na maandishi
+        await zk.sendMessage(dest, {
+          image: { url: img },
+          caption: gitdata,
+          ...newsletterContext
         });
 
-        // Step 2: Send audio reply to that message
+        // Tuma audio
         await zk.sendMessage(dest, {
           audio: { url: audioUrl },
-          mimetype: "audio/mp4",
-          ptt: true,
-        }, { quoted: sentMsg });
+          mimetype: 'audio/mp4',
+          ptt: false,
+          ...newsletterContext
+        });
 
       } else {
-        console.log("Failed to fetch repository data.");
+        console.log("Could not fetch data");
       }
+
     } catch (error) {
-      console.log("Error fetching repository info:", error);
+      console.log("Error fetching data:", error);
     }
   }
 );
