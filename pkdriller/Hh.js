@@ -17,7 +17,7 @@ const newsletterContext = {
 
 zokou(
   {
-    nomCom: "repo11",
+    nomCom: "repo",
     catégorie: "Général",
     reaction: "💥",
     nomFichier: __filename
