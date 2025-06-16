@@ -26,29 +26,29 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     });
 
     moment.tz.setDefault('Etc/GMT');
-    const temps = moment().format('HH:mm:ss');
+    const time = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
 ╭━━✧★☞  η𝕖ⓧùⓢ-𝐀𝓘  😾💜✧━━❖
 ┊✺┌────••••────⊷
-┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
-┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
-┃✇│◎ 𝙼𝚘𝚍𝚎 : ${mode}
-┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
-┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
-┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝕻𝖐 𝖉𝖗𝖎𝖑𝖑𝖊𝖗
-┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃✇│ 𝚃𝚑𝚎𝚖𝚎 :𝕹𝕰𝖃𝖀𝕾-𝕬𝕴
+┃✇│◎ Owner : ${s.OWNER_NAME}
+┃✇│◎ Prefix : [ ${s.PREFIXE} ]
+┃✇│◎ Mode : ${mode}
+┃✇│◎ Ram : 8/132 GB
+┃✇│◎ Date : ${date}
+┃✇│◎ Platform : ${os.platform()}
+┃✇│◎ Creator : PK Driller
+┃✇│◎ Commands : ${cm.length}
+┃✇│◎ Theme : NEXUS-AI
 ┊   └────••••────⊷
-╰━━━••✧𝕹𝕰𝖃𝖀𝕾-𝕬𝕴✧••━━━◆ \n`;
+╰━━━••✧NEXUS-AI✧••━━━◆\n`;
 
-    let menuMsg = `𝕹𝕰𝖃𝖀𝕾 𝕬𝕴`;
+    let menuMsg = `NEXUS AI MENU`;
     
     for (const cat in coms) {
         menuMsg += `
-╭━━━❂ *${cat}* ❂⁠⁠⁠⁠━━─••
+╭━━━❂ *${cat}* ❂━━─••
 ║╭━━══••══━━••⊷ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
@@ -58,38 +58,39 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ║╰━━══••══━━••⊷
 ╰════────════◆◆◆`;
     }
-    
-    menuMsg += `
-> @ℕ𝔼𝕏𝕌𝕊 𝔸𝕀\n`;
+
+    menuMsg += `\n> @NEXUS AI\n`;
 
     try {
-        const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
             text: infoMsg + menuMsg,
             contextInfo: {
-        forwardingScore: 999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363288304618280@newsletter',
-              newsletterName: 'NEXUS-AI',
-              serverMessageId: 143},
-        externalAdReply: {
-                    title: "𝕹𝕰𝖃𝖀𝕾 𝕬𝕴",
-                    body: "Tap here my friend join channel update",
-                    thumbnailUrl: "https://files.catbox.moe/7vh5pt.jpg",
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterName: 'NEXUS-AI',
+                    serverMessageId: 143
+                },
+                externalAdReply: {
+                    title: "NEXUS AI",
+                    body: "Tap to join the official channel",
+                    thumbnailUrl: "https://files.catbox.moe/p5dt66.jpeg",
                     mediaType: 1,
                     renderLargerThumbnail: true
-
-               // Tuma audio
-        await zk.sendMessage(dest, {
-          audio: { url: 'https://files.catbox.moe/uhfull.mp3' },
-          mimetype: 'audio/mp4',
-          ptt: false,
                 }
             }
         });
+
+        // Send the music file
+        await zk.sendMessage(dest, {
+            audio: { url: 'https://files.catbox.moe/uhfull.mp3' },
+            mimetype: 'audio/mp4',
+            ptt: false
+        });
+
     } catch (error) {
         console.error("Menu error: ", error);
-        repondre("🥵🥵 Menu error: " + error);
+        repondre("Menu error: " + error);
     }
 });
