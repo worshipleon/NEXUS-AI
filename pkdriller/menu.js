@@ -32,15 +32,15 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     let infoMsg = `
 ╭━━✧★☞  η𝕖ⓧùⓢ-𝐀𝓘  😾💜✧━━❖
 ┊✺┌────••••────⊷
-┃✇│◎ Owner : ${s.OWNER_NAME}
-┃✇│◎ Prefix : [ ${s.PREFIXE} ]
-┃✇│◎ Mode : ${mode}
-┃✇│◎ Ram : 8/132 GB
-┃✇│◎ Date : ${date}
-┃✇│◎ Platform : ${os.platform()}
-┃✇│◎ Creator : PK Driller
-┃✇│◎ Commands : ${cm.length}
-┃✇│◎ Theme : NEXUS-AI
+┃★│◎ Owner : ${s.OWNER_NAME}
+┃★│◎ Prefix : [ ${s.PREFIXE} ]
+┃★│◎ Mode : ${mode}
+┃★│◎ Ram : 8/132 GB
+┃★│◎ Date : ${date}
+┃★│◎ Platform : ${os.platform()}
+┃★│◎ Creator : PK Driller
+┃★│◎ Commands : ${cm.length}
+┃★│◎ Theme : NEXUS-AI
 ┊   └────••••────⊷
 ╰━━━••✧NEXUS-AI✧••━━━◆\n`;
 
