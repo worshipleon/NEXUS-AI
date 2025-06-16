@@ -75,7 +75,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
                 externalAdReply: {
                     title: "NEXUS AI",
                     body: "Tap to join the official channel",
-                    thumbnailUrl: "https://files.catbox.moe/p5dt66.jpeg",
+                    thumbnailUrl: "https://files.catbox.moe/0b3p7o.jpg",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
