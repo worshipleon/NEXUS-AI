@@ -76,7 +76,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
         externalAdReply: {
                     title: "𝕹𝕰𝖃𝖀𝕾 𝕬𝕴",
                     body: "Tap here my friend join channel update",
-                    videoUrl: "https://files.catbox.moe/g2naer.mp4", // <-- use your direct mp4 link here
+                    thumbnailUrl: "https://files.catbox.moe/p5dt66.jpeg",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
