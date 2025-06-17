@@ -1,9 +1,4 @@
 const { zokou } = require('../framework/zokou');
-const traduire = require("../framework/traduction") ;
-const { default: axios } = require('axios');
-const fs = require('fs');
-const pkg = require('@whiskeysockets/baileys');
-const { generateWAMessageFromContent, proto } = pkg;
 
 zokou({
   pattern: "fluxai",
