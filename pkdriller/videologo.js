@@ -1,6 +1,4 @@
-// this is my shit 💀 lemme not find it in your project 
-// Thanks chatgpt 😍😍
-// reach me before copy pasting it 255716945971
+
 
 const { zokou } = require("../framework/zokou");
 const axios = require("axios");
@@ -23,15 +21,15 @@ zokou({ nomCom: "videologo", categorie: "modern-logo", reaction: "✋" }, async 
 3 ➠ intro video 📷
 4 ➠ tiger 🐯 video logo
 
-*Enjoy 😂*`;
+*its nexus beiby enjoy using me💙💜*`;
 
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "𝙱.𝙼.𝙱-𝚇𝙼𝙳",
-        body: "Regards, 𝙱.𝙼.𝙱-𝚇𝙼𝙳",
-        thumbnailUrl: "https://files.catbox.moe/g2brwg.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z",
+        title: "NEXUS-AI",
+        body: "Regards, Pkdriller",
+        thumbnailUrl: "https://files.catbox.moe/d0pwu0.jpg",
+        sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -80,7 +78,7 @@ zokou({ nomCom: "videologo", categorie: "modern-logo", reaction: "✋" }, async 
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `*Downloaded by 𝙱.𝙼.𝙱-𝚇𝙼𝙳*`,
+            caption: `*Downloaded by NEXUS AI*`,
           }, { quoted: ms });
         }
       }
